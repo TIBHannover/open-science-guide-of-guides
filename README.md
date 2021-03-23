@@ -1,6 +1,6 @@
 # Open Science Guides Collection
 
-A Guide of Guides to Open Science - Made at the Open Science Lab using Fidus Writer
+ The Open Science Guide of Guides - Made at the Open Science Lab using Fidus Writer
 
 Made at https://write.handbuch.io/
 
