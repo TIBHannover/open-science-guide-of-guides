@@ -24,6 +24,8 @@ FYI
 
 Zotero citations can be fully imported into Fidus from the Zotero desktop client if the default export setting is set to BibLatex.
 
+## License and copyright
 
+© 2021 the authors. https://github.com/TIBHannover/Open-Science-Guides-Collection Creative Commons: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) https://creativecommons.org/licenses/by-sa/4.0/ 
 
 
