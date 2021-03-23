@@ -14,6 +14,10 @@ Publication code: OSG
   * OSG004 - Open Science and Citizen Science https://write.handbuch.io/document/390/#title
   * OSG005 - Open Science and Open Access Publishing https://write.handbuch.io/document/391/#title
 
+Book
+
+https://write.handbuch.io/admin/book/book/65/change/
+
 ## Zotero collection
 
 Generation Research - DM @gen_r_ email simon@genr.eu for access
