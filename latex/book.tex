@@ -1,0 +1,29 @@
+\documentclass[11pt]{book}
+
+                
+\usepackage[backend=biber,hyperref=false,citestyle=authoryear,bibstyle=authoryear]{biblatex}
+                
+\bibliography{bibliography}
+            
+\usepackage{docmute}
+\title{The Open Science Guide of Guides}
+\author{https://github.com/TIBHannover/Open-Science-Guides-Collection/blob/main/CONTRIBUTE.MD}
+\begin{document}
+\maketitle
+\def\title#1{\chapter{#1}}
+\tableofcontents
+
+        \input{chapter-1}
+        
+        \input{chapter-2}
+        
+        \input{chapter-3}
+        
+        \input{chapter-4}
+        
+        \input{chapter-5}
+        
+
+
+\printbibliography[title={Bibliography}]
+\end{document}
