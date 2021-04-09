@@ -28,6 +28,16 @@ FYI
 
 Zotero citations can be fully imported into Fidus from the Zotero desktop client if the default export setting is set to BibLatex.
 
+## The technology and development project by OSL
+
+ - ADA Publishing tech OSL - Rapid publishing pipeline https://github.com/TIBHannover/Rapid-Collaborative-Health-Publishing
+ - Fidus Writer - Semantic Academic Editor https://fiduswriter.org/
+ - Vivliostyle - CSS Typesetting https://vivliostyle.org/
+ - GitHub - Versioning System and collaborative infrastructure https://github.com/about
+ - GitHub Pages - Webpage rendering and hosting https://pages.github.com/
+ - Zenodo - universal repository and DOI minter (gratis) https://zenodo.org/communities/genr
+
+
 ## License and copyright
 
 © 2021 the authors. https://github.com/TIBHannover/Open-Science-Guides-Collection Creative Commons: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) https://creativecommons.org/licenses/by-sa/4.0/ 
