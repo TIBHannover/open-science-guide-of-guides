@@ -1,10 +1,10 @@
 @charset "UTF-8";
 -@font-face {
-    font-family: "mulish", helvetica neue, arial, sans-sans-serif;
+    font-family: "mulish", helvetica neue, arial, sans-serif;
     src: url(/css/media/Mulish-VariableFont_wght.ttf);
 }
 -@font-face {
-    font-family: "mulish", helvetica neue, arial, sans-sans-serif;
+    font-family: "mulish", helvetica neue, arial, sans-serif;
   font-style: italic;
     src: url(/css/media/Mulish-Italic-VariableFont_wght.ttf);
 }
@@ -19,12 +19,38 @@
   margin-bottom: 20mm;
 }
 
+@page :first {
+  size: 159mm 229mm;
+  background: url(https://akademie-oeffentliches-gesundheitswesen.github.io/Buchvorlage/images/cover-entwurf.png) ;
+  background-size: 159mm 229mm;
+  display: flex;
+  align-items: center;
+  margin-top: 300mm;
+  color: #fff;
+  page-break-after: always;
+  @bottom-left { content: normal; }
+  @bottom-center { content: normal; }
+	@bottom-right { content: normal; }
+	@top-left { content: normal; }
+  @top-right { content: normal;}
+  @top-center {
+    content: env(doc-title);
+    font-family:"Comfortaa", sans-serif;
+    font-weight: 600;
+    font-size: 40pt;
+    text-align: center;
+    letter-spacing: 0.2pt;
+    word-spacing: 1px;
+   margin-top: -240mm;
+  }
+}
+
 @page :left {
   margin-left: 15mm;
   margin-right: 20mm;
   @top-left {
     content: env(doc-title);
-    font-family: "Mulish", helvetica neue, arial, sans-sans-serif;
+    font-family: "Mulish", helvetica neue, arial, sans-serif;
     font-weight: normal;
     font-style: italic;
     font-size: 9pt;
@@ -32,19 +58,49 @@
     word-spacing: 1px;
     width: 80mm;
   }
+  @top-center {
+    content: " ";
+  }
+  @bottom-center {
+    content: " ";
+  }
+  @bottom-left {
+    content: counter(page);
+    font-family: "noto sans", helvetica neue, arial, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 9pt;
+    letter-spacing: 0.2pt;
+    word-spacing: 1px;
+  }
 }
 @page :right {
   margin-left: 20mm;
   margin-right: 15mm;
   @top-right {
      content: env(doc-title); /*env(pub-title)*/
-     font-family: "Mulish", helvetica neue, arial, sans-sans-serif;
+     font-family: "Mulish", helvetica neue, arial, sans-serif;
      font-weight: normal;
      font-style: italic;
      font-size: 9pt;
      letter-spacing: 0.2pt;
      word-spacing: 1px;
      width: 80mm;
+  }
+  @top-center {
+    content: " ";
+  }
+  @bottom-center {
+    content: " ";
+  }
+  @bottom-right {
+    content: counter(page);
+    font-family: "noto sans", helvetica neue, arial, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 9pt;
+    letter-spacing: 0.2pt;
+    word-spacing: 1px;
   }
 }
 
@@ -56,6 +112,42 @@
   @top-right { content: normal; }
 }
 
+.coverpage {
+  position: absolute;
+  /*width: 210mm;
+  height: 297mm;*/
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/cover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: -20mm;
+  left: -20mm;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+.backpage {
+  position: absolute;
+  /*width: 210mm;
+  height: 297mm;*/
+  width: 130%;
+  height: 120%;
+  /*background-color: black;*/
+  /*background-image: url("../images/backpage.png");*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: -20mm;
+  left: -20mm;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
 
 html,
 body,
@@ -138,7 +230,7 @@ body {
 }
 
 html {
-  font-family: "Mulish", helvetica neue, arial, sans-sans-serif;
+  font-family: "Mulish", helvetica neue, arial, sans-serif;
   font-weight: normal;
   font-size: 10.75pt;
   color: black;
@@ -180,7 +272,7 @@ nav li a::after {
 }
 
 .article-title {
-  font-family:"Comfortaa", sans-sans-serif;
+  font-family:"Comfortaa", sans-serif;
   font-size: 24pt; /* 2.233rem */
   color: #000;
   margin-bottom: 2em;
@@ -225,7 +317,7 @@ nav li a::after {
 }
 /*Literaturverzeichnis*/
 .article-bibliography-header {
-  font-family:"Comfortaa", sans-sans-serif;
+  font-family:"Comfortaa", sans-serif;
   font-size: 21pt; /* 2.233rem */
   color: #000;
   margin-bottom: 0.5em;
@@ -311,7 +403,7 @@ nav li a::after {
 }
 .logo2 p {
  color: black;
- font-family: "Comfortaa", helvetica neue, arial, sans-sans-serif;
+ font-family: "Comfortaa", helvetica neue, arial, sans-serif;
   font-size: 8pt;
   line-height: 12pt;
   font-weight: 300;
@@ -347,7 +439,7 @@ p:first-of-type {
 }
 
 .Kolophon p {
-  font-family: "Mulish", helvetica neue, arial, sans-sans-serif;
+  font-family: "Mulish", helvetica neue, arial, sans-serif;
   font-size:8pt;
 }
 
@@ -394,7 +486,7 @@ table li strong,
 table li .bold,
 table li .Bold,
 table li b {
-  font-family: "Mulish", helvetica neue, arial, sans-sans-serif;
+  font-family: "Mulish", helvetica neue, arial, sans-serif;
   font-weight: 700;
 }
 
@@ -425,7 +517,7 @@ strong em {
 }
 
 var {
-  font-family: "Comfortaa", helvetica neue, arial, sans-sans-serif;
+  font-family: "Comfortaa", helvetica neue, arial, sans-serif;
   font-weight: normal;
 }
 
@@ -452,7 +544,7 @@ blockquote {
   display: block;
   width: 80%;
   position: relative;
-  font-family: "Mulish", helvetica neue, arial, sans-sans-serif;
+  font-family: "Mulish", helvetica neue, arial, sans-serif;
   font-size:  11pt; /* 1.023rem */
   vertical-align: baseline;
   margin-top: 9pt;
@@ -488,7 +580,7 @@ blockquote strong {
 blockquote  p.att { text-align: right; }
 
 h2, h2 strong {
-font-family: "Mulish", helvetica neue, arial, sans-sans-serif;
+font-family: "Mulish", helvetica neue, arial, sans-serif;
 margin-top: 1.5em;
 color: #000;
 font-weight: 500;
@@ -497,7 +589,7 @@ h3, h3 strong,
 h4, h4 strong,
 h5,
 h6 {
-  font-family: "Mulish", helvetica neue, arial, sans-sans-serif;
+  font-family: "Mulish", helvetica neue, arial, sans-serif;
   margin-top: 1.5em;
   color: #000;
   font-weight: 500;
@@ -520,6 +612,7 @@ h1 {
   letter-spacing: 0pt;
   word-spacing: 1px;
   font-weight: 600;
+  line-height: 1.7;
 }
 
 h1 strong { font-weight: normal;}
@@ -527,7 +620,7 @@ h1 strong { font-weight: normal;}
 h2 {
   font-size: 15pt;
   line-height: 21pt;
-  font-family: "Mulish", helvetica neue, arial, sans-sans-serif;
+  font-family: "Mulish", helvetica neue, arial, sans-serif;
   text-transform: none;
   font-weight: 500;
   /*margin: 1.5em 0 1.2em 0;*/
@@ -556,7 +649,7 @@ h4 {
 }
 
 h5 {
-  font-family: "Mulish", helvetica neue, arial, sans-sans-serif;
+  font-family: "Mulish", helvetica neue, arial, sans-serif;
   font-weight: 500;
   font-size: 9pt;
   margin-top: 20pt;
@@ -592,7 +685,7 @@ h1:before {
   font-size: 9pt;
   line-height: 10.8pt;
   list-style-position: outside;
-  font-family: "Mulish", helvetica neue, arial, sans-sans-serif;
+  font-family: "Mulish", helvetica neue, arial, sans-serif;
 }
 
 .footnotes ol li p {
@@ -600,7 +693,7 @@ h1:before {
   font-size: 9pt;
   line-height: 10.75pt;
   word-wrap: break-word;
-  font-family: "Mulish", helvetica neue, arial, sans-sans-serif;
+  font-family: "Mulish", helvetica neue, arial, sans-serif;
 }
 
 .footnotes ol li p a {
@@ -612,7 +705,7 @@ li[id*="fn"] {
   text-indent: 0;
   font-size: 9.75pt;
   margin-left: 1.3pc;
-  font-family: "Mulish", helvetica neue, arial, sans-sans-serif;
+  font-family: "Mulish", helvetica neue, arial, sans-serif;
 }
 
 a.footnoteRef {
@@ -638,7 +731,7 @@ figure img {
 
 
 figure figcaption {
-  font-family: "Mulish", helvetica neue, arial, sans-sans-serif;
+  font-family: "Mulish", helvetica neue, arial, sans-serif;
   margin-top: 0;
   font-style: normal;
   color: black;
@@ -752,7 +845,7 @@ ol li::before {
 table {
   margin: 0 auto;
   width: 99% !important;
-  font-family: "Mulish", helvetica neue, arial, sans-sans-serif;
+  font-family: "Mulish", helvetica neue, arial, sans-serif;
   background-size: 8pt;
   page-break-inside: avoid;
   margin-top: 9pt;
@@ -814,7 +907,7 @@ table li,
 table ol {
   font-size: 8pt;
   margin: 0;
-  font-family: "Mulish", helvetica neue, arial, sans-sans-serif;
+  font-family: "Mulish", helvetica neue, arial, sans-serif;
   text-align: left;
   text-indent: 0;
 }
@@ -944,7 +1037,7 @@ h2 + p /* h3+p*/ {
   position: absolute;
   bottom: 8mm;
   text-align: center;
-  font-family: "Comfortaa", helvetica neue, arial, sans-sans-serif;
+  font-family: "Mulish", helvetica neue, arial, sans-serif;
   font-size: 9pt;
   font-style: italic;
 }
