@@ -240,7 +240,7 @@ html {
     hyphens: auto;
 }
 nav {
-  margin-top: 2em;
+  margin: 2em 0;
   break-before: always;
 }
 
@@ -614,7 +614,7 @@ h6 {
   font-family: "Comfortaa", helvetica neue, arial, sans-serif;
   margin-top: 1.5em;
   color: #000;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.5;
 }
 
@@ -623,7 +623,6 @@ h3 {
   margin-top: 20pt;
   page-break-inside: avoid;
   page-break-after: avoid;
-  font-weight: 500;
   margin-bottom: 9pt;
 }
 
@@ -631,7 +630,6 @@ h4 {
   font-size: 10.5pt;
   margin-top: 20pt;
   margin-bottom: 9pt;
-  font-weight: 500;
   page-break-inside: avoid;
   page-break-after: avoid;
 }
@@ -641,7 +639,6 @@ h5 {
   font-weight: 500;
   font-size: 9pt;
   margin-top: 20pt;
-  margin-bottom: 5pt;
   page-break-inside: avoid;
   page-break-after: avoid;
 }
