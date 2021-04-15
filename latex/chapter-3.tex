@@ -1,5 +1,27 @@
 \documentclass{article}
 
+\usepackage{caption}
+                
+\usepackage[backend=biber,hyperref=false,citestyle=authoryear,bibstyle=authoryear]{biblatex}
+                
+\bibliography{bibliography}
+            
+\usepackage{graphicx}
+                
+\usepackage{calc}
+                
+\newlength{\imgwidth}
+                
+\newcommand\scaledgraphics[2]{%
+                
+\settowidth{\imgwidth}{\includegraphics{#1}}%
+                
+\setlength{\imgwidth}{\minof{\imgwidth}{#2\textwidth}}%
+                
+\includegraphics[width=\imgwidth,height=\textheight,keepaspectratio]{#1}%
+                
+}
+            
 \begin{document}
 
 \title{OSG003 - Open Science and Data Science}
@@ -7,6 +29,169 @@
 \maketitle
 
 
+Authors: Falkewitz, Philip;  Görzen, Linda; Matern, Johannes;  Shahbazi, Kian 
 
 
+Tags / topics (4): Data Science; Machine Learning; Python
+
+
+\subsection{Guide for Data science and Machine Learning}\label{H7151279}
+
+
+
+
+
+
+\begin{center}
+\begin{figure}
+\scaledgraphics{a6637b1c-427c-4ae5-a756-e31455d2fc96.png}{0.5}
+\label{F25480991}
+\end{figure}
+
+
+\end{center}
+
+
+ 
+
+
+Guide name: A Quick Guide to Data science and Machine Learning
+
+
+Guide citation insert from Zotero: \autocite{qureshi_quick_2020}
+
+
+
+
+
+Type of guide parts: step-by-step, instructions
+
+
+Summary (character limit): 
+
+
+Data Science und maschinelles lernen beherrschen die digitale Welt, denn künstliche Intelligenz ist die Zukunft. Auch in diesem Bereich hat es Fortschritte gegeben. Deep Learning, ist ebenfalls ein Teil der künstlichen Intelligenz und eine Untergruppe des maschinellen Lernens. Die Anwendung von Deep Learning ist zunehmend beliebter geworden, diese wird weithesgehend mit neuronalen Netzen genutzt, die der Funktionsweise der Neuronen in unserem Gehirn ähneln. Es hat einen tieferen, mehrschichtigen Ansatz zur Lösung von Geschäftsproblemen. Zum Beispiel nutzen selbstfahrende Autos von Tesla weitgehend Deep Learning und auch maschinelles Lernen. Dieser Beitrag beschäftigt sich mit der Datenwissenschaft und dessen einfluss auf maschinelles lernen.
+
+
+
+
+
+\textbf{Der Lebenszyklus der Datenwissenschaft:}
+
+
+1. Datenerfassung 
+
+
+2. Datenvorverarbeitung 
+
+
+3. explorative Datenanalyse (EDA) 
+
+
+4. Modellbildung
+
+
+5. Evaluation des Modells 
+
+
+6. Einsatz des Modells 
+
+
+\subsection{Python Data Science Handbook}\label{H4727243}
+
+
+
+Cover image (insert image):
+
+
+\begin{center}
+\begin{figure}
+\scaledgraphics{43052757-2454-42ab-a98c-c7977cb4e249.png}{0.5}
+\caption*{Python Data Science Handbook Cover}\label{F16921711}
+\end{figure}
+
+
+\end{center}
+
+
+Guide name: "Python Data Science Handbook"
+
+
+Guide citation insert from Zotero: \autocite{vanderplas_python_2016}
+
+
+Type of guide parts: step-by-step, instructions
+
+
+Summary: For the field of data science the programming language Python is becoming more and more important. The possibilities of storing, manipulating, gaining insight from data is enormous. A huge amount of libraries and a large community makes it very attractive for users. This book is focused on the most important features and libraries when using Python for data science: 
+
+\begin{itemize}
+\item \textbf{IPython and Jupyter} are the most common used computer environments for data scientists, especially when using Python.
+
+
+\item \textbf{NumPy }is one of the most popular used Python libraries when it comes to storing and manipulating data arrays.
+
+
+\item \textbf{Pandas }includes DataFrames for efficient storing and manipulating of datasets. In addition to NumPy you can label and sort the datasets more freely.
+
+
+\item \textbf{Matplotlib }is capable of visualizing datasets in Python in various ways, and can be customized to any extend.
+
+
+\item \textbf{Scikit-Learn: }is a implementation for machine learning algorithms. It is very efficient and one of the most important implementations.
+
+
+\end{itemize}
+
+
+
+
+\subsection{Support Your Data}\label{H715180}
+
+
+
+Cover image: 
+
+
+\begin{center}
+\begin{figure}
+\scaledgraphics{45bdf5de-7e5b-448d-820a-d3b3288a4dbe.png}{0.5}
+\label{F88206441}
+\end{figure}
+
+
+\end{center}
+
+
+Guide name: Support Your Data: A Research Data Management Guide for Researchers
+
+
+Guide citation insert from Zotero: \autocite{borghi_support_2018}
+
+
+Type of guide parts: step-by-step, instructions
+
+
+Summary : Forscher sind mit sich schnell entwickelnden Erwartungen darüber konfrontiert, wie sie ihre Daten, ihren Code und andere Forschungsmaterialien verwalten und weitergeben sollen. Um ihnen zu helfen, diese Erwartungen zu erfüllen und ihre Daten generell effektiver zu verwalten und weiterzugeben, gibt es Reihe von Werkzeugen, die als "Support Your Data" bezeichnet werden.
+
+
+Diese Werkzeuge umfassen eine Rubrik, die es Forschern ermöglichen soll, ihre aktuellen Datenmanagementpraktiken selbst zu bewerten.
+
+
+Selbsteinschätzung ihrer aktuellen Datenmanagement-Praktiken und eine Reihe von kurzen Leitfäden, die umsetzbare Informationen darüber, wie die Praktiken je nach Bedarf oder Wunsch verbessert werden können, sind so konzipiert, dass sie leicht an die Bedürfnisse von Forschern angepasst werden, die in verschiedenen institutionellen
+
+
+und disziplinären Kontexten arbeiten.
+
+
+
+
+
+
+
+
+
+
+
+\printbibliography[title={Literaturverzeichnis}]
 \end{document}
