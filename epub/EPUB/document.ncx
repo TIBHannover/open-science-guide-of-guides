@@ -20,10 +20,34 @@
     <navPoint id="t_2_0-2">
       <navLabel><text>OSG002 - Open Science and Knowledge Justice</text></navLabel>
       <content src="document-2.xhtml#_2_0" />
+      <navPoint id="tH7151279-2">
+        <navLabel><text>Knowledge Justice: An Opportunity for Counter-expertise in Security vs. Science Debates</text></navLabel>
+        <content src="document-2.xhtml#H7151279" />
+      </navPoint>
+      <navPoint id="tH7212092-2">
+        <navLabel><text>next guide to be described</text></navLabel>
+        <content src="document-2.xhtml#H7212092" />
+      </navPoint>
+      <navPoint id="tH9362108-2">
+        <navLabel><text>next guide to be described</text></navLabel>
+        <content src="document-2.xhtml#H9362108" />
+      </navPoint>
     </navPoint>
     <navPoint id="t_3_0-3">
       <navLabel><text>OSG003 - Open Science and Data Science</text></navLabel>
       <content src="document-3.xhtml#_3_0" />
+      <navPoint id="tH7151279-3">
+        <navLabel><text>Guide for Data science and Machine Learning</text></navLabel>
+        <content src="document-3.xhtml#H7151279" />
+      </navPoint>
+      <navPoint id="tH4727243-3">
+        <navLabel><text>Python Data Science Handbook</text></navLabel>
+        <content src="document-3.xhtml#H4727243" />
+      </navPoint>
+      <navPoint id="tH715180-3">
+        <navLabel><text>Support Your Data</text></navLabel>
+        <content src="document-3.xhtml#H715180" />
+      </navPoint>
     </navPoint>
     <navPoint id="t_4_0-4">
       <navLabel><text>OSG004 - Open Science and Citizen Science</text></navLabel>
@@ -40,6 +64,22 @@
     <navPoint id="t_5_0-5">
       <navLabel><text>OSG005 - Open Science and Open Access Publishing</text></navLabel>
       <content src="document-5.xhtml#_5_0" />
+      <navPoint id="tH7151279-5">
+        <navLabel><text>Template for one guide to be described</text></navLabel>
+        <content src="document-5.xhtml#H7151279" />
+      </navPoint>
+      <navPoint id="tH7212092-5">
+        <navLabel><text>next guide to be described</text></navLabel>
+        <content src="document-5.xhtml#H7212092" />
+      </navPoint>
+      <navPoint id="tH8053929-5">
+        <navLabel><text>next guide to be described</text></navLabel>
+        <content src="document-5.xhtml#H8053929" />
+      </navPoint>
+      <navPoint id="tH1144211-5">
+        <navLabel><text>next guide to be described</text></navLabel>
+        <content src="document-5.xhtml#H1144211" />
+      </navPoint>
     </navPoint>
     <navPoint id="t2">
       <navLabel><text>Copyright</text></navLabel>
