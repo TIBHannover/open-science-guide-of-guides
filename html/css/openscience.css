@@ -256,13 +256,17 @@ nav li a {
   font-size: 9pt;
 }
 nav li a::before {
-  margin-left: 0.5em;
   margin-right: 0.5em;
   border-bottom: 1px dotted;
   content: "";
   order: 1;
  flex: auto;
 }
+
+nav li li a::before {
+  margin-left: 0.5em;
+}
+
 nav li a::after {
  text-align: right;
  content: target-counter(attr(href), page);
@@ -286,6 +290,7 @@ nav li a::after {
   letter-spacing: 0pt;
   word-spacing: 1px;
   font-weight: 600;
+  line-height: 1.7;
 }
 
 .article-title strong { font-weight: normal;}
@@ -331,7 +336,7 @@ nav li a::after {
   letter-spacing: 0pt;
   word-spacing: 1px;
 }
-.csl-entry {
+.csl-entry, .fnlist p {
   font-family: "Mulish", sans-serif;
   font-size:  9.5pt;
   line-height: 15pt;
@@ -660,7 +665,7 @@ h5 {
 hr {
     border: 0;
     height: 1px;
-    background: #333;
+    background: #D0D0D0;
     /*background-image: linear-gradient(to right, #ccc, #333, #ccc);*/
     }
 
@@ -682,7 +687,7 @@ h1:before {
 }
 
 .footnotes ol {
-  font-size: 9pt;
+  font-size: 9.5pt;
   line-height: 10.8pt;
   list-style-position: outside;
   font-family: "Mulish", helvetica neue, arial, sans-serif;
@@ -690,7 +695,7 @@ h1:before {
 
 .footnotes ol li p {
   text-indent: 0;
-  font-size: 9pt;
+  font-size: 9.5pt;
   line-height: 10.75pt;
   word-wrap: break-word;
   font-family: "Mulish", helvetica neue, arial, sans-serif;
@@ -703,7 +708,7 @@ h1:before {
 li[id*="fn"] {
   color: black;
   text-indent: 0;
-  font-size: 9.75pt;
+  font-size: 9.5pt;
   margin-left: 1.3pc;
   font-family: "Mulish", helvetica neue, arial, sans-serif;
 }
