@@ -266,7 +266,7 @@ nav li a::before {
 }
 
 nav li ol li {
-  margin-left: 0.5em;
+  margin-left: 1em;
 }
 
 nav li a::after {
@@ -575,6 +575,9 @@ margin-top: 1.5em;
 color: #000;
 font-weight: 500;
 line-height: 1.5;
+text-align: left;
+margin-top: 20pt;
+margin-bottom: 9pt;
 }
 h3, h3 strong,
 h4, h4 strong,
@@ -610,8 +613,8 @@ h1 {
 h1 strong { font-weight: normal;}
 
 h2 {
-  font-size: 15pt;
-  line-height: 22pt;
+  font-size: 18pt;
+  line-height: 1.5;
   font-family: "Comfortaa", helvetica neue, arial, sans-serif;
   text-transform: none;
   font-weight: 600;
