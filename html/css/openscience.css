@@ -21,7 +21,7 @@
 
 @page :first {
   size: 159mm 229mm;
-  background: url(https://akademie-oeffentliches-gesundheitswesen.github.io/Buchvorlage/images/cover-entwurf.png) ;
+  background: url(https://tibhannover.github.io/Open-Science-Guides-Collection/html/images/086e7cc2-fafd-4cc2-8c8f-018ac3a9884d.png);
   background-size: 159mm 229mm;
   display: flex;
   align-items: center;
@@ -265,7 +265,7 @@ nav li a::before {
  flex: auto;
 }
 
-nav li ol li a::before {
+nav li ol li {
   margin-left: 0.5em;
 }
 
@@ -569,11 +569,12 @@ blockquote strong {
 
 blockquote  p.att { text-align: right; }
 
-h2, h2 strong, .article-bibliography-header  {
+h2, h2 strong, h1.article-bibliography-header  {
 font-family: "Comfortaa", helvetica neue, arial, sans-serif;
 margin-top: 1.5em;
 color: #000;
 font-weight: 500;
+line-height: 1.5;
 }
 h3, h3 strong,
 h4, h4 strong,
@@ -583,6 +584,7 @@ h6 {
   margin-top: 1.5em;
   color: #000;
   font-weight: 500;
+  line-height: 1.5;
 }
 
 h1 {
@@ -625,7 +627,7 @@ h3 {
   margin-top: 20pt;
   page-break-inside: avoid;
   page-break-after: avoid;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 9pt;
 }
 
@@ -633,14 +635,14 @@ h4 {
   font-size: 10.5pt;
   margin-top: 20pt;
   margin-bottom: 9pt;
-  font-weight: 600;
+  font-weight: 500;
   page-break-inside: avoid;
   page-break-after: avoid;
 }
 
 h5 {
   font-family: "Comfortaa", helvetica neue, arial, sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 9pt;
   margin-top: 20pt;
   margin-bottom: 5pt;
