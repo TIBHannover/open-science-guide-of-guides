@@ -239,8 +239,8 @@ html {
     hyphens: auto;
 }
 nav {
+  margin-top: 2em;
   break-before: always;
-  page-break-after: always;
 }
 
 nav ol {
@@ -264,7 +264,7 @@ nav li a::before {
  flex: auto;
 }
 
-nav li li a::before {
+nav li ol li a::before {
   margin-left: 0.5em;
 }
 
@@ -276,11 +276,11 @@ nav li a::after {
  order: 2;
 }
 
-.article-title, h1 {
+.article-title {
   font-family:"Comfortaa", sans-serif;
   font-size: 24pt; /* 2.233rem */
   color: #000;
-  margin-bottom: 8em;
+  margin-bottom: 4em;
   margin-top: 2em;
   page-break-inside: avoid;
   /*page-break-after: always;*/
@@ -304,10 +304,10 @@ nav li a::after {
   margin-bottom: 13pt;
   letter-spacing: 1pt;
 }
-/*Literaturverzeichnis*/
+/*Literaturverzeichnis
 .article-bibliography-header {
   font-family:"Comfortaa", sans-serif;
-  font-size: 21pt; /* 2.233rem */
+  font-size: 21pt;
   color: #000;
   margin-bottom: 0.5em;
   margin-top: 2em;
@@ -319,7 +319,7 @@ nav li a::after {
   white-space: pre-line;
   letter-spacing: 0pt;
   word-spacing: 1px;
-}
+}*/
 .csl-entry, .fnlist p {
   font-family: "Mulish", sans-serif;
   font-size:  9.5pt;
@@ -568,8 +568,8 @@ blockquote strong {
 
 blockquote  p.att { text-align: right; }
 
-h2, h2 strong {
-font-family: "Mulish", helvetica neue, arial, sans-serif;
+h2, h2 strong, .article-bibliography-header  {
+font-family: "Comfortaa", helvetica neue, arial, sans-serif;
 margin-top: 1.5em;
 color: #000;
 font-weight: 500;
@@ -578,7 +578,7 @@ h3, h3 strong,
 h4, h4 strong,
 h5,
 h6 {
-  font-family: "Mulish", helvetica neue, arial, sans-serif;
+  font-family: "Comfortaa", helvetica neue, arial, sans-serif;
   margin-top: 1.5em;
   color: #000;
   font-weight: 500;
@@ -588,7 +588,7 @@ h1 {
   font-family: Comfortaa", sans-serif;
   font-size: 24pt;
   color: #000;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
   margin-top: 2em;
   page-break-inside: avoid;
   page-break-after: avoid;
@@ -609,7 +609,7 @@ h1 strong { font-weight: normal;}
 h2 {
   font-size: 15pt;
   line-height: 21pt;
-  font-family: "Mulish", helvetica neue, arial, sans-serif;
+  font-family: "Comfortaa", helvetica neue, arial, sans-serif;
   text-transform: none;
   font-weight: 500;
   /*margin: 1.5em 0 1.2em 0;*/
@@ -638,7 +638,7 @@ h4 {
 }
 
 h5 {
-  font-family: "Mulish", helvetica neue, arial, sans-serif;
+  font-family: "Comfortaa", helvetica neue, arial, sans-serif;
   font-weight: 500;
   font-size: 9pt;
   margin-top: 20pt;
@@ -650,6 +650,7 @@ hr {
     border: 0;
     height: 1px;
     background: #D0D0D0;
+    margin: 2em 0;
     /*background-image: linear-gradient(to right, #ccc, #333, #ccc);*/
     }
 
