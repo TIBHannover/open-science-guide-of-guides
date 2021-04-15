@@ -21,12 +21,11 @@
 
 @page :first {
   size: 159mm 229mm;
-  background: url(https://tibhannover.github.io/Open-Science-Guides-Collection/html/images/086e7cc2-fafd-4cc2-8c8f-018ac3a9884d.png);
+  background: url(https://tibhannover.github.io/Open-Science-Guides-Collection/html/images/cover.png);
   background-size: 159mm 229mm;
   display: flex;
   align-items: center;
   margin-top: 300mm;
-  color: #000;
   page-break-after: always;
   @bottom-left { content: normal; }
   @bottom-center { content: normal; }
@@ -36,8 +35,9 @@
   @top-center {
     content: env(doc-title);
     font-family:"Comfortaa", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 40pt;
+    color: #000;
     line-height: 1.6;
     text-align: center;
     letter-spacing: 0.2pt;
@@ -67,7 +67,7 @@
   }
   @bottom-left {
     content: counter(page);
-    font-family: "noto sans", helvetica neue, arial, sans-serif;
+    font-family: "Mulish", helvetica neue, arial, sans-serif;
     font-weight: normal;
     font-style: italic;
     font-size: 9pt;
@@ -96,7 +96,7 @@
   }
   @bottom-right {
     content: counter(page);
-    font-family: "noto sans", helvetica neue, arial, sans-serif;
+    font-family: "Mulish", helvetica neue, arial, sans-serif;
     font-weight: normal;
     font-style: italic;
     font-size: 9pt;
@@ -266,7 +266,7 @@ nav li a::before {
 }
 
 nav li ol li {
-  margin-left: 1em;
+  margin-left: 1.2em;
 }
 
 nav li a::after {
@@ -569,31 +569,12 @@ blockquote strong {
 
 blockquote  p.att { text-align: right; }
 
-h2, h2 strong, h1.article-bibliography-header  {
-font-family: "Comfortaa", helvetica neue, arial, sans-serif;
-margin-top: 1.5em;
-color: #000;
-font-weight: 500;
-line-height: 1.5;
-text-align: left;
-margin-top: 20pt;
-margin-bottom: 9pt;
-}
-h3, h3 strong,
-h4, h4 strong,
-h5,
-h6 {
-  font-family: "Comfortaa", helvetica neue, arial, sans-serif;
-  margin-top: 1.5em;
-  color: #000;
-  font-weight: 500;
-  line-height: 1.5;
-}
-
 h1 {
   font-family: Comfortaa", sans-serif;
   font-size: 24pt;
   color: #000;
+  font-weight: 600;
+  line-height: 1.6;
   margin-bottom: 4em;
   margin-top: 2em;
   page-break-inside: avoid;
@@ -606,23 +587,35 @@ h1 {
   hyphens: none;
   letter-spacing: 0pt;
   word-spacing: 1px;
-  font-weight: 600;
-  line-height: 1.6;
 }
 
 h1 strong { font-weight: normal;}
 
-h2 {
-  font-size: 18pt;
-  line-height: 1.5;
+h2, h2 strong, h1.article-bibliography-header  {
+font-family: "Comfortaa", helvetica neue, arial, sans-serif;
+font-size: 16pt;
+color: #000;
+line-height: 1.5;
+text-align: left;
+line-height: 1.5;
+font-family: "Comfortaa", helvetica neue, arial, sans-serif;
+text-transform: none;
+font-weight: 600;
+margin-top: 20pt;
+margin-bottom: 9pt;
+page-break-inside: avoid;
+page-break-after: avoid;
+}
+
+h3, h3 strong,
+h4, h4 strong,
+h5,
+h6 {
   font-family: "Comfortaa", helvetica neue, arial, sans-serif;
-  text-transform: none;
-  font-weight: 600;
-  /*margin: 1.5em 0 1.2em 0;*/
-  margin-top: 20pt;
-  margin-bottom: 9pt;
-  page-break-inside: avoid;
-  page-break-after: avoid;
+  margin-top: 1.5em;
+  color: #000;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 h3 {
