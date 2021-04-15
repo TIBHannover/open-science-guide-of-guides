@@ -26,7 +26,7 @@
   display: flex;
   align-items: center;
   margin-top: 300mm;
-  color: #fff;
+  color: #000;
   page-break-after: always;
   @bottom-left { content: normal; }
   @bottom-center { content: normal; }
@@ -240,6 +240,7 @@ html {
 }
 nav {
   break-before: always;
+  page-break-after: always;
 }
 
 nav ol {
@@ -275,7 +276,7 @@ nav li a::after {
  order: 2;
 }
 
-.article-title {
+.article-title, h1 {
   font-family:"Comfortaa", sans-serif;
   font-size: 24pt; /* 2.233rem */
   color: #000;
@@ -295,23 +296,6 @@ nav li a::after {
 
 .article-title strong { font-weight: normal;}
 
-/*.article-title {
-  font-family: "Comfortaa", sans-serif;
-  font-size: 24pt;
-  color: #000;
-  margin-bottom: 2em;
-  margin-top: 2em;
-  page-break-inside: avoid;
-  text-align: center;
-  text-transform: none;
-  adobe-hyphenate: none;
-  -webkit-hyphens: none;
-  -epub-hyphens: none;
-  hyphens: none;
-  letter-spacing: 0pt;
-  word-spacing: 1px;
-  font-weight: 600;
-}*/
 .article-title:before {
   display: block;
   text-transform: none;
