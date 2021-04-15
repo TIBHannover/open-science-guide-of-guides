@@ -9,6 +9,10 @@
   <navMap>
 
     <!-- 2.01 NCX: playOrder is optional -->
+    <navPoint id="t0">
+      <navLabel><text>Cover</text></navLabel>
+      <content src="cover.xhtml#cover" />
+    </navPoint>
     <navPoint id="t1">
       <navLabel><text>Title page</text></navLabel>
       <content src="titlepage.xhtml#title" />
@@ -20,17 +24,21 @@
     <navPoint id="t_2_0-2">
       <navLabel><text>OSG002 - Open Science and Knowledge Justice</text></navLabel>
       <content src="document-2.xhtml#_2_0" />
-      <navPoint id="tH7151279-2">
+      <navPoint id="tH870315-2">
         <navLabel><text>Knowledge Justice: An Opportunity for Counter-expertise in Security vs. Science Debates</text></navLabel>
-        <content src="document-2.xhtml#H7151279" />
+        <content src="document-2.xhtml#H870315" />
       </navPoint>
-      <navPoint id="tH7212092-2">
-        <navLabel><text>next guide to be described</text></navLabel>
-        <content src="document-2.xhtml#H7212092" />
+      <navPoint id="tH8244312-2">
+        <navLabel><text>Knowledge Justice: Disrupting Library and Information Studies through Critical Race Theory</text></navLabel>
+        <content src="document-2.xhtml#H8244312" />
       </navPoint>
-      <navPoint id="tH9362108-2">
-        <navLabel><text>next guide to be described</text></navLabel>
-        <content src="document-2.xhtml#H9362108" />
+      <navPoint id="tH480694-2">
+        <navLabel><text>Open Science and Knowledge Justice: How It Started – How It’s Going?</text></navLabel>
+        <content src="document-2.xhtml#H480694" />
+      </navPoint>
+      <navPoint id="tH4807510-2">
+        <navLabel><text>Open Science Promotes Diverse, Just, and Sustainable Research and Educational Outcomes</text></navLabel>
+        <content src="document-2.xhtml#H4807510" />
       </navPoint>
     </navPoint>
     <navPoint id="t_3_0-3">
@@ -72,12 +80,12 @@
         <navLabel><text>next guide to be described</text></navLabel>
         <content src="document-5.xhtml#H7212092" />
       </navPoint>
-      <navPoint id="tH8053929-5">
-        <navLabel><text>next guide to be described</text></navLabel>
-        <content src="document-5.xhtml#H8053929" />
+      <navPoint id="tH9740541-5">
+        <navLabel><text>3. Guide</text></navLabel>
+        <content src="document-5.xhtml#H9740541" />
       </navPoint>
       <navPoint id="tH1144211-5">
-        <navLabel><text>next guide to be described</text></navLabel>
+        <navLabel><text>4. Guide</text></navLabel>
         <content src="document-5.xhtml#H1144211" />
       </navPoint>
     </navPoint>
