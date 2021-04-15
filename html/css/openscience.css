@@ -280,10 +280,10 @@ nav li a::after {
   font-family:"Comfortaa", sans-serif;
   font-size: 24pt; /* 2.233rem */
   color: #000;
-  margin-bottom: 2em;
+  margin-bottom: 8em;
   margin-top: 2em;
   page-break-inside: avoid;
-  page-break-after: always;
+  /*page-break-after: always;*/
   text-align: center;
   text-transform: none;
   hyphens: manual;
