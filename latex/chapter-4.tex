@@ -1,9 +1,26 @@
 \documentclass{article}
 
+\usepackage{caption}
                 
 \usepackage[backend=biber,hyperref=false,citestyle=authoryear,bibstyle=authoryear]{biblatex}
                 
 \bibliography{bibliography}
+            
+\usepackage{graphicx}
+                
+\usepackage{calc}
+                
+\newlength{\imgwidth}
+                
+\newcommand\scaledgraphics[2]{%
+                
+\settowidth{\imgwidth}{\includegraphics{#1}}%
+                
+\setlength{\imgwidth}{\minof{\imgwidth}{#2\textwidth}}%
+                
+\includegraphics[width=\imgwidth,height=\textheight,keepaspectratio]{#1}%
+                
+}
             
 \begin{document}
 
@@ -12,32 +29,44 @@
 \maketitle
 
 
-Authors: Franziska Ahlborn, Maryna Sermus
-
-
-Tags / topics (4): citizen science; 
-
-
-\subsection{Template for one guide to be described}\label{H7151279}
 
 
 
+\subsubsection{\textbf{Authors: Franziska Ahlborn, Maryna Sermus}}\label{H1731420}
 
 
 
-Cover image (insert image): 
+\subsubsection{\textbf{Tags / topics (2): Citizen Science; Citizen Science to monitor biodiversity}}\label{H5470699}
 
 
-Guide name: "Citizen science for all"
+
+\section{Citizen science for all}\label{H2662301}
 
 
-Guide citation insert from Zotero: \autocite{noauthor_citizen_2016}\autocite{pocock_choosing_2014}
+
+\begin{center}
+\begin{figure}
+\scaledgraphics{3cbbd8ed-7495-46a8-8cb5-114cf95cfb83.png}{0.25}
+\label{F38618731}
+\end{figure}
+
+
+\end{center}
+
+
+Guide citation insert from Zotero: \autocite{noauthor_citizen_2016}
 
 
 Type of guide parts (descripe the parts, e.g. step-by-step, instructions, case study, checklists, ...)
 
 
 Summary (character limit): 
+
+
+
+
+
+
 
 
 \subsection{next guide to be described}\label{H7212092}
@@ -47,7 +76,7 @@ Summary (character limit):
 Cover image (insert image):
 
 
-Guide name: "Citizen science for all"
+Guide name: "Choosing and Using Citizen Science: a guide to when and how to use citizen science to monitor biodiversity and the environment."
 
 
 Guide citation insert from Zotero \autocite{pocock_choosing_2014}  
