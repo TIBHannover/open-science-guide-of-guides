@@ -9,10 +9,6 @@
   <navMap>
 
     <!-- 2.01 NCX: playOrder is optional -->
-    <navPoint id="t0">
-      <navLabel><text>Cover</text></navLabel>
-      <content src="cover.xhtml#cover" />
-    </navPoint>
     <navPoint id="t1">
       <navLabel><text>Title page</text></navLabel>
       <content src="titlepage.xhtml#title" />
@@ -44,41 +40,49 @@
     <navPoint id="t_3_0-3">
       <navLabel><text>OSG003 - Open Science and Data Science</text></navLabel>
       <content src="document-3.xhtml#_3_0" />
-      <navPoint id="tH7151279-3">
+      <navPoint id="tH2305886-3">
         <navLabel><text>Guide for Data science and Machine Learning</text></navLabel>
-        <content src="document-3.xhtml#H7151279" />
+        <content src="document-3.xhtml#H2305886" />
       </navPoint>
-      <navPoint id="tH4727243-3">
+      <navPoint id="tH8115129-3">
         <navLabel><text>Python Data Science Handbook</text></navLabel>
-        <content src="document-3.xhtml#H4727243" />
+        <content src="document-3.xhtml#H8115129" />
       </navPoint>
-      <navPoint id="tH715180-3">
+      <navPoint id="tH2541051-3">
         <navLabel><text>Support Your Data</text></navLabel>
-        <content src="document-3.xhtml#H715180" />
+        <content src="document-3.xhtml#H2541051" />
+      </navPoint>
+      <navPoint id="tH2986141-3">
+        <navLabel><text>Recommendations for open data science</text></navLabel>
+        <content src="document-3.xhtml#H2986141" />
       </navPoint>
     </navPoint>
     <navPoint id="t_4_0-4">
       <navLabel><text>OSG004 - Open Science and Citizen Science</text></navLabel>
       <content src="document-4.xhtml#_4_0" />
-      <navPoint id="tH7151279-4">
-        <navLabel><text>Template for one guide to be described</text></navLabel>
-        <content src="document-4.xhtml#H7151279" />
+      <navPoint id="tH1731420-4">
+        <navLabel><text>Authors: Franziska Ahlborn, Maryna Sermus</text></navLabel>
+        <content src="document-4.xhtml#H1731420" />
       </navPoint>
-      <navPoint id="tH7212092-4">
-        <navLabel><text>next guide to be described</text></navLabel>
-        <content src="document-4.xhtml#H7212092" />
+      <navPoint id="tH5470699-4">
+        <navLabel><text>Tags / topics (2): Citizen Science; Citizen Science to monitor biodiversity</text></navLabel>
+        <content src="document-4.xhtml#H5470699" />
+      </navPoint>
+      <navPoint id="tH2662301-4">
+        <navLabel><text>Citizen science for all</text></navLabel>
+        <content src="document-4.xhtml#H2662301" />
+        <navPoint id="tH7212092-4">
+          <navLabel><text>next guide to be described</text></navLabel>
+          <content src="document-4.xhtml#H7212092" />
+        </navPoint>
       </navPoint>
     </navPoint>
     <navPoint id="t_5_0-5">
       <navLabel><text>OSG005 - Open Science and Open Access Publishing</text></navLabel>
       <content src="document-5.xhtml#_5_0" />
       <navPoint id="tH7151279-5">
-        <navLabel><text>Template for one guide to be described</text></navLabel>
+        <navLabel><text>1. Guide</text></navLabel>
         <content src="document-5.xhtml#H7151279" />
-      </navPoint>
-      <navPoint id="tH7212092-5">
-        <navLabel><text>next guide to be described</text></navLabel>
-        <content src="document-5.xhtml#H7212092" />
       </navPoint>
       <navPoint id="tH9740541-5">
         <navLabel><text>3. Guide</text></navLabel>
