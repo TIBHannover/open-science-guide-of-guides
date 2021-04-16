@@ -5,7 +5,7 @@
 }
 -@font-face {
     font-family: "mulish", helvetica neue, arial, sans-serif;
-  font-style: italic;
+    font-style: italic;
     src: url(/css/media/Mulish-Italic-VariableFont_wght.ttf);
 }
 -@font-face {
@@ -25,7 +25,7 @@
   background-size: 159mm 229mm;
   display: flex;
   align-items: center;
-  margin-top: 300mm;
+  margin-top: 320mm;
   page-break-after: always;
   @bottom-left { content: normal; }
   @bottom-center { content: normal; }
@@ -37,12 +37,10 @@
     font-family:"Comfortaa", sans-serif;
     font-weight: 700;
     font-size: 40pt;
-    color: #000;
+    color: blue;
     line-height: 1.6;
     text-align: center;
-    letter-spacing: 0.2pt;
-    word-spacing: 1px;
-   margin-top: -240mm;
+    margin-top: -240mm;
   }
 }
 
@@ -120,7 +118,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url("../images/cover.png");
+  background-image: url("/images/cover.png");
   background-repeat: no-repeat;
   background-size: cover;
   top: -20mm;
@@ -263,6 +261,10 @@ nav li a::before {
   content: "";
   order: 1;
  flex: auto;
+}
+
+nav li ol {
+  margin-top: 0.5em;
 }
 
 nav li ol li {
@@ -570,7 +572,7 @@ blockquote strong {
 blockquote  p.att { text-align: right; }
 
 h1 {
-  font-family: Comfortaa", sans-serif;
+  font-family: "Comfortaa", sans-serif;
   font-size: 24pt;
   color: #000;
   font-weight: 600;
