@@ -37,6 +37,9 @@ Zotero citations can be fully imported into Fidus from the Zotero desktop client
  - GitHub Pages - Webpage rendering and hosting https://pages.github.com/
  - Zenodo - universal repository and DOI minter (gratis) https://zenodo.org/communities/genr
 
+## Design resources
+
+Fonts - https://www.typewolf.com/free-fonts
 
 ## License and copyright
 
