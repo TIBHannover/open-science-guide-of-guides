@@ -573,7 +573,7 @@ blockquote  p.att { text-align: right; }
 
 h1 {
   font-family: "Comfortaa", sans-serif;
-  font-size: 24pt;
+  font-size: 20pt;
   color: #000;
   font-weight: 600;
   line-height: 1.6;
@@ -595,7 +595,7 @@ h1 strong { font-weight: normal;}
 
 h2, h2 strong, h1.article-bibliography-header  {
 font-family: "Comfortaa", helvetica neue, arial, sans-serif;
-font-size: 16pt;
+font-size: 14pt;
 color: #000;
 line-height: 1.5;
 text-align: left;
