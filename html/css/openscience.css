@@ -12,6 +12,11 @@
     font-family:"Comfortaa", sans-serif;
     src : url(../fonts/Comfortaa-VariableFont_wght.ttf);
 }
+}
+-@font-face {
+    font-family:"SF-Kats", sans-serif;
+    src : url(../fonts/SF-Kats.ttf);
+}
 
 @page {
   size: 152mm 229mm;
@@ -620,7 +625,8 @@ h6 {
   line-height: 1.5;
 }
 
-h3 {
+h3 { 
+  font-family: "SF-Kats", helvetica neue, arial;	
   font-size: 13pt;
   margin-top: 20pt;
   page-break-inside: avoid;
