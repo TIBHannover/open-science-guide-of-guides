@@ -49,10 +49,11 @@
   margin-right: 20mm;
   @top-left {
     content: env(doc-title);
-    font-family: "Mulish", helvetica neue, arial, sans-serif;
+    font-family: "Verdana", serif;
     font-weight: normal;
     font-style: italic;
-    font-size: 9pt;
+    font-size: 9pt
+	color: grey;
     letter-spacing: 0.2pt;
     word-spacing: 1px;
     width: 80mm;
