@@ -24,7 +24,7 @@
   background: url(https://tibhannover.github.io/Open-Science-Guides-Collection/html/images/cover.png);
   background-size: 159mm 229mm;
   display: flex;
-  align-items: center;
+  align-items: left;
   margin-top: 320mm;
   page-break-after: always;
   @bottom-left { content: normal; }
