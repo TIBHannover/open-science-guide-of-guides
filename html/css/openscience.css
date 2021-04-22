@@ -9,8 +9,8 @@
     src: url(/css/media/media/Mulish-Italic-VariableFont_wght.ttf);
 }
 -@font-face {
-    font-family:"Comfortaa", sans-serif;
-    src : url(../fonts/media/Comfortaa-VariableFont_wght.ttf);
+    font-family:"NotoSerif", sans-serif;
+    src : url(../fonts/media/NotoSerif-Italic.ttf);
 }
 
 @page {
@@ -41,7 +41,6 @@
     line-height: 1.6;
     text-align: center;
     margin-top: -240mm;
-
   }
 	
 }
@@ -280,7 +279,7 @@ nav li a::after {
 .article-title {
   font-family:"Comfortaa", sans-serif;
   font-size: 24pt; /* 2.233rem */
-  color: #000;
+  color: #fbc527;
   margin-bottom: 4em;
   margin-top: 2em;
   page-break-inside: avoid;
