@@ -219,7 +219,7 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 5;
+  border: 10;
   font-size: 100%;
   vertical-align: baseline;
 }
