@@ -49,7 +49,7 @@
   margin-right: 20mm;
   @top-left {
     content: env(doc-title);
-    font-family: "Mulish", helvetica neue, arial, sans-serif;
+    font-family: arial
     font-weight: normal;
     font-style: italic;
     font-size: 9pt;
@@ -79,13 +79,14 @@
   margin-right: 15mm;
   @top-right {
      content: env(doc-title); /*env(pub-title)*/
-     font-family: "Mulish", helvetica neue, arial, sans-serif;
+     font-family: arial;
      font-weight: normal;
      font-style: italic;
      font-size: 9pt;
      letter-spacing: 0.2pt;
      word-spacing: 1px;
      width: 80mm;
+     color: red
   }
   @top-center {
     content: " ";
@@ -96,10 +97,10 @@
   }
   @bottom-right {
     content: counter(page);
-    font-family: "Mulish", helvetica neue, arial, sans-serif;
+    font-family: sans-serif;
     font-weight: normal;
     font-style: italic;
-    font-size: 9pt;
+    font-size: 11pt;
     letter-spacing: 0.2pt;
     word-spacing: 1px;
     color: blue
