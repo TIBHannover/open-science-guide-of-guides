@@ -9,8 +9,8 @@
     src: url(/css/media/media/Mulish-Italic-VariableFont_wght.ttf);
 }
 -@font-face {
-    font-family:"Comfortaa", sans-serif;
-    src : url(../fonts/media/Comfortaa-VariableFont_wght.ttf);
+    font-family:"NotoSerif", sans-serif;
+    src : url(../fonts/media/NotoSerif-Italic.ttf);
 }
 
 @page {
