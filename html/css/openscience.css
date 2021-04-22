@@ -24,7 +24,7 @@
   background:url(https://pixabay.com/get/g1abc1a66705f7187c005eea7a7b1198d273227c3059b2ca9d5ade2375339dbb73d72c71a1c0343599435e43ce2ef9c1c.png);
   background-size: 100mm 150mm;
   display: flex;
-  align-items: bottom;
+  align-items: center;
   margin-top: 320mm;
   page-break-after: always;
   @bottom-left { content: normal; }
