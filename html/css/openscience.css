@@ -1,6 +1,6 @@
 @charset "UTF-8";
 -@font-face {
-    font-family: "arial", helvetica neue, arial, sans-serif;
+    font-family: "mulish", helvetica neue, arial, sans-serif;
     src: url(/css/media/Mulish-VariableFont_wght.ttf);
 }
 -@font-face {
@@ -37,7 +37,7 @@
     font-family:"Comfortaa", sans-serif;
     font-weight: 700;
     font-size: 40pt;
-    color: blue;
+    color: red;
     line-height: 1.6;
     text-align: center;
     margin-top: -240mm;
