@@ -92,6 +92,7 @@
   }
   @bottom-center {
     content: " ";
+    color: grey
   }
   @bottom-right {
     content: counter(page);
@@ -101,6 +102,7 @@
     font-size: 9pt;
     letter-spacing: 0.2pt;
     word-spacing: 1px;
+    color: blue
   }
 }
 
