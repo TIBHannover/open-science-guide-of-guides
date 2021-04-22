@@ -1,12 +1,12 @@
 @charset "UTF-8";
 -@font-face {
     font-family: "mulish", helvetica neue, arial, sans-serif;
-    src: url(/css/media/Mulish-VariableFont_wght.ttf);
+    src: url(/css/media/media/Mulish-VariableFont_wght.ttf);
 }
 -@font-face {
     font-family: "mulish", helvetica neue, arial, sans-serif;
     font-style: italic;
-    src: url(/css/media/Mulish-Italic-VariableFont_wght.ttf);
+    src: url(/css/media/media/Mulish-Italic-VariableFont_wght.ttf);
 }
 -@font-face {
     font-family:"NotoSerif", sans-serif;
@@ -134,12 +134,8 @@
 }
 .backpage {
   position: absolute;
-  /*width: 210mm;
-  height: 297mm;*/
   width: 130%;
   height: 120%;
-  /*background-color: black;*/
-  /*background-image: url("../images/backpage.png");*/
   background-repeat: no-repeat;
   background-size: cover;
   top: -20mm;
@@ -222,8 +218,7 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 5;
-  border-color: black;
+  border: 0;
   font-size: 100%;
   vertical-align: baseline;
 }
@@ -235,7 +230,7 @@ body {
 html {
   font-family: "Mulish", helvetica neue, arial, sans-serif;
   font-weight: normal;
-  font-size: 12pt;
+  font-size: 10.75pt;
   color: black;
    /*-text-rendering: optimizeLegibility;
    webkit-font-smoothing: antialiased;*/
@@ -285,8 +280,8 @@ nav li a::after {
 
 .article-title {
   font-family:"Comfortaa", sans-serif;
-  font-size: 25pt; /* 2.233rem */
-  color: #fbc527;
+  font-size: 24pt; /* 2.233rem */
+  color: #000;
   margin-bottom: 4em;
   margin-top: 2em;
   page-break-inside: avoid;
@@ -343,12 +338,12 @@ nav li a::after {
 }
 
 .image-width-90 {
-    width: 90%;
+    width: 89%;
     box-sizing:border-box;
 }
 
 .image-width-75 {
-    width: 75%;
+    width: 74%;
     box-sizing:border-box;
 }
 
@@ -1025,7 +1020,7 @@ h2 + p /* h3+p*/ {
 
 .pagenumber {
   content: counter(page);
-  height: 10pt;
+  height: 13pt;
   position: absolute;
   bottom: 8mm;
   text-align: center;
