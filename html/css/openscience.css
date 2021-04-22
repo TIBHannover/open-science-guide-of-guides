@@ -22,7 +22,7 @@
 @page :first {
   size: 159mm 229mm;
   background-size: 159mm 229mm;
-  background: url(https://MariaSael1.github.io/Open-Science-Guides-Collection/html/images/cover2.png);
+  background: url(https:/MariaSael1.github.io/Open-Science-Guides-Collection/html/images/cover2.png);
   background-color: #fbc527;
   display: flex;
   align-items: center;
@@ -42,7 +42,9 @@
     line-height: 1.6;
     text-align: center;
     margin-top: -240mm;
+
   }
+	
 }
 
 @page :left {
