@@ -21,7 +21,7 @@
 
 @page :first {
   size: 159mm 229mm;
-  background: url(https://tibhannover.github.io/Open-Science-Guides-Collection/html/images/Open Access.png);
+  background: url(https://tibhannover.github.io/Open-Science-Guides-Collection/html/images/Openaccess.png);
   background-size: 159mm 229mm;
   display: flex;
   align-items: left;
@@ -118,7 +118,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url("/images/Open Access.png");
+  background-image: url("/images/Openaccess.png");
   background-repeat: no-repeat;
   background-size: cover;
   top: -20mm;
