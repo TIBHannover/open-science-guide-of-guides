@@ -22,7 +22,7 @@
 @page :first {
   size: 159mm 229mm;
   background-size: 159mm 229mm;
-  background: url(https:/MariaSael1.github.io/Open-Science-Guides-Collection/html/images/cover.png);
+  background: url(https:/MariaSael1.github.io/Open-Science-Guides-Collection/html/images/cover1.png);
   display: flex;
   align-items: center;
   margin-top: 320mm;
@@ -120,7 +120,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url("/images/cover.png");
+  background-image: url("/images/cover1.png");
   background-repeat: no-repeat;
   background-size: cover;
   top: -20mm;
