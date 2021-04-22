@@ -24,7 +24,7 @@
   background: url(https://tibhannover.github.io/Open-Science-Guides-Collection/html/images/Openaccess.png);
   background-size: 159mm 229mm;
   display: flex;
-  align-items: left;
+  align-items: center;
   margin-top: 320mm;
   page-break-after: always;
   @bottom-left { content: normal; }
@@ -39,7 +39,7 @@
     font-size: 30pt;
     color: red;
     line-height: 1.6;
-    text-align: left;
+    text-align: center;
     margin-top: -240mm;
   }
 }
