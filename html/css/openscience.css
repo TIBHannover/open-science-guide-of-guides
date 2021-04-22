@@ -280,7 +280,7 @@ nav li a::after {
 .article-title {
   font-family:"Comfortaa", sans-serif;
   font-size: 24pt; /* 2.233rem */
-  color: #000;
+  color: #fbc527;
   margin-bottom: 4em;
   margin-top: 2em;
   page-break-inside: avoid;
