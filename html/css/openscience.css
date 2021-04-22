@@ -34,9 +34,9 @@
   @top-right { content: normal;}
   @top-center {
     content: env(doc-title);
-    font-family:"mulish", sans-serif;
+    font-family: italic;
     font-weight: 700;
-    font-size: 40pt;
+    font-size: 30pt;
     color: red;
     line-height: 1.6;
     text-align: center;
