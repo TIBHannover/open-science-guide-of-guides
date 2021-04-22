@@ -1,16 +1,16 @@
 @charset "UTF-8";
 -@font-face {
     font-family: "mulish", helvetica neue, arial, sans-serif;
-    src: url(/css/media/Mulish-VariableFont_wght.ttf);
+    src: url(/css/media/media/Mulish-VariableFont_wght.ttf);
 }
 -@font-face {
     font-family: "mulish", helvetica neue, arial, sans-serif;
-    font-style: bold;
-    src: url(/css/media/Mulish-Italic-VariableFont_wght.ttf);
+    font-style: italic;
+    src: url(/css/media/media/Mulish-Italic-VariableFont_wght.ttf);
 }
 -@font-face {
     font-family:"Comfortaa", sans-serif;
-    src : url(../fonts/Comfortaa-VariableFont_wght.ttf);
+    src : url(../fonts/media/Comfortaa-VariableFont_wght.ttf);
 }
 
 @page {
@@ -21,7 +21,7 @@
 
 @page :first {
   size: 159mm 229mm;
-  background: url(https://github.com/MariaSael1/Open-Science-Guides-Collection/blob/main/html/images/cover1.png);
+  background: url(https://tibhannover.github.io/Open-Science-Guides-Collection/html/images/cover.png);
   background-size: 159mm 229mm;
   display: flex;
   align-items: center;
@@ -37,7 +37,7 @@
     font-family:"Comfortaa", sans-serif;
     font-weight: 700;
     font-size: 40pt;
-    color: pink;
+    color: blue;
     line-height: 1.6;
     text-align: center;
     margin-top: -240mm;
@@ -116,9 +116,9 @@
   /*width: 210mm;
   height: 297mm;*/
   position: absolute;
-  width: 50%;
-  height: 70%;
-  background-image: url("/images/cover1.png");
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/cover.png");
   background-repeat: no-repeat;
   background-size: cover;
   top: -20mm;
@@ -282,7 +282,7 @@ nav li a::after {
 .article-title {
   font-family:"Comfortaa", sans-serif;
   font-size: 24pt; /* 2.233rem */
-  color: red;
+  color: #000;
   margin-bottom: 4em;
   margin-top: 2em;
   page-break-inside: avoid;
