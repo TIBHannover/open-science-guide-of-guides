@@ -232,10 +232,10 @@ body {
 }
 
 html {
-  font-family: "Mulish", helvetica neue, arial, sans-serif;
+  font-family: helvetica neue
   font-weight: normal;
   font-size: 10.75pt;
-  color: black;
+  color: blue;
    /*-text-rendering: optimizeLegibility;
    webkit-font-smoothing: antialiased;*/
     hyphens: auto;
