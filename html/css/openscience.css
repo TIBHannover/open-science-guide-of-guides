@@ -227,6 +227,9 @@ video {
 h1{
   color: #FF914D !important;
 }
+h2,h3,h4{
+  color: #1755a7 !important;
+}
 body {
   counter-reset: chapter figure-cat-0 figure-cat-1 figure-cat-2 footnote-counter footnote-marker-counter;
   overflow-wrap: break-word;
