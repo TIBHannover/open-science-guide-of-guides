@@ -1,4 +1,4 @@
-# Open Science Guides Collection
+# An Open Science Guides Collection
 
  The Open Science Guide of Guides - Made at the Open Science Lab using Fidus Writer
 
