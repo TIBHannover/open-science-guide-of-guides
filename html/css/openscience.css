@@ -14,9 +14,19 @@
 }
 
 @page {
-  size: 152mm 229mm;
-  margin-top: 20mm;
-  margin-bottom: 20mm;
+	size: 152mm 229mm;
+	margin-top: 20mm;
+	margin-bottom: 20mm;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform-origin: left;
+	transform-style: preserve-3d;
+	transform: rotateY(0deg);
+	transition: .5s ;
+	color: white; 
 }
 
 @page :first {
@@ -104,9 +114,9 @@
 }
 
 @page :blank {
-	@bottom-left { content: normal; }
-	@bottom-right { content: normal; }
-	@top-center { content: normal; }
+  @bottom-left { content: normal; }
+  @bottom-right { content: normal; }
+  @top-center { content: normal; }
   @top-left { content: normal; }
   @top-right { content: normal; }
 }
