@@ -14,34 +14,33 @@
 }
 
 @page {
-	size: 152mm 229mm;
-	margin-top: 20mm;
-	margin-bottom: 20mm;
-
+  size: 152mm 229mm;
+  margin-top: 20mm;
+  margin-bottom: 20mm;
 }
 
 @page :first {
-	size: 159mm 229mm;
-	background: url(https://MariaSael1.github.io/Open-Science-Guides-Collection/html/images/cover1.png);
-	background-size: 159mm 229mm;
-	display: flex;
-	align-items: center;
-	margin-top: 320mm;
-	page-break-after: always;
-	@bottom-left { content: normal; }
-	@bottom-center { content: normal; }
+  size: 159mm 229mm;
+  background: url(https://tibhannover.github.io/Open-Science-Guides-Collection/html/images/cover.png);
+  background-size: 159mm 229mm;
+  display: flex;
+  align-items: center;
+  margin-top: 320mm;
+  page-break-after: always;
+  @bottom-left { content: normal; }
+  @bottom-center { content: normal; }
 	@bottom-right { content: normal; }
 	@top-left { content: normal; }
-	@top-right { content: normal;}
-	@top-center {
-	content: env(doc-title);
-	font-family:"Comfortaa", sans-serif;
-	font-weight: 700;
-	font-size: 40pt;
-	color: blue;
-	line-height: 1.6;
-	text-align: center;
-	margin-top: -240mm;
+  @top-right { content: normal;}
+  @top-center {
+    content: env(doc-title);
+    font-family:"Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 40pt;
+    color: blue;
+    line-height: 1.6;
+    text-align: center;
+    margin-top: -240mm;
   }
 }
 
@@ -105,9 +104,9 @@
 }
 
 @page :blank {
-  @bottom-left { content: normal; }
-  @bottom-right { content: normal; }
-  @top-center { content: normal; }
+	@bottom-left { content: normal; }
+	@bottom-right { content: normal; }
+	@top-center { content: normal; }
   @top-left { content: normal; }
   @top-right { content: normal; }
 }
