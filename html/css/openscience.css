@@ -331,7 +331,7 @@ nav li a::after {
 
 
 .image-width-100 {
-    width: 100%;
+    width: 99%;
     box-sizing:border-box;
 }
 
@@ -346,18 +346,19 @@ nav li a::after {
 }
 
 .image-width-50 {
-    width: 50%;
+    width: 49%;
     margin-left:5%;
     margin-right:5%;
     box-sizing:border-box;
 }
 
 .image-width-25 {
-    width: 25%;
+    width: 24%;
     margin-left:2%;
     margin-right:2%;
     box-sizing:border-box;
 }
+
 
 .noindent p + p {
   text-indent: 0;
