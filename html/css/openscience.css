@@ -9,8 +9,8 @@
     src: url(/css/media/media/Mulish-Italic-VariableFont_wght.ttf);
 }
 -@font-face {
-    font-family:"NotoSerif", sans-serif;
-    src : url(../fonts/media/NotoSerif-Italic.ttf);
+    font-family:"Comfortaa", sans-serif;
+    src : url(../fonts/Comfortaa-VariableFont_wght.ttf);
 }
 
 @page {
@@ -105,11 +105,11 @@
 }
 
 @page :blank {
-	@bottom-left { content: normal; }
-	@bottom-right { content: normal; }
-	@top-center { content: normal; }
-  @top-left { content: normal; }
-  @top-right { content: normal; }
+@bottom-left { content: normal; }
+@bottom-right { content: normal; }
+@top-center { content: normal; }
+@top-left { content: normal; }
+@top-right { content: normal; }
 }
 
 .coverpage {
