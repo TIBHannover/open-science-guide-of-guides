@@ -219,15 +219,19 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 0;
+  border: 10;
   font-size: 100%;
   vertical-align: baseline;
+  border-color: #FF914D;
+}
+h1{
+  color: #FF914D !important;
 }
 body {
   counter-reset: chapter figure-cat-0 figure-cat-1 figure-cat-2 footnote-counter footnote-marker-counter;
   overflow-wrap: break-word;
 }
-
+ 
 html {
   font-family: "Mulish", helvetica neue, arial, sans-serif;
   font-weight: normal;
