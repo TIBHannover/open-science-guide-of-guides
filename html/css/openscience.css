@@ -1,15 +1,15 @@
 @charset "UTF-8";
 -@font-face {
-    font-family: "italic", helvetica neue, arial, sans-serif;
+    font-family: "mulish", helvetica neue, arial, sans-serif;
     src: url(/css/media/Mulish-VariableFont_wght.ttf);
 }
 -@font-face {
-    font-family: "italic", helvetica neue, arial, sans-serif;
+    font-family: "mulish", helvetica neue, arial, sans-serif;
     font-style: oblique;
     src: url(/css/media/Mulish-Italic-VariableFont_wght.ttf);
 }
 -@font-face {
-    font-family: "italic", sans-serif;
+    font-family: "Comfortaa", sans-serif;
     src : url(../fonts/Comfortaa-VariableFont_wght.ttf);
 }
 
@@ -34,7 +34,7 @@
   @top-right { content: normal;}
   @top-center {
     content: env(doc-title);
-    font-family:"Comfortaa", sans-serif;
+    font-family:"mulish", sans-serif;
     font-weight: 700;
     font-size: 40pt;
     color: red;
