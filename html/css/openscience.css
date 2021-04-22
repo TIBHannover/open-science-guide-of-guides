@@ -35,9 +35,9 @@
   @top-center {
     content: env(doc-title);
     font-family: italic;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 30pt;
-    color: red;
+    color: grey;
     line-height: 1.6;
     text-align: center;
     margin-top: -240mm;
