@@ -2,4 +2,4 @@
 
 Simon Worthington - https://orcid.org/0000-0002-8579-9717
 
-My Linh Nguyen Thi - 
+My Linh Nguyen Thi - https://orcid.org/0000-0003-4515-8357
