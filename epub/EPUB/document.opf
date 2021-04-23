@@ -2,15 +2,15 @@
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="fidus" xml:lang="de-DE" prefix="cc: http://creativecommons.org/ns#">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:identifier id="fidus">65</dc:identifier>
-    <dc:title>The Open Science Guide of Guides</dc:title>
+    <dc:title>An Open Science Guides Collection</dc:title>
     <dc:creator>
-      https://github.com/TIBHannover/Open-Science-Guides-Collection/blob/main/CONTRIBUTE.MD
+      See /CONTRIBUTE.md
     </dc:creator>
     <dc:language>de-DE</dc:language>
-    <meta property="dcterms:modified">2021-04-22T11:03:14Z</meta>
-    <dc:date>2021-04-22</dc:date>
+    <meta property="dcterms:modified">2021-04-23T09:38:35Z</meta>
+    <dc:date>2021-04-23</dc:date>
     <dc:rights>© 2021 the authors. Creative Commons: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) https://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
-    <dc:publisher>Source https://github.com/TIBHannover/Open-Science-Guides-Collection</dc:publisher>
+    <dc:publisher>Open Science Lab and GenR</dc:publisher>
     <dc:subject>open-science; guide; knowledge-justice; data-science; citizen-science; open-access-publishing</dc:subject>
   </metadata>
   <manifest>
@@ -23,7 +23,7 @@
     <item id="t5" href="document-5.xhtml" media-type="application/xhtml+xml" />
     <item id="nav" href="document-nav.xhtml" properties="nav" media-type="application/xhtml+xml" />
     <item id="copyright" href="copyright.xhtml" media-type="application/xhtml+xml" />
-    <item id="cover-image" properties="cover-image" href="e1d0482b-48cf-4a26-b320-898874375236.jpg" media-type="image/jpeg" />
+    <item id="cover-image" properties="cover-image" href="a61d9bf2-4c8d-4865-b9f8-7b290eb94bb9.png" media-type="image/png" />
     <item id="img1" href="images/086e7cc2-fafd-4cc2-8c8f-018ac3a9884d.png" media-type="image/png" />
     <item id="img2" href="images/dcc1d35b-4186-4b50-a5a6-cf54422a8064.jpeg" media-type="image/jpeg" />
     <item id="img3" href="images/e590694e-3a8f-4a2f-801f-704d7d8edbc0.png" media-type="image/png" />
