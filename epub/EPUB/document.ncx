@@ -95,10 +95,6 @@
       <navPoint id="tH2333653-4">
         <navLabel><text>Can Citizen Science enhance the public understanding of Science?</text></navLabel>
         <content src="document-4.xhtml#H2333653" />
-        <navPoint id="tH3778084-4">
-          <navLabel><text>Inhalte:</text></navLabel>
-          <content src="document-4.xhtml#H3778084" />
-        </navPoint>
       </navPoint>
     </navPoint>
     <navPoint id="t_5_0-5">
@@ -117,11 +113,11 @@
         <content src="document-5.xhtml#H1144211" />
       </navPoint>
       <navPoint id="tH4741497-5">
-        <navLabel><text>Guide 4</text></navLabel>
+        <navLabel><text>Open Access publizieren – Fragen &amp; Antworten</text></navLabel>
         <content src="document-5.xhtml#H4741497" />
       </navPoint>
       <navPoint id="tH6691479-5">
-        <navLabel><text>Guide 5</text></navLabel>
+        <navLabel><text>Open-Access-Publikationsworkflow für akademische Bücher</text></navLabel>
         <content src="document-5.xhtml#H6691479" />
       </navPoint>
     </navPoint>
