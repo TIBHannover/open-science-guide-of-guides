@@ -13,6 +13,8 @@
     src : url(../fonts/media/Comfortaa-VariableFont_wght.ttf);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
 @page {
   size: 152mm 229mm;
   margin-top: 20mm;
@@ -34,8 +36,8 @@
   @top-right { content: normal;}
   @top-center {
     content: env(doc-title);
-    font-family:"Comfortaa", sans-serif;
-    font-weight: 700;
+    font-family:"Roboto", sans-serif;
+    font-weight: 300;
     font-size: 40pt;
     color: blue;
     line-height: 1.6;
