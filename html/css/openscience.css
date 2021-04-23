@@ -601,8 +601,6 @@ font-size: 16pt;
 color: #000;
 line-height: 1.5;
 text-align: left;
-line-height: 1.5;
-font-family: "Comfortaa", helvetica neue, arial, sans-serif;
 text-transform: none;
 font-weight: 600;
 margin-top: 20pt;
@@ -639,7 +637,6 @@ h4 {
 }
 
 h5 {
-  font-family: "Comfortaa", helvetica neue, arial, sans-serif;
   font-weight: 500;
   font-size: 9pt;
   margin-top: 20pt;
