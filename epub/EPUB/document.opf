@@ -7,7 +7,7 @@
       See /CONTRIBUTE.md
     </dc:creator>
     <dc:language>de-DE</dc:language>
-    <meta property="dcterms:modified">2021-04-29T09:53:58Z</meta>
+    <meta property="dcterms:modified">2021-04-29T10:01:53Z</meta>
     <dc:date>2021-04-29</dc:date>
     <dc:rights>© 2021 the authors. Creative Commons: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) https://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
     <dc:publisher>Open Science Lab and GenR</dc:publisher>
@@ -28,20 +28,20 @@
     <item id="img2" href="images/dcc1d35b-4186-4b50-a5a6-cf54422a8064.jpeg" media-type="image/jpeg" />
     <item id="img3" href="images/e590694e-3a8f-4a2f-801f-704d7d8edbc0.png" media-type="image/png" />
     <item id="img4" href="images/23f9ee73-dda2-4a56-8083-4a618f9983b9.png" media-type="image/png" />
-    <item id="img5" href="images/a6637b1c-427c-4ae5-a756-e31455d2fc96.png" media-type="image/png" />
-    <item id="img6" href="images/25f071a6-9aec-4c08-bfd3-bfb548adfaee.jpg" media-type="image/jpeg" />
-    <item id="img7" href="images/6ab89e0c-e542-4afd-b586-eabe59773bc0.jpg" media-type="image/jpeg" />
-    <item id="img8" href="images/43052757-2454-42ab-a98c-c7977cb4e249.png" media-type="image/png" />
-    <item id="img9" href="images/45bdf5de-7e5b-448d-820a-d3b3288a4dbe.png" media-type="image/png" />
-    <item id="img10" href="images/10e3bc75-5c14-48e3-a161-d685105f455b.png" media-type="image/png" />
-    <item id="img11" href="images/3cbbd8ed-7495-46a8-8cb5-114cf95cfb83.png" media-type="image/png" />
-    <item id="img12" href="images/dba5d5eb-235c-4694-a2d4-c26b6e16182b.png" media-type="image/png" />
-    <item id="img13" href="images/fb9872a4-8371-4bfe-a930-f1d621c5649e.png" media-type="image/png" />
-    <item id="img14" href="images/dec17709-06cd-4c04-b217-1e1f0b7a42cc.png" media-type="image/png" />
-    <item id="img15" href="images/499c4719-8346-4a67-8a5b-fcacfb0ecde0.png" media-type="image/png" />
-    <item id="img16" href="images/37cc2dfd-e350-4e29-acc3-9c7f815eb133.png" media-type="image/png" />
-    <item id="img17" href="images/f61a96b6-6ada-4caf-b8f3-1ef6ac943b93.png" media-type="image/png" />
-    <item id="img18" href="images/39363ae5-01d9-4e5a-a46f-bf20971df65a.jpg" media-type="image/jpeg" />
+    <item id="img5" href="images/dec17709-06cd-4c04-b217-1e1f0b7a42cc.png" media-type="image/png" />
+    <item id="img6" href="images/499c4719-8346-4a67-8a5b-fcacfb0ecde0.png" media-type="image/png" />
+    <item id="img7" href="images/37cc2dfd-e350-4e29-acc3-9c7f815eb133.png" media-type="image/png" />
+    <item id="img8" href="images/f61a96b6-6ada-4caf-b8f3-1ef6ac943b93.png" media-type="image/png" />
+    <item id="img9" href="images/39363ae5-01d9-4e5a-a46f-bf20971df65a.jpg" media-type="image/jpeg" />
+    <item id="img10" href="images/a6637b1c-427c-4ae5-a756-e31455d2fc96.png" media-type="image/png" />
+    <item id="img11" href="images/25f071a6-9aec-4c08-bfd3-bfb548adfaee.jpg" media-type="image/jpeg" />
+    <item id="img12" href="images/6ab89e0c-e542-4afd-b586-eabe59773bc0.jpg" media-type="image/jpeg" />
+    <item id="img13" href="images/43052757-2454-42ab-a98c-c7977cb4e249.png" media-type="image/png" />
+    <item id="img14" href="images/45bdf5de-7e5b-448d-820a-d3b3288a4dbe.png" media-type="image/png" />
+    <item id="img15" href="images/10e3bc75-5c14-48e3-a161-d685105f455b.png" media-type="image/png" />
+    <item id="img16" href="images/3cbbd8ed-7495-46a8-8cb5-114cf95cfb83.png" media-type="image/png" />
+    <item id="img17" href="images/dba5d5eb-235c-4694-a2d4-c26b6e16182b.png" media-type="image/png" />
+    <item id="img18" href="images/fb9872a4-8371-4bfe-a930-f1d621c5649e.png" media-type="image/png" />
     <item id="font0" href="css/media/Mulish-VariableFont_wght.ttf" media-type="font/sfnt" />
     <item id="font1" href="css/media/Comfortaa-VariableFont_wght.ttf" media-type="font/sfnt" />
     <item id="font2" href="css/media/Mulish-Italic-VariableFont_wght.ttf" media-type="font/sfnt" />
