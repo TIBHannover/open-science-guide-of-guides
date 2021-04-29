@@ -1,5 +1,26 @@
 \documentclass[11pt]{book}
 
+                
+\usepackage{authblk}
+                
+\makeatletter
+                
+\let\@fnsymbol\@alph
+                
+\makeatother
+            
+                
+\def\keywords{\vspace{.5em}
+                
+{\textit{Keywords}:\,\relax%
+                
+}}
+                
+\def\endkeywords{\par}
+                
+\newcommand{\sep}{, }
+            
+\usepackage{hyperref}
 \usepackage{caption}
                 
 \usepackage[backend=biber,hyperref=false,citestyle=authoryear,bibstyle=authoryear]{biblatex}
@@ -23,8 +44,8 @@
 }
             
 \usepackage{docmute}
-\title{The Open Science Guide of Guides}
-\author{Friends of OSL}
+\title{An Open Science Guides Collection}
+\author{See /CONTRIBUTE.md}
 \begin{document}
 \maketitle
 \def\title#1{\chapter{#1}}
