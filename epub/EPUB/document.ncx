@@ -101,28 +101,16 @@
       <navLabel><text>Open Science and Citizen Science</text></navLabel>
       <content src="document-5.xhtml#_5_0" />
       <navPoint id="tH2662301-5">
-        <navLabel><text>Citizen science for all</text></navLabel>
+        <navLabel><text>Citizen science for all - A guide for citizen science practitioners</text></navLabel>
         <content src="document-5.xhtml#H2662301" />
-        <navPoint id="tH9328356-5">
-          <navLabel><text>A guide for citizen science practitioners</text></navLabel>
-          <content src="document-5.xhtml#H9328356" />
-        </navPoint>
       </navPoint>
       <navPoint id="tH1285339-5">
-        <navLabel><text>Choosing and Using Citizen Science</text></navLabel>
+        <navLabel><text>Choosing and Using Citizen Science - A guide to when and how to use citizen science to monitor biodiversity and the environment</text></navLabel>
         <content src="document-5.xhtml#H1285339" />
-        <navPoint id="tH8816796-5">
-          <navLabel><text>A guide to when and how to use citizen science to monitor biodiversity and the environment</text></navLabel>
-          <content src="document-5.xhtml#H8816796" />
-        </navPoint>
       </navPoint>
       <navPoint id="tH3514415-5">
-        <navLabel><text>Guide to Citizen Science</text></navLabel>
+        <navLabel><text>Guide to Citizen Science - developing, implementing and evaluating citizen science to study biodiversity and the environment in the UK</text></navLabel>
         <content src="document-5.xhtml#H3514415" />
-        <navPoint id="tH903150-5">
-          <navLabel><text>developing, implementing and evaluating citizen science to study biodiversity and the environment in the UK</text></navLabel>
-          <content src="document-5.xhtml#H903150" />
-        </navPoint>
       </navPoint>
       <navPoint id="tH2333653-5">
         <navLabel><text>Can Citizen Science enhance the public understanding of Science?</text></navLabel>
