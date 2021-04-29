@@ -49,8 +49,16 @@
       <navLabel><text>Open Science and Data Science</text></navLabel>
       <content src="document-3.xhtml#_3_0" />
       <navPoint id="tH2305886-3">
-        <navLabel><text>Guide for Data science and Machine Learning</text></navLabel>
+        <navLabel><text>Guide for Data Science and Machine Learning</text></navLabel>
         <content src="document-3.xhtml#H2305886" />
+      </navPoint>
+      <navPoint id="tH6205473-3">
+        <navLabel><text>Big Data and Open Science Data</text></navLabel>
+        <content src="document-3.xhtml#H6205473" />
+      </navPoint>
+      <navPoint id="tH5120034-3">
+        <navLabel><text>Perspectives on open science and scientific data sharing</text></navLabel>
+        <content src="document-3.xhtml#H5120034" />
       </navPoint>
       <navPoint id="tH8115129-3">
         <navLabel><text>Python Data Science Handbook</text></navLabel>
