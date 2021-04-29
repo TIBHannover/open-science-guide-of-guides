@@ -1,85 +1,31 @@
 @charset "UTF-8";
 -@font-face {
-    font-family: "noto sans", helvetica neue, arial, sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    src: url(/css/media/media/NotoSans-Regular.ttf);
+    font-family: "mulish", helvetica neue, arial, sans-serif;
+    src: url(/css/media/media/Mulish-VariableFont_wght.ttf);
 }
 -@font-face {
-    font-family: "noto sans", helvetica neue, arial, sans-serif;
-    font-weight: normal;
+    font-family: "mulish", helvetica neue, arial, sans-serif;
     font-style: italic;
-    src: url(/css/media/media/NotoSans-Italic.ttf);
+    src: url(/css/media/media/Mulish-Italic-VariableFont_wght.ttf);
 }
 -@font-face {
-    font-family: "noto sans", helvetica neue, arial, sans-serif;
-    font-weight: bold;
-    font-style: normal;
-    src: url(/css/media/NotoSans-SemiBold.tff);
+    font-family:"Comfortaa", sans-serif;
+    src : url(../fonts/media/Comfortaa-VariableFont_wght.ttf);
 }
--@font-face {
-    font-family: "noto sans", helvetica neue, arial, sans-serif;
-    font-weight: bold;
-    font-style: italic;
-    src: url(/css/media/NotoSans-SemiBoldItalic.tff);
-}
--@font-face {
-    font-family: "noto sans", helvetica neue, arial, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    src: url(/css/media/media/NotoSans-Medium.ttf);
-}
--@font-face {
-    font-family :"noto serif", serif;
-    font-weight : normal;
-    font-style: normal;
-    src : url(/css/media/media/NotoSerif-Regular.ttf);
-}
--@font-face {
-    font-family :"noto serif", serif;
-    font-weight : normal;
-    font-style: italic;
-    src : url(/css/media/media/NotoSerif-Italic.ttf);
-}
--@font-face {
-    font-family :"noto serif", serif;
-    font-weight : bold;
-    font-style: normal;
-    src : url(../fonts/media/NotoSerif-Bold.ttf);
-}
--@font-face {
-    font-family :"noto serif", serif;
-    font-weight : bold;
-    font-style: italic;
-    src : url(../fonts/media/NotoSerif-BoldItalic.ttf);
-}
-
 
 @page {
-  size: 159mm 229mm;
+  size: 152mm 229mm;
   margin-top: 20mm;
   margin-bottom: 20mm;
 }
 
 @page :first {
   size: 159mm 229mm;
-  /*position: absolute;
-  width: 100%;
-  height: 100%;
-  background-image: url(https://akademie-oeffentliches-gesundheitswesen.github.io/Buchvorlage/images/cover-entwurf.png)
-  background-repeat: no-repeat;
-  background-size: cover;*/
-  background: url(https://akademie-oeffentliches-gesundheitswesen.github.io/Buchvorlage/images/cover-entwurf.png) ;
-background-size: 159mm 229mm;
+  background: url(https://tibhannover.github.io/Open-Science-Guides-Collection/html/images/cover.png);
+  background-size: 159mm 229mm;
   display: flex;
-  /*flex-direction: column;
-  justify-content: center;*/
   align-items: center;
-  margin-top: 300mm;
-  /*content: env(doc-title);
-  font-family: "noto serif", serif;
-  font-size: 24pt;*/
-  color: rgb(58,172,196);
+  margin-top: 320mm;
   page-break-after: always;
   @bottom-left { content: normal; }
   @bottom-center { content: normal; }
@@ -88,13 +34,13 @@ background-size: 159mm 229mm;
   @top-right { content: normal;}
   @top-center {
     content: env(doc-title);
-    font-family: "noto serif", serif;
-    font-weight: 600;
-    font-size: 24pt;
+    font-family:"Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 40pt;
+    color: blue;
+    line-height: 1.6;
     text-align: center;
-    letter-spacing: 0.2pt;
-    word-spacing: 1px;
-margin-top: -240mm;
+    margin-top: -240mm;
   }
 }
 
@@ -103,7 +49,7 @@ margin-top: -240mm;
   margin-right: 20mm;
   @top-left {
     content: env(doc-title);
-    font-family: "noto sans", helvetica neue, arial, sans-serif;
+    font-family: "Mulish", helvetica neue, arial, sans-serif;
     font-weight: normal;
     font-style: italic;
     font-size: 9pt;
@@ -115,17 +61,11 @@ margin-top: -240mm;
     content: " ";
   }
   @bottom-center {
-    content: "Entwurf / Draft";
-    font-family: "noto sans", helvetica neue, arial, sans-serif;
-    font-weight: normal;
-    font-style: italic;
-    font-size: 9pt;
-    letter-spacing: 0.2pt;
-    word-spacing: 1px;
+    content: " ";
   }
   @bottom-left {
     content: counter(page);
-    font-family: "noto sans", helvetica neue, arial, sans-serif;
+    font-family: "Mulish", helvetica neue, arial, sans-serif;
     font-weight: normal;
     font-style: italic;
     font-size: 9pt;
@@ -138,7 +78,7 @@ margin-top: -240mm;
   margin-right: 15mm;
   @top-right {
      content: env(doc-title); /*env(pub-title)*/
-     font-family: "noto sans", helvetica neue, arial, sans-serif;
+     font-family: "Mulish", helvetica neue, arial, sans-serif;
      font-weight: normal;
      font-style: italic;
      font-size: 9pt;
@@ -150,17 +90,11 @@ margin-top: -240mm;
     content: " ";
   }
   @bottom-center {
-    content: "Entwurf / Draft";
-    font-family: "noto sans", helvetica neue, arial, sans-serif;
-    font-weight: normal;
-    font-style: italic;
-    font-size: 9pt;
-    letter-spacing: 0.2pt;
-    word-spacing: 1px;
+    content: " ";
   }
   @bottom-right {
     content: counter(page);
-    font-family: "noto sans", helvetica neue, arial, sans-serif;
+    font-family: "Mulish", helvetica neue, arial, sans-serif;
     font-weight: normal;
     font-style: italic;
     font-size: 9pt;
@@ -177,8 +111,6 @@ margin-top: -240mm;
   @top-right { content: normal; }
 }
 
-
-
 .coverpage {
   position: absolute;
   /*width: 210mm;
@@ -186,7 +118,7 @@ margin-top: -240mm;
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url("../images/cover.png");
+  background-image: url("/images/cover.png");
   background-repeat: no-repeat;
   background-size: cover;
   top: -20mm;
@@ -297,21 +229,23 @@ body {
 }
 
 html {
-  font-family: "noto sans", helvetica neue, arial, sans-serif;
-  font-weight: 500;
+  font-family: "Mulish", helvetica neue, arial, sans-serif;
+  font-weight: normal;
   font-size: 10.75pt;
   color: black;
-  text-rendering: optimizeLegibility;
-  /*-webkit-font-smoothing: antialiased;*/
-  overflow-wrap: break-word;
-    word-wrap: break-word;
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
+   /*-text-rendering: optimizeLegibility;
+   webkit-font-smoothing: antialiased;*/
     hyphens: auto;
 }
 nav {
+  margin: 2em 0;
   break-before: always;
 }
+
+nav ol {
+  list-style: none;
+}
+
 nav li a {
   display: inline-flex;
   width: 100%;
@@ -322,13 +256,21 @@ nav li a {
   font-size: 9pt;
 }
 nav li a::before {
-  margin-left: 0.5em;
   margin-right: 0.5em;
   border-bottom: 1px dotted;
   content: "";
   order: 1;
  flex: auto;
 }
+
+nav li ol {
+  margin-top: 0.5em;
+}
+
+nav li ol li {
+  margin-left: 1.2em;
+}
+
 nav li a::after {
  text-align: right;
  content: target-counter(attr(href), page);
@@ -338,13 +280,13 @@ nav li a::after {
 }
 
 .article-title {
-  font-family :"noto serif", serif;
+  font-family:"Comfortaa", sans-serif;
   font-size: 24pt; /* 2.233rem */
-  color: rgb(58,172,196);
-  margin-bottom: 2em;
+  color: #000;
+  margin-bottom: 4em;
   margin-top: 2em;
   page-break-inside: avoid;
-  page-break-after: always;
+  /*page-break-after: always;*/
   text-align: center;
   text-transform: none;
   hyphens: manual;
@@ -352,27 +294,11 @@ nav li a::after {
   letter-spacing: 0pt;
   word-spacing: 1px;
   font-weight: 600;
+  line-height: 1.6;
 }
 
 .article-title strong { font-weight: normal;}
 
-/*.article-title {
-  font-family: "noto serif", serif;
-  font-size: 24pt;
-  color: rgb(15,100,167);
-  margin-bottom: 2em;
-  margin-top: 2em;
-  page-break-inside: avoid;
-  text-align: center;
-  text-transform: none;
-  adobe-hyphenate: none;
-  -webkit-hyphens: none;
-  -epub-hyphens: none;
-  hyphens: none;
-  letter-spacing: 0pt;
-  word-spacing: 1px;
-  font-weight: 600;
-}*/
 .article-title:before {
   display: block;
   text-transform: none;
@@ -381,11 +307,11 @@ nav li a::after {
   margin-bottom: 13pt;
   letter-spacing: 1pt;
 }
-/*Literaturverzeichnis*/
+/*Literaturverzeichnis
 .article-bibliography-header {
-  font-family :"noto serif", serif;
-  font-size: 24pt; /* 2.233rem */
-  color: rgb(58,172,196);
+  font-family:"Comfortaa", sans-serif;
+  font-size: 21pt;
+  color: #000;
   margin-bottom: 0.5em;
   margin-top: 2em;
   page-break-inside: avoid;
@@ -396,9 +322,9 @@ nav li a::after {
   white-space: pre-line;
   letter-spacing: 0pt;
   word-spacing: 1px;
-}
-.csl-entry {
-  font-family: "noto serif", serif;
+}*/
+.csl-entry, .fnlist p {
+  font-family: "Mulish", sans-serif;
   font-size:  9.5pt;
   line-height: 15pt;
   margin-bottom: 9pt;
@@ -462,14 +388,14 @@ nav li a::after {
 
 .logo p {
  color: black;
- font-family: "noto serif", serif;
+ font-family: Comfortaa", sans-serif;
   font-size: 8pt;
   font-weight: 300;
   text-align: center;
 }
 .logo2 p {
  color: black;
- font-family: "IBM Plex Sans", helvetica neue, arial, sans-serif;
+ font-family: "Comfortaa", helvetica neue, arial, sans-serif;
   font-size: 8pt;
   line-height: 12pt;
   font-weight: 300;
@@ -479,7 +405,7 @@ nav li a::after {
 
 
 p {
-  font-family: "noto serif", serif;
+  font-family: Comfortaa", sans-serif;
   font-size:  9.5pt; /* 0.8837rem */
   line-height: 15pt; /* 1.3954rem */
   margin-bottom: 0pt;
@@ -505,7 +431,7 @@ p:first-of-type {
 }
 
 .Kolophon p {
-  font-family: "noto sans", helvetica neue, arial, sans-serif;
+  font-family: "Mulish", helvetica neue, arial, sans-serif;
   font-size:8pt;
 }
 
@@ -552,7 +478,7 @@ table li strong,
 table li .bold,
 table li .Bold,
 table li b {
-  font-family: "noto sans", helvetica neue, arial, sans-serif;
+  font-family: "Mulish", helvetica neue, arial, sans-serif;
   font-weight: 700;
 }
 
@@ -583,7 +509,7 @@ strong em {
 }
 
 var {
-  font-family: "IBM Plex Sans", helvetica neue, arial, sans-serif;
+  font-family: "Comfortaa", helvetica neue, arial, sans-serif;
   font-weight: normal;
 }
 
@@ -610,7 +536,7 @@ blockquote {
   display: block;
   width: 80%;
   position: relative;
-  font-family: "noto sans", helvetica neue, arial, sans-serif;
+  font-family: "Mulish", helvetica neue, arial, sans-serif;
   font-size:  11pt; /* 1.023rem */
   vertical-align: baseline;
   margin-top: 9pt;
@@ -622,14 +548,14 @@ blockquote {
 }
 
 blockquote:before {
-  font-family: "noto serif", serif;
+  font-family: Comfortaa", sans-serif;
   content: "“";
   font-size: 4em;
   left: -45px;
   top: -10px;
   z-index: 5;
   position: absolute;
-  color: rgb(58,172,196);
+  color: #000;
   opacity: 0.8;
 }
 
@@ -645,27 +571,13 @@ blockquote strong {
 
 blockquote  p.att { text-align: right; }
 
-h2, h2 strong {
-font-family: "noto sans", helvetica neue, arial, sans-serif;
-margin-top: 1.5em;
-color: rgb(15,100,167);
-font-weight: 500;
-}
-h3, h3 strong,
-h4, h4 strong,
-h5,
-h6 {
-  font-family: "noto sans", helvetica neue, arial, sans-serif;
-  margin-top: 1.5em;
-  color: rgb(15,100,167);
-  font-weight: 500;
-}
-
 h1 {
-  font-family: "noto serif", serif;
+  font-family: "Comfortaa", sans-serif;
   font-size: 24pt;
-  color: rgb(58,172,196);
-  margin-bottom: 2em;
+  color: #000;
+  font-weight: 600;
+  line-height: 1.6;
+  margin-bottom: 4em;
   margin-top: 2em;
   page-break-inside: avoid;
   page-break-after: avoid;
@@ -677,22 +589,35 @@ h1 {
   hyphens: none;
   letter-spacing: 0pt;
   word-spacing: 1px;
-  font-weight: 600;
 }
 
 h1 strong { font-weight: normal;}
 
-h2 {
-  font-size: 15pt;
-  line-height: 21pt;
-  font-family: "noto sans", helvetica neue, arial, sans-serif;
-  text-transform: none;
-  font-weight: 500;
-  /*margin: 1.5em 0 1.2em 0;*/
-  margin-top: 20pt;
-  margin-bottom: 9pt;
-  page-break-inside: avoid;
-  page-break-after: avoid;
+h2, h2 strong, h1.article-bibliography-header  {
+font-family: "Comfortaa", helvetica neue, arial, sans-serif;
+font-size: 16pt;
+color: #000;
+line-height: 1.5;
+text-align: left;
+line-height: 1.5;
+font-family: "Comfortaa", helvetica neue, arial, sans-serif;
+text-transform: none;
+font-weight: 600;
+margin-top: 20pt;
+margin-bottom: 9pt;
+page-break-inside: avoid;
+page-break-after: avoid;
+}
+
+h3, h3 strong,
+h4, h4 strong,
+h5,
+h6 {
+  font-family: "Comfortaa", helvetica neue, arial, sans-serif;
+  margin-top: 1.5em;
+  color: #000;
+  font-weight: 600;
+  line-height: 1.5;
 }
 
 h3 {
@@ -700,7 +625,6 @@ h3 {
   margin-top: 20pt;
   page-break-inside: avoid;
   page-break-after: avoid;
-  font-weight: 500;
   margin-bottom: 9pt;
 }
 
@@ -708,25 +632,24 @@ h4 {
   font-size: 10.5pt;
   margin-top: 20pt;
   margin-bottom: 9pt;
-  font-weight: 500;
   page-break-inside: avoid;
   page-break-after: avoid;
 }
 
 h5 {
-  font-family: "noto sans", helvetica neue, arial, sans-serif;
+  font-family: "Comfortaa", helvetica neue, arial, sans-serif;
   font-weight: 500;
   font-size: 9pt;
   margin-top: 20pt;
-  margin-bottom: 5pt;
   page-break-inside: avoid;
   page-break-after: avoid;
 }
 hr {
     border: 0;
     height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    background: #D0D0D0;
+    margin: 2em 0;
+    /*background-image: linear-gradient(to right, #ccc, #333, #ccc);*/
     }
 
 hr.br { border:0; height: 0px; }
@@ -747,19 +670,18 @@ h1:before {
 }
 
 .footnotes ol {
-  font-size: 9pt;
+  font-size: 9.5pt;
   line-height: 10.8pt;
   list-style-position: outside;
-  font-family: "noto sans", helvetica neue, arial, sans-serif;
+  font-family: "Mulish", helvetica neue, arial, sans-serif;
 }
 
 .footnotes ol li p {
   text-indent: 0;
-  font-size: 9pt;
+  font-size: 9.5pt;
   line-height: 10.75pt;
   word-wrap: break-word;
-  font-family: "noto sans", helvetica neue, arial, sans-serif;
-  color: green;
+  font-family: "Mulish", helvetica neue, arial, sans-serif;
 }
 
 .footnotes ol li p a {
@@ -769,9 +691,9 @@ h1:before {
 li[id*="fn"] {
   color: black;
   text-indent: 0;
-  font-size: 9.75pt;
+  font-size: 9.5pt;
   margin-left: 1.3pc;
-  font-family: "noto sans", helvetica neue, arial, sans-serif;
+  font-family: "Mulish", helvetica neue, arial, sans-serif;
 }
 
 a.footnoteRef {
@@ -797,7 +719,7 @@ figure img {
 
 
 figure figcaption {
-  font-family: "noto sans", helvetica neue, arial, sans-serif;
+  font-family: "Mulish", helvetica neue, arial, sans-serif;
   margin-top: 0;
   font-style: normal;
   color: black;
@@ -911,7 +833,7 @@ ol li::before {
 table {
   margin: 0 auto;
   width: 99% !important;
-  font-family: "noto sans", helvetica neue, arial, sans-serif;
+  font-family: "Mulish", helvetica neue, arial, sans-serif;
   background-size: 8pt;
   page-break-inside: avoid;
   margin-top: 9pt;
@@ -973,7 +895,7 @@ table li,
 table ol {
   font-size: 8pt;
   margin: 0;
-  font-family: "noto sans", helvetica neue, arial, sans-serif;
+  font-family: "Mulish", helvetica neue, arial, sans-serif;
   text-align: left;
   text-indent: 0;
 }
@@ -1103,7 +1025,7 @@ h2 + p /* h3+p*/ {
   position: absolute;
   bottom: 8mm;
   text-align: center;
-  font-family: "IBM Plex Sans", helvetica neue, arial, sans-serif;
+  font-family: "Mulish", helvetica neue, arial, sans-serif;
   font-size: 9pt;
   font-style: italic;
 }
@@ -1122,7 +1044,7 @@ ol.upper-latin {
   }
 
   @page {
-    size: 159mm 229mm;
+    size: 152mm 229mm;
   }
 
 }
