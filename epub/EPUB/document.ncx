@@ -10,11 +10,11 @@
 
     <!-- 2.01 NCX: playOrder is optional -->
     <navPoint id="t0">
-      <navLabel><text>Vorderseite</text></navLabel>
+      <navLabel><text>Cover</text></navLabel>
       <content src="cover.xhtml#cover" />
     </navPoint>
     <navPoint id="t1">
-      <navLabel><text>Titelseite</text></navLabel>
+      <navLabel><text>Title page</text></navLabel>
       <content src="titlepage.xhtml#title" />
     </navPoint>
     <navPoint id="t_1_0-1">
