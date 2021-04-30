@@ -21,7 +21,7 @@
 
 @page :first {
   size: 159mm 229mm;
-  background: url(https://tibhannover.github.io/Open-Science-Guides-Collection/html/images/cover.png);
+  background: url(https://cdn.wallpapersafari.com/57/57/bfsWZE.jpg);
   background-size: 159mm 229mm;
   display: flex;
   align-items: center;
@@ -34,10 +34,10 @@
   @top-right { content: normal;}
   @top-center {
     content: env(doc-title);
-    font-family:"Comfortaa", sans-serif;
+    font-family: "Comfortaa", sans-serif;
     font-weight: 700;
     font-size: 40pt;
-    color: blue;
+    color: orange;
     line-height: 1.6;
     text-align: center;
     margin-top: -240mm;
