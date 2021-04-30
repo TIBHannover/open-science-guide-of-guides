@@ -4,7 +4,7 @@
     <meta name="dtb:fidus" content="65" />
   </head>
   <docTitle>
-    <text>The Open Science Guide of Guides</text>
+    <text>An Open Science Guides Collection</text>
   </docTitle>
   <navMap>
 
@@ -18,11 +18,15 @@
       <content src="titlepage.xhtml#title" />
     </navPoint>
     <navPoint id="t_1_0-1">
-      <navLabel><text>OSG001 - Front Matter and Introduction</text></navLabel>
+      <navLabel><text>Front Matter and Introduction</text></navLabel>
       <content src="document-1.xhtml#_1_0" />
+      <navPoint id="tH8810070-1">
+        <navLabel><text>Impressum</text></navLabel>
+        <content src="document-1.xhtml#H8810070" />
+      </navPoint>
     </navPoint>
     <navPoint id="t_2_0-2">
-      <navLabel><text>OSG002 - Open Science and Knowledge Justice</text></navLabel>
+      <navLabel><text>Open Science and Knowledge Justice</text></navLabel>
       <content src="document-2.xhtml#_2_0" />
       <navPoint id="tH870315-2">
         <navLabel><text>Knowledge Justice: An Opportunity for Counter-expertise in Security vs. Science Debates</text></navLabel>
@@ -42,95 +46,75 @@
       </navPoint>
     </navPoint>
     <navPoint id="t_3_0-3">
-      <navLabel><text>OSG003 - Open Science and Data Science</text></navLabel>
+      <navLabel><text>Open Science and Open Access Publishing</text></navLabel>
       <content src="document-3.xhtml#_3_0" />
-      <navPoint id="tH2305886-3">
-        <navLabel><text>Guide for Data science and Machine Learning</text></navLabel>
-        <content src="document-3.xhtml#H2305886" />
+      <navPoint id="tH7151279-3">
+        <navLabel><text>Open Access Publishing</text></navLabel>
+        <content src="document-3.xhtml#H7151279" />
       </navPoint>
-      <navPoint id="tH8115129-3">
-        <navLabel><text>Python Data Science Handbook</text></navLabel>
-        <content src="document-3.xhtml#H8115129" />
+      <navPoint id="tH9740541-3">
+        <navLabel><text>Von Open Access zu Open Science: Zum Wandel digitaler Kulturen der wissenschaftlichen Kommunikation</text></navLabel>
+        <content src="document-3.xhtml#H9740541" />
       </navPoint>
-      <navPoint id="tH2541051-3">
-        <navLabel><text>Support Your Data</text></navLabel>
-        <content src="document-3.xhtml#H2541051" />
+      <navPoint id="tH1144211-3">
+        <navLabel><text>Understanding Open Access. When, why, &amp; how to make your work openly accessible</text></navLabel>
+        <content src="document-3.xhtml#H1144211" />
       </navPoint>
-      <navPoint id="tH2986141-3">
-        <navLabel><text>Recommendations for open data science</text></navLabel>
-        <content src="document-3.xhtml#H2986141" />
+      <navPoint id="tH4741497-3">
+        <navLabel><text>Open Access publizieren – Fragen &amp; Antworten</text></navLabel>
+        <content src="document-3.xhtml#H4741497" />
+      </navPoint>
+      <navPoint id="tH6691479-3">
+        <navLabel><text>Open-Access-Publikationsworkflow für akademische Bücher</text></navLabel>
+        <content src="document-3.xhtml#H6691479" />
       </navPoint>
     </navPoint>
     <navPoint id="t_4_0-4">
-      <navLabel><text>OSG004 - Open Science and Citizen Science</text></navLabel>
+      <navLabel><text>Open Science and Data Science</text></navLabel>
       <content src="document-4.xhtml#_4_0" />
-      <navPoint id="tH2662301-4">
-        <navLabel><text>Citizen science for all</text></navLabel>
-        <content src="document-4.xhtml#H2662301" />
-        <navPoint id="tH9328356-4">
-          <navLabel><text>A guide for citizen science practitioners</text></navLabel>
-          <content src="document-4.xhtml#H9328356" />
-          <navPoint id="tH4330676-4">
-            <navLabel><text>Zusammenfassung:</text></navLabel>
-            <content src="document-4.xhtml#H4330676" />
-          </navPoint>
-          <navPoint id="tH9597036-4">
-            <navLabel><text>Inhalte:</text></navLabel>
-            <content src="document-4.xhtml#H9597036" />
-          </navPoint>
-        </navPoint>
+      <navPoint id="tH2305886-4">
+        <navLabel><text>Guide for Data Science and Machine Learning</text></navLabel>
+        <content src="document-4.xhtml#H2305886" />
       </navPoint>
-      <navPoint id="tH1285339-4">
-        <navLabel><text>Choosing and Using Citizen Science</text></navLabel>
-        <content src="document-4.xhtml#H1285339" />
-        <navPoint id="tH8816796-4">
-          <navLabel><text>A guide to when and how to use citizen science to monitor biodiversity and the environment</text></navLabel>
-          <content src="document-4.xhtml#H8816796" />
-          <navPoint id="tH4977552-4">
-            <navLabel><text>Zusammenfassung:</text></navLabel>
-            <content src="document-4.xhtml#H4977552" />
-          </navPoint>
-        </navPoint>
+      <navPoint id="tH6205473-4">
+        <navLabel><text>Big Data and Open Science Data</text></navLabel>
+        <content src="document-4.xhtml#H6205473" />
       </navPoint>
-      <navPoint id="tH3514415-4">
-        <navLabel><text>Guide to Citizen Science</text></navLabel>
-        <content src="document-4.xhtml#H3514415" />
-        <navPoint id="tH903150-4">
-          <navLabel><text>developing, implementing and evaluating citizen science to study biodiversity and the environment in the UK</text></navLabel>
-          <content src="document-4.xhtml#H903150" />
-        </navPoint>
+      <navPoint id="tH5120034-4">
+        <navLabel><text>Perspectives on open science and scientific data sharing</text></navLabel>
+        <content src="document-4.xhtml#H5120034" />
       </navPoint>
-      <navPoint id="tH2333653-4">
-        <navLabel><text>Can Citizen Science enhance the public understanding of Science?</text></navLabel>
-        <content src="document-4.xhtml#H2333653" />
-        <navPoint id="tH9636845-4">
-          <navLabel><text>Zusammenfassung:</text></navLabel>
-          <content src="document-4.xhtml#H9636845" />
-        </navPoint>
-        <navPoint id="tH3778084-4">
-          <navLabel><text>Inhalte:</text></navLabel>
-          <content src="document-4.xhtml#H3778084" />
-        </navPoint>
+      <navPoint id="tH8115129-4">
+        <navLabel><text>Python Data Science Handbook</text></navLabel>
+        <content src="document-4.xhtml#H8115129" />
+      </navPoint>
+      <navPoint id="tH2541051-4">
+        <navLabel><text>Support Your Data</text></navLabel>
+        <content src="document-4.xhtml#H2541051" />
+      </navPoint>
+      <navPoint id="tH2986141-4">
+        <navLabel><text>Recommendations for open data science</text></navLabel>
+        <content src="document-4.xhtml#H2986141" />
       </navPoint>
     </navPoint>
     <navPoint id="t_5_0-5">
-      <navLabel><text>OSG005 - Open Science and Open Access Publishing</text></navLabel>
+      <navLabel><text>Open Science and Citizen Science</text></navLabel>
       <content src="document-5.xhtml#_5_0" />
-      <navPoint id="tH7151279-5">
-        <navLabel><text>1. Guide</text></navLabel>
-        <content src="document-5.xhtml#H7151279" />
+      <navPoint id="tH2662301-5">
+        <navLabel><text>Citizen science for all - A guide for citizen science practitioners</text></navLabel>
+        <content src="document-5.xhtml#H2662301" />
       </navPoint>
-      <navPoint id="tH9740541-5">
-        <navLabel><text>2. Guide</text></navLabel>
-        <content src="document-5.xhtml#H9740541" />
+      <navPoint id="tH1285339-5">
+        <navLabel><text>Choosing and Using Citizen Science - A guide to when and how to use citizen science to monitor biodiversity and the environment</text></navLabel>
+        <content src="document-5.xhtml#H1285339" />
       </navPoint>
-      <navPoint id="tH1144211-5">
-        <navLabel><text>3. Guide</text></navLabel>
-        <content src="document-5.xhtml#H1144211" />
+      <navPoint id="tH3514415-5">
+        <navLabel><text>Guide to Citizen Science - developing, implementing and evaluating citizen science to study biodiversity and the environment in the UK</text></navLabel>
+        <content src="document-5.xhtml#H3514415" />
       </navPoint>
-      <navPoint id="tH4741497-5">
-        <navLabel><text>4. Guide</text></navLabel>
-        <content src="document-5.xhtml#H4741497" />
+      <navPoint id="tH2333653-5">
+        <navLabel><text>Can Citizen Science enhance the public understanding of Science?</text></navLabel>
+        <content src="document-5.xhtml#H2333653" />
       </navPoint>
     </navPoint>
     <navPoint id="t2">
