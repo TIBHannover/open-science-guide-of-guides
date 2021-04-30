@@ -1,27 +1,27 @@
 @charset "UTF-8";
 -@font-face {
     font-family: "mulish", helvetica neue, arial, sans-serif;
-    src: url(/css/media/Mulish-VariableFont_wght.ttf);
+    src: url(/css/media/media/Mulish-VariableFont_wght.ttf);
 }
 -@font-face {
     font-family: "mulish", helvetica neue, arial, sans-serif;
     font-style: italic;
-    src: url(/css/media/Mulish-Italic-VariableFont_wght.ttf);
+    src: url(/css/media/media/Mulish-Italic-VariableFont_wght.ttf);
 }
 -@font-face {
     font-family:"Comfortaa", sans-serif;
-    src : url(../fonts/Comfortaa-VariableFont_wght.ttf);
+    src : url(../fonts/media/Comfortaa-VariableFont_wght.ttf);
 }
 
 @page {
   size: 152mm 229mm;
   margin-top: 20mm;
-  margin-bottom: 20mm;
+  margin-bottom: 15mm;
 }
 
 @page :first {
   size: 159mm 229mm;
-  background: url(https://tibhannover.github.io/Open-Science-Guides-Collection/html/images/cover.png);
+  background:url(https://pixabay.com/get/g1abc1a66705f7187c005eea7a7b1198d273227c3059b2ca9d5ade2375339dbb73d72c71a1c0343599435e43ce2ef9c1c.png);
   background-size: 159mm 229mm;
   display: flex;
   align-items: center;
@@ -34,13 +34,13 @@
   @top-right { content: normal;}
   @top-center {
     content: env(doc-title);
-    font-family:"Comfortaa", sans-serif;
+    font-family:"Verdana", serif;
     font-weight: 700;
     font-size: 40pt;
-    color: blue;
-    line-height: 1.6;
+    color: black;
+    line-height: 1.2;
     text-align: center;
-    margin-top: -240mm;
+    margin-bottom: -15mm;
   }
 }
 
@@ -49,7 +49,7 @@
   margin-right: 20mm;
   @top-left {
     content: env(doc-title);
-    font-family: "Mulish", helvetica neue, arial, sans-serif;
+    font-family: "Verdana", helvetica neue, arial, sans-serif;
     font-weight: normal;
     font-style: italic;
     font-size: 9pt;
@@ -65,7 +65,7 @@
   }
   @bottom-left {
     content: counter(page);
-    font-family: "Mulish", helvetica neue, arial, sans-serif;
+    font-family: "Verdana", helvetica neue, arial, sans-serif;
     font-weight: normal;
     font-style: italic;
     font-size: 9pt;
@@ -78,7 +78,7 @@
   margin-right: 15mm;
   @top-right {
      content: env(doc-title); /*env(pub-title)*/
-     font-family: "Mulish", helvetica neue, arial, sans-serif;
+     font-family: "Verdana", helvetica neue, arial, sans-serif;
      font-weight: normal;
      font-style: italic;
      font-size: 9pt;
@@ -94,7 +94,7 @@
   }
   @bottom-right {
     content: counter(page);
-    font-family: "Mulish", helvetica neue, arial, sans-serif;
+    font-family: "Verdana", helvetica neue, arial, sans-serif;
     font-weight: normal;
     font-style: italic;
     font-size: 9pt;
@@ -118,7 +118,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url("/images/cover.png");
+  background-image: url("/images/cover1.png");
   background-repeat: no-repeat;
   background-size: cover;
   top: -20mm;
@@ -219,20 +219,27 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 0;
+  border: 10;
   font-size: 100%;
   vertical-align: baseline;
+  border-color: #FF914D;
+}
+h1{
+  color: #FF914D !important;
+}
+h2,h3,h4{
+  color: #1755a7 !important;
 }
 body {
   counter-reset: chapter figure-cat-0 figure-cat-1 figure-cat-2 footnote-counter footnote-marker-counter;
   overflow-wrap: break-word;
 }
-
+ 
 html {
   font-family: "Mulish", helvetica neue, arial, sans-serif;
   font-weight: normal;
   font-size: 10.75pt;
-  color: black;
+  color: black  ;
    /*-text-rendering: optimizeLegibility;
    webkit-font-smoothing: antialiased;*/
     hyphens: auto;
@@ -282,7 +289,7 @@ nav li a::after {
 .article-title {
   font-family:"Comfortaa", sans-serif;
   font-size: 24pt; /* 2.233rem */
-  color: #000;
+  color: rgb(255, 145, 77);
   margin-bottom: 4em;
   margin-top: 2em;
   page-break-inside: avoid;
