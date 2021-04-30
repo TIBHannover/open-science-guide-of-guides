@@ -46,4 +46,3 @@ Fonts - https://www.typewolf.com/free-fonts
 © 2021 the authors. https://github.com/TIBHannover/Open-Science-Guides-Collection Creative Commons: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) https://creativecommons.org/licenses/by-sa/4.0/ 
 
 
-Simon Branch
