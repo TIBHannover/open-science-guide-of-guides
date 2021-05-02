@@ -230,7 +230,7 @@ video {
 h1,
 h2,
 {
-  color: #f38217;
+  color: #f38217 !important;;
 }
 
 body {
