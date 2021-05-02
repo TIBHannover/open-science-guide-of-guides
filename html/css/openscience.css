@@ -14,9 +14,9 @@
 }
 
 @page {
-  size: 152mm 229mm;
-  margin-top: 20mm;
-  margin-bottom: 20mm;
+  size: 210mm 297mm;
+  margin-top: 25mm;
+  margin-bottom: 25mm;
 }
 
 @page :first {
