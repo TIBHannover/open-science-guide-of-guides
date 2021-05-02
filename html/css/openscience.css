@@ -13,6 +13,8 @@
     src : url(../fonts/media/Comfortaa-VariableFont_wght.ttf);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
 @page {
   size: 210mm 297mm;
   margin-top: 25mm;
