@@ -221,7 +221,7 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 2;
+  border: 1;
   border-color:#f38217;
 	border-radius: 20px;
   font-size: 100%;
