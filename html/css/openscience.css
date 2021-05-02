@@ -228,9 +228,8 @@ video {
   vertical-align: baseline;
 }
 h1,
-h2,
-{
-  color: #f38217 !important;;
+h2 {
+  color: #f38217 !important;
 }
 
 body {
