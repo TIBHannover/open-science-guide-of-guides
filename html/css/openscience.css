@@ -13,20 +13,15 @@
     src : url(../fonts/media/Comfortaa-VariableFont_wght.ttf);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
-
-
-@page { 
-   size: 152mm 229mm; 
-   margin-top: 20mm; 
-   margin-bottom: 20mm; 
+@page {
+  size: 152mm 229mm;
+  margin-top: 20mm;
+  margin-bottom: 20mm;
 }
-
-
 
 @page :first {
   size: 159mm 229mm;
-  background: url(https://mohammadalahmad.github.io/Open-Science-Guides-Collection/html/images/cover.png);
+  background: url(https://tibhannover.github.io/Open-Science-Guides-Collection/html/images/cover.png);
   background-size: 159mm 229mm;
   display: flex;
   align-items: center;
@@ -41,7 +36,7 @@
     content: env(doc-title);
     font-family:"Comfortaa", sans-serif;
     font-weight: 700;
-    font-size: 20pt;
+    font-size: 40pt;
     color: blue;
     line-height: 1.6;
     text-align: center;
@@ -224,16 +219,10 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 1;
-  border-color:#f38217;
-	border-radius: 20px;
+  border: 0;
   font-size: 100%;
   vertical-align: baseline;
 }
-h1, h2 {
-  color: #f38217 !important;
-}
-
 body {
   counter-reset: chapter figure-cat-0 figure-cat-1 figure-cat-2 footnote-counter footnote-marker-counter;
   overflow-wrap: break-word;
@@ -292,8 +281,8 @@ nav li a::after {
 
 .article-title {
   font-family:"Comfortaa", sans-serif;
-  font-size: 30pt; /* 2.233rem */
-  color: #f38217;
+  font-size: 24pt; /* 2.233rem */
+  color: #000;
   margin-bottom: 4em;
   margin-top: 2em;
   page-break-inside: avoid;
