@@ -220,14 +220,14 @@ video {
   margin: 0;
   padding: 0;
   border: 1;
-  border-color: FF6C00;
+  border-color: #FF6C00;
   border-radius: 25px;
   font-size: 100%;
   vertical-align: baseline;
 }
 h1,
 h2 {
-    color: FF6C00;
+    color: #FF6C00;
   }
 body {
   counter-reset: chapter figure-cat-0 figure-cat-1 figure-cat-2 footnote-counter footnote-marker-counter;
