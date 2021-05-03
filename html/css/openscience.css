@@ -227,7 +227,7 @@ video {
 }
 h1,
 h2 {
-    color: #FF6C00;
+    color: #FF6C00 !important;
   }
 body {
   counter-reset: chapter figure-cat-0 figure-cat-1 figure-cat-2 footnote-counter footnote-marker-counter;
