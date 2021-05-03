@@ -15,11 +15,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
 
-@page {
-  size: 210mm 297mm;
-  margin-top: 25mm;
-  margin-bottom: 25mm;
+
+@page { 
+   size: 152mm 229mm; 
+   margin-top: 20mm; 
+   margin-bottom: 20mm; 
 }
+
+
 
 @page :first {
   size: 159mm 229mm;
