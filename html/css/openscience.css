@@ -225,8 +225,7 @@ video {
   font-size: 100%;
   vertical-align: baseline;
 }
-h1,
-h2 {
+h1 {
     color: #FF6C00 !important;
   }
 body {
@@ -288,6 +287,7 @@ nav li a::after {
 .article-title {
   font-family:"Mulish", arial;
   font-style: italic;	 
+  color: #FF6C00;
   font-size: 24pt; /* 2.233rem */
   color: #000;
   margin-bottom: 4em;
