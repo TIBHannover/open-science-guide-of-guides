@@ -289,7 +289,6 @@ nav li a::after {
   font-style: italic;	 
   color: #FF6C00;
   font-size: 24pt; /* 2.233rem */
-  color: #000;
   margin-bottom: 4em;
   margin-top: 2em;
   page-break-inside: avoid;
