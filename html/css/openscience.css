@@ -286,7 +286,6 @@ nav li a::after {
 
 .article-title {
   font-family: Arial, Helvetica, sans-serif;
-  font-style: italic;	 
   color: #FF6C00;
   font-size: 24pt; /* 2.233rem */
   margin-bottom: 4em;
