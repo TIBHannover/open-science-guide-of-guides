@@ -1,12 +1,12 @@
 @charset "UTF-8";
 -@font-face {
     font-family: "mulish", helvetica neue, arial, sans-serif;
-    src: url(/css/media/media/Mulish-VariableFont_wght.ttf);
+    src: url(/css/media/Mulish-VariableFont_wght.ttf);
 }
 -@font-face {
     font-family: "mulish", helvetica neue, arial, sans-serif;
     font-style: italic;
-    src: url(/css/media/media/Mulish-Italic-VariableFont_wght.ttf);
+    src: url(/css/media/Mulish-Italic-VariableFont_wght.ttf);
 }
 -@font-face {
     font-family:"Comfortaa", sans-serif;
@@ -18,10 +18,9 @@
   margin-top: 20mm;
   margin-bottom: 20mm;
 }
-
 @page :first {
   size: 159mm 229mm;
-  background: url(https://tibhannover.github.io/Open-Science-Guides-Collection/html/images/cover.png);
+  background: url(https://mariasael1.github.io/Open-Science-Guides-Collection/html/images/cover.png);
   background-size: 159mm 229mm;
   display: flex;
   align-items: center;
@@ -36,11 +35,10 @@
     content: env(doc-title);
     font-family:"Comfortaa", sans-serif;
     font-weight: 700;
-    font-size: 40pt;
-    color: blue;
-    line-height: 1.6;
-    text-align: center;
-    margin-top: -240mm;
+    font-size: 5pt;
+    color: black;
+    vertical-align: top;
+    text-align: left;
   }
 }
 
@@ -219,7 +217,8 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 0;
+  border: 20;
+  border-color: black;
   font-size: 100%;
   vertical-align: baseline;
 }
@@ -282,7 +281,7 @@ nav li a::after {
 .article-title {
   font-family:"Comfortaa", sans-serif;
   font-size: 24pt; /* 2.233rem */
-  color: #000;
+  color: #fbc527;
   margin-bottom: 4em;
   margin-top: 2em;
   page-break-inside: avoid;
