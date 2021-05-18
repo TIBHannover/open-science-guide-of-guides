@@ -2,13 +2,13 @@
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="fidus" xml:lang="de-DE" prefix="cc: http://creativecommons.org/ns#">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:identifier id="fidus">65</dc:identifier>
-    <dc:title>An Open Science Guides Collection</dc:title>
+    <dc:title>The Open Science Guides Collection</dc:title>
     <dc:creator>
       See /CONTRIBUTE.md
     </dc:creator>
     <dc:language>de-DE</dc:language>
-    <meta property="dcterms:modified">2021-04-30T09:54:36Z</meta>
-    <dc:date>2021-04-30</dc:date>
+    <meta property="dcterms:modified">2021-05-05T22:00:25Z</meta>
+    <dc:date>2021-05-05</dc:date>
     <dc:rights>© 2021 the authors. Creative Commons: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) https://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
     <dc:publisher>Open Science Lab and GenR</dc:publisher>
     <dc:subject>open-science; guide; knowledge-justice; data-science; citizen-science; open-access-publishing</dc:subject>
