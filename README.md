@@ -10,6 +10,10 @@ See
 
 [Contributors list](CONTRIBUTE.MD) HsH. BIM-224, Open Knowledge, summer term 2021, Blümel.
 
+![contributors](image-resources/undraw_Notebook_re_id0r.svg) 
+
+Image: [Undraw.io](https://undraw.co/) Copyright 2021 Katerina Limpitsouni open licenced https://undraw.co/license
+
 ## For contributors - Sections and book files
 
 Book sections for editing (permission needed)
