@@ -277,8 +277,8 @@ nav li a::after {
   font-family:"Comfortaa", sans-serif;
   font-size: 24pt; /* 2.233rem */
   color: #000;
-  margin: 2em 0.4em 4em;
-  padding: 0 2em 2em 2em;
+  margin: 2em 1.2em 2em;
+  padding: 0px 2em 2em;
   page-break-inside: avoid;
   /*page-break-after: always;*/
   text-align: center;
@@ -289,8 +289,7 @@ nav li a::after {
   word-spacing: 1px;
   font-weight: 600;
   line-height: 1.6;
-  -webkit-box-shadow: 5px 5px 0px 0px #000000; 
-  box-shadow: 5px 5px 0px 0px #000000;
+  box-shadow: rgb(0, 0, 0) 0px 5px 0px 0px;
 }
 
 .article-title + h2 { page-break-before: always; page-break: before;}
