@@ -4,7 +4,7 @@
     <meta name="dtb:fidus" content="65" />
   </head>
   <docTitle>
-    <text>An Open Science Guides Collection</text>
+    <text>The Open Science Guides Collection</text>
   </docTitle>
   <navMap>
 
@@ -72,10 +72,6 @@
     <navPoint id="t_4_0-4">
       <navLabel><text>Open Science and Data Science</text></navLabel>
       <content src="document-4.xhtml#_4_0" />
-      <navPoint id="tH2305886-4">
-        <navLabel><text>Guide for Data Science and Machine Learning</text></navLabel>
-        <content src="document-4.xhtml#H2305886" />
-      </navPoint>
       <navPoint id="tH6205473-4">
         <navLabel><text>Big Data and Open Science Data</text></navLabel>
         <content src="document-4.xhtml#H6205473" />
@@ -83,10 +79,6 @@
       <navPoint id="tH5120034-4">
         <navLabel><text>Perspectives on open science and scientific data sharing</text></navLabel>
         <content src="document-4.xhtml#H5120034" />
-      </navPoint>
-      <navPoint id="tH8115129-4">
-        <navLabel><text>Python Data Science Handbook</text></navLabel>
-        <content src="document-4.xhtml#H8115129" />
       </navPoint>
       <navPoint id="tH2541051-4">
         <navLabel><text>Support Your Data</text></navLabel>
