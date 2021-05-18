@@ -6,9 +6,7 @@ DOI: https://doi.org/10.5281/zenodo.4740163 (reserved not live 18 May 2021)
 
 Written on [write.handbuch.io](https://write.handbuch.io/) | source on [GitHub](https://github.com/TIBHannover/Open-Science-Guides-Collection) - Multiformat outputted to GitHub Pages - CSS Typesetting | PDF | EPUB | Webbook TBC | PoD TBC
 
-See 
-
-[Contributors list](CONTRIBUTE.MD) HsH. BIM-224, Open Knowledge, summer term 2021, Blümel.
+See [Contributors list](CONTRIBUTE.MD) HsH. BIM-224, Open Knowledge, summer term 2021, Blümel. </br></br>
 
 ![contributors](image-resources/undraw_Notebook_re_id0r.svg) 
 
