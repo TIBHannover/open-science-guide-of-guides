@@ -725,7 +725,7 @@ figure img {
 
 figure figcaption {
   font-family: "Mulish", helvetica neue, arial, sans-serif;
-  margin-top: 0;
+  margin-top: 10px;
   font-style: normal;
   color: black;
   text-indent: 0;
