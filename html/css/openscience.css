@@ -279,6 +279,7 @@ nav li a::after {
   color: #000;
   margin-bottom: 4em;
   margin-top: 2em;
+  padding: 2em;
   page-break-inside: avoid;
   /*page-break-after: always;*/
   text-align: center;
@@ -293,7 +294,7 @@ nav li a::after {
   box-shadow: 5px 5px 0px 0px #000000;
 }
 
-.article-title > h2 { page-break-before: always; page-break: before;}
+.article-title + h2 { page-break-before: always; page-break: before;}
 
 .article-title strong { font-weight: normal;}
 
@@ -333,6 +334,7 @@ nav li a::after {
 img {
 -webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.12); 
 box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.12);
+display: block;
 }
 .image-width-100 {
     width: 99%;
