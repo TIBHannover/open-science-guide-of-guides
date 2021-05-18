@@ -277,9 +277,8 @@ nav li a::after {
   font-family:"Comfortaa", sans-serif;
   font-size: 24pt; /* 2.233rem */
   color: #000;
-  margin-bottom: 4em;
-  margin-top: 2em;
-  padding: 2em;
+  margin: 2em 0.4em 4em;
+  padding: 0 2em 2em 2em;
   page-break-inside: avoid;
   /*page-break-after: always;*/
   text-align: center;
