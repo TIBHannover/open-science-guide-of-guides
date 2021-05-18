@@ -4,7 +4,7 @@
     <meta name="dtb:fidus" content="65" />
   </head>
   <docTitle>
-    <text>An Open Science Guides Collection</text>
+    <text>The Open Science Guides Collection</text>
   </docTitle>
   <navMap>
 
@@ -18,11 +18,15 @@
       <content src="titlepage.xhtml#title" />
     </navPoint>
     <navPoint id="t_1_0-1">
-      <navLabel><text>Front Matter and Introduction</text></navLabel>
+      <navLabel><text>About the Book and Foreword</text></navLabel>
       <content src="document-1.xhtml#_1_0" />
       <navPoint id="tH8810070-1">
         <navLabel><text>Impressum</text></navLabel>
         <content src="document-1.xhtml#H8810070" />
+      </navPoint>
+      <navPoint id="tH592737-1">
+        <navLabel><text>Foreword</text></navLabel>
+        <content src="document-1.xhtml#H592737" />
       </navPoint>
     </navPoint>
     <navPoint id="t_2_0-2">
@@ -31,18 +35,18 @@
       <navPoint id="tH870315-2">
         <navLabel><text>Knowledge Justice: An Opportunity for Counter-expertise in Security vs. Science Debates</text></navLabel>
         <content src="document-2.xhtml#H870315" />
-      </navPoint>
-      <navPoint id="tH8244312-2">
-        <navLabel><text>Knowledge Justice: Disrupting Library and Information Studies through Critical Race Theory</text></navLabel>
-        <content src="document-2.xhtml#H8244312" />
-      </navPoint>
-      <navPoint id="tH480694-2">
-        <navLabel><text>Open Science and Knowledge Justice: How It Started – How It’s Going?</text></navLabel>
-        <content src="document-2.xhtml#H480694" />
-      </navPoint>
-      <navPoint id="tH4807510-2">
-        <navLabel><text>Open Science Promotes Diverse, Just, and Sustainable Research and Educational Outcomes</text></navLabel>
-        <content src="document-2.xhtml#H4807510" />
+        <navPoint id="tH8244312-2">
+          <navLabel><text>Knowledge Justice: Disrupting Library and Information Studies through Critical Race Theory</text></navLabel>
+          <content src="document-2.xhtml#H8244312" />
+        </navPoint>
+        <navPoint id="tH480694-2">
+          <navLabel><text>Open Science and Knowledge Justice: How It Started – How It’s Going?</text></navLabel>
+          <content src="document-2.xhtml#H480694" />
+        </navPoint>
+        <navPoint id="tH4807510-2">
+          <navLabel><text>Open Science Promotes Diverse, Just, and Sustainable Research and Educational Outcomes</text></navLabel>
+          <content src="document-2.xhtml#H4807510" />
+        </navPoint>
       </navPoint>
     </navPoint>
     <navPoint id="t_3_0-3">
