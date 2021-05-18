@@ -280,7 +280,8 @@ nav li a::after {
   word-spacing: 1px;
   font-weight: 600;
   line-height: 1.6;
-  box-shadow: rgb(0, 0, 0) 0px 5px 0px 0px;
+  /*box-shadow: rgb(0, 0, 0) 0px 5px 0px 0px;*/
+  border-bottom: 5px solid #000;
 }
 
 .article-title + h2 { page-break-before: always; page-break: before;}
