@@ -295,6 +295,7 @@ nav li a::after {
   word-spacing: 1px;
   font-weight: 600;
   line-height: 1.6;
+  border: 5px black solid;
 }
 
 .article-title strong { font-weight: normal;}
@@ -589,7 +590,7 @@ h1 {
   hyphens: none;
   letter-spacing: 0pt;
   word-spacing: 1px;
-  border: 5px #000 solid;
+  border: 5px red solid;
 }
 
 h1 strong { font-weight: normal;}
