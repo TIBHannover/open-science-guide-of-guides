@@ -48,14 +48,7 @@
   margin-left: 15mm;
   margin-right: 20mm;
   @top-left {
-    content: env(doc-title);
-    font-family: "Mulish", helvetica neue, arial, sans-serif;
-    font-weight: normal;
-    font-style: italic;
-    font-size: 9pt;
-    letter-spacing: 0.2pt;
-    word-spacing: 1px;
-    width: 80mm;
+    content: " ";
   }
   @top-center {
     content: " ";
@@ -64,7 +57,13 @@
     content: " ";
   }
   @bottom-left {
-    content: " ";
+    content: counter(page);
+    font-family: "Mulish", helvetica neue, arial, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 9pt;
+    letter-spacing: 0.2pt;
+    word-spacing: 1px;
   }
 }
 @page :right {
@@ -234,6 +233,7 @@ html {
 nav {
   margin: 2em 0;
   break-before: always;
+  page-break-before: always;
 }
 
 nav ol {
@@ -332,10 +332,12 @@ nav li a::after {
 }
 
 img {
--webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.12); 
-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.12);
+-webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.05); 
+box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.05);
+padding: 5px;
 display: block;
 }
+
 .image-width-100 {
     width: 99%;
     box-sizing:border-box;
@@ -650,7 +652,7 @@ h5 {
 }
 hr {
     border: 0;
-    height: 1px;
+    height: 0px;
     background: #D0D0D0;
     margin: 2em 0;
     /*background-image: linear-gradient(to right, #ccc, #333, #ccc);*/
