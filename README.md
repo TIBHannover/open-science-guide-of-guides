@@ -4,9 +4,11 @@ A Book: The Open Science Guide of Guides - Made at the Open Science Lab using Fi
 
 DOI: https://doi.org/10.5281/zenodo.4740163 (reserved not live 18 May 2021)
 
-Made at https://write.handbuch.io/
+Written on [write.handbuch.io] | source on [GitHub](https://github.com/TIBHannover/Open-Science-Guides-Collection) - Multiformat outputted to GitHub Pages - CSS Typesetting | PDF | EPUB | Webbook TBC | PoD TBC
 
-[Contributors list](CONTRIBUTE.MD)
+See 
+
+[Contributors list](CONTRIBUTE.MD) HsH. BIM-224, Open Knowledge, summer term 2021, Blümel.
 
 ## For contributors - Sections and book files
 
