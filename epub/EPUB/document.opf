@@ -2,12 +2,12 @@
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="fidus" xml:lang="de-DE" prefix="cc: http://creativecommons.org/ns#">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:identifier id="fidus">65</dc:identifier>
-    <dc:title>The Open Science Guides Collection</dc:title>
+    <dc:title>The Open Science Guide of Guides</dc:title>
     <dc:creator>
       HsH. BIM-224, Open Knowledge, summer term 2021, Blümel
     </dc:creator>
     <dc:language>de-DE</dc:language>
-    <meta property="dcterms:modified">2021-05-18T16:41:37Z</meta>
+    <meta property="dcterms:modified">2021-05-18T18:13:32Z</meta>
     <dc:date>2021-05-18</dc:date>
     <dc:rights>© 2021 the authors. Creative Commons: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) https://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
     <dc:publisher>Open Science Lab and GenR</dc:publisher>
