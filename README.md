@@ -1,12 +1,16 @@
 # An Open Science Guides Collection
 
- The Open Science Guide of Guides - Made at the Open Science Lab using Fidus Writer
+A Book: The Open Science Guide of Guides - Made at the Open Science Lab using Fidus Writer
+
+DOI: 
 
 Made at https://write.handbuch.io/
 
+[Contributors list](CONTRIBUTE.MD)
+
 ## Sections
 
-Publication code: OSG
+Book sections for editing (permission needed)
 
   * OSG001 - Front Matter and Introduction https://write.handbuch.io/document/387/#title
   * OSG002 - Open Science and Knowledge Justice https://write.handbuch.io/document/388/#title
@@ -14,7 +18,7 @@ Publication code: OSG
   * OSG004 - Open Science and Citizen Science https://write.handbuch.io/document/390/#title
   * OSG005 - Open Science and Open Access Publishing https://write.handbuch.io/document/391/#title
 
-Book
+Book authoring link (permission needed)
 
 https://write.handbuch.io/admin/book/book/65/change/
 
@@ -43,6 +47,6 @@ Fonts - https://www.typewolf.com/free-fonts
 
 ## License and copyright
 
-© 2021 the authors. https://github.com/TIBHannover/Open-Science-Guides-Collection Creative Commons: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) https://creativecommons.org/licenses/by-sa/4.0/ 
+© 2021 the authors. https://github.com/TIBHannover/Open-Science-Guides-Collection Creative Commons: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) https://creativecommons.org/licenses/by-sa/4.0/ unless otherwise stated.
 
 
