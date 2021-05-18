@@ -299,6 +299,8 @@ nav li a::after {
   box-shadow: 5px 5px 0px 0px #000000;
 }
 
+.article-title > h2 { page-break-before: always; page-break: before;}
+
 .article-title strong { font-weight: normal;}
 
 .article-title:before {
