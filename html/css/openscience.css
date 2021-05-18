@@ -1,15 +1,15 @@
 @charset "UTF-8";
 -@font-face {
-    font-family: "mulish", helvetica neue, arial, sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
     src: url(/css/media/media/Mulish-VariableFont_wght.ttf);
 }
 -@font-face {
-    font-family: "mulish", helvetica neue, arial, sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     src: url(/css/media/media/Mulish-Italic-VariableFont_wght.ttf);
 }
 -@font-face {
-    font-family:"Comfortaa", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     src : url(../fonts/media/Comfortaa-VariableFont_wght.ttf);
 }
 
@@ -21,7 +21,7 @@
 
 @page :first {
   size: 159mm 229mm;
-  background: url(https://tibhannover.github.io/Open-Science-Guides-Collection/html/images/cover.png);
+  background: url(https://mohammadalahmad.github.io/Open-Science-Guides-Collection/html/images/cover.png);
   background-size: 159mm 229mm;
   display: flex;
   align-items: center;
@@ -34,10 +34,10 @@
   @top-right { content: normal;}
   @top-center {
     content: env(doc-title);
-    font-family:"Comfortaa", sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 40pt;
-    color: blue;
+    color: #FF6C00;
     line-height: 1.6;
     text-align: center;
     margin-top: -240mm;
@@ -49,7 +49,7 @@
   margin-right: 20mm;
   @top-left {
     content: env(doc-title);
-    font-family: "Mulish", helvetica neue, arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-style: italic;
     font-size: 9pt;
@@ -65,7 +65,7 @@
   }
   @bottom-left {
     content: counter(page);
-    font-family: "Mulish", helvetica neue, arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-style: italic;
     font-size: 9pt;
@@ -78,7 +78,7 @@
   margin-right: 15mm;
   @top-right {
      content: env(doc-title); /*env(pub-title)*/
-     font-family: "Mulish", helvetica neue, arial, sans-serif;
+     font-family: Arial, Helvetica, sans-serif;
      font-weight: normal;
      font-style: italic;
      font-size: 9pt;
@@ -94,7 +94,7 @@
   }
   @bottom-right {
     content: counter(page);
-    font-family: "Mulish", helvetica neue, arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-style: italic;
     font-size: 9pt;
@@ -219,17 +219,22 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 0;
+  border: 1;
+  border-color: #FF6C00;
+  border-radius: 25px;
   font-size: 100%;
   vertical-align: baseline;
 }
+h1 {
+    color: #FF6C00 !important;
+  }
 body {
   counter-reset: chapter figure-cat-0 figure-cat-1 figure-cat-2 footnote-counter footnote-marker-counter;
   overflow-wrap: break-word;
 }
 
 html {
-  font-family: "Mulish", helvetica neue, arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
   font-size: 10.75pt;
   color: black;
@@ -280,9 +285,9 @@ nav li a::after {
 }
 
 .article-title {
-  font-family:"Comfortaa", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FF6C00;
   font-size: 24pt; /* 2.233rem */
-  color: #000;
   margin-bottom: 4em;
   margin-top: 2em;
   page-break-inside: avoid;
@@ -324,7 +329,7 @@ nav li a::after {
   word-spacing: 1px;
 }*/
 .csl-entry, .fnlist p {
-  font-family: "Mulish", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size:  9.5pt;
   line-height: 15pt;
   margin-bottom: 9pt;
@@ -388,14 +393,14 @@ nav li a::after {
 
 .logo p {
  color: black;
- font-family: Comfortaa", sans-serif;
+ font-family: Arial, Helvetica, sans-serif;
   font-size: 8pt;
   font-weight: 300;
   text-align: center;
 }
 .logo2 p {
  color: black;
- font-family: "Comfortaa", helvetica neue, arial, sans-serif;
+ font-family: Arial, Helvetica, sans-serif;
   font-size: 8pt;
   line-height: 12pt;
   font-weight: 300;
@@ -405,7 +410,7 @@ nav li a::after {
 
 
 p {
-  font-family: Comfortaa", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size:  9.5pt; /* 0.8837rem */
   line-height: 15pt; /* 1.3954rem */
   margin-bottom: 0pt;
@@ -431,7 +436,7 @@ p:first-of-type {
 }
 
 .Kolophon p {
-  font-family: "Mulish", helvetica neue, arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size:8pt;
 }
 
@@ -478,7 +483,7 @@ table li strong,
 table li .bold,
 table li .Bold,
 table li b {
-  font-family: "Mulish", helvetica neue, arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
 }
 
@@ -509,7 +514,7 @@ strong em {
 }
 
 var {
-  font-family: "Comfortaa", helvetica neue, arial, sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
 }
 
@@ -536,7 +541,7 @@ blockquote {
   display: block;
   width: 80%;
   position: relative;
-  font-family: "Mulish", helvetica neue, arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
   font-size:  11pt; /* 1.023rem */
   vertical-align: baseline;
   margin-top: 9pt;
@@ -548,7 +553,7 @@ blockquote {
 }
 
 blockquote:before {
-  font-family: Comfortaa", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
   content: "“";
   font-size: 4em;
   left: -45px;
@@ -572,7 +577,7 @@ blockquote strong {
 blockquote  p.att { text-align: right; }
 
 h1 {
-  font-family: "Comfortaa", sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
   font-size: 24pt;
   color: #000;
   font-weight: 600;
@@ -594,13 +599,13 @@ h1 {
 h1 strong { font-weight: normal;}
 
 h2, h2 strong, h1.article-bibliography-header  {
-font-family: "Comfortaa", helvetica neue, arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 font-size: 16pt;
 color: #000;
 line-height: 1.5;
 text-align: left;
 line-height: 1.5;
-font-family: "Comfortaa", helvetica neue, arial, sans-serif;
+font-family: Arial, sans-serif;
 text-transform: none;
 font-weight: 600;
 margin-top: 20pt;
@@ -613,7 +618,7 @@ h3, h3 strong,
 h4, h4 strong,
 h5,
 h6 {
-  font-family: "Comfortaa", helvetica neue, arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin-top: 1.5em;
   color: #000;
   font-weight: 600;
@@ -637,7 +642,7 @@ h4 {
 }
 
 h5 {
-  font-family: "Comfortaa", helvetica neue, arial, sans-serif;
+ font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 9pt;
   margin-top: 20pt;
@@ -719,7 +724,7 @@ figure img {
 
 
 figure figcaption {
-  font-family: "Mulish", helvetica neue, arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin-top: 0;
   font-style: normal;
   color: black;
