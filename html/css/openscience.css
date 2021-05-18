@@ -1,16 +1,16 @@
 @charset "UTF-8";
 -@font-face {
     font-family: "mulish", helvetica neue, arial, sans-serif;
-    src: url(/css/media/media/Mulish-VariableFont_wght.ttf);
+    src: url(/css/media/media/media/Mulish-VariableFont_wght.ttf);
 }
 -@font-face {
     font-family: "mulish", helvetica neue, arial, sans-serif;
     font-style: italic;
-    src: url(/css/media/media/Mulish-Italic-VariableFont_wght.ttf);
+    src: url(/css/media/media/media/Mulish-Italic-VariableFont_wght.ttf);
 }
 -@font-face {
     font-family:"Comfortaa", sans-serif;
-    src : url(../fonts/media/Comfortaa-VariableFont_wght.ttf);
+    src : url(../fonts/media/media/Comfortaa-VariableFont_wght.ttf);
 }
 
 @page {
@@ -280,8 +280,7 @@ nav li a::after {
   word-spacing: 1px;
   font-weight: 600;
   line-height: 1.6;
-  /*box-shadow: rgb(0, 0, 0) 0px 5px 0px 0px;*/
-  border-bottom: 5px solid #000;
+  box-shadow: rgb(0, 0, 0) 0px 5px 0px 0px;
 }
 
 .article-title + h2 { page-break-before: always; page-break: before;}
