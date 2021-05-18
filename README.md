@@ -2,13 +2,13 @@
 
 A Book: The Open Science Guide of Guides - Made at the Open Science Lab using Fidus Writer
 
-DOI: 
+DOI: https://doi.org/10.5281/zenodo.4740163 (reserved not live 18 May 2021)
 
 Made at https://write.handbuch.io/
 
 [Contributors list](CONTRIBUTE.MD)
 
-## Sections
+## For contributors - Sections and book files
 
 Book sections for editing (permission needed)
 
