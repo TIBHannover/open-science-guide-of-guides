@@ -1,16 +1,16 @@
 @charset "UTF-8";
 -@font-face {
     font-family: "mulish", helvetica neue, arial, sans-serif;
-    src: url(/css/media/media/Mulish-VariableFont_wght.ttf);
+    src: url(/css/media/media/media/Mulish-VariableFont_wght.ttf);
 }
 -@font-face {
     font-family: "mulish", helvetica neue, arial, sans-serif;
     font-style: italic;
-    src: url(/css/media/media/Mulish-Italic-VariableFont_wght.ttf);
+    src: url(/css/media/media/media/Mulish-Italic-VariableFont_wght.ttf);
 }
 -@font-face {
     font-family:"Comfortaa", sans-serif;
-    src : url(../fonts/media/Comfortaa-VariableFont_wght.ttf);
+    src : url(../fonts/media/media/Comfortaa-VariableFont_wght.ttf);
 }
 
 @page {
@@ -31,31 +31,15 @@
   @bottom-center { content: normal; }
 	@bottom-right { content: normal; }
 	@top-left { content: normal; }
-  @top-right { content: normal;}
-  @top-center {
-    content: env(doc-title);
-    font-family:"Comfortaa", sans-serif;
-    font-weight: 700;
-    font-size: 40pt;
-    color: blue;
-    line-height: 1.6;
-    text-align: center;
-    margin-top: -240mm;
-  }
+  @top-right { content: normal; }
+  @top-center { content: normal; }
 }
 
 @page :left {
   margin-left: 15mm;
   margin-right: 20mm;
   @top-left {
-    content: env(doc-title);
-    font-family: "Mulish", helvetica neue, arial, sans-serif;
-    font-weight: normal;
-    font-style: italic;
-    font-size: 9pt;
-    letter-spacing: 0.2pt;
-    word-spacing: 1px;
-    width: 80mm;
+    content: " ";
   }
   @top-center {
     content: " ";
@@ -240,6 +224,7 @@ html {
 nav {
   margin: 2em 0;
   break-before: always;
+  page-break-before: always;
 }
 
 nav ol {
@@ -283,8 +268,8 @@ nav li a::after {
   font-family:"Comfortaa", sans-serif;
   font-size: 24pt; /* 2.233rem */
   color: #000;
-  margin-bottom: 4em;
-  margin-top: 2em;
+  margin: 2em 1.2em 2em;
+  padding: 0px 2em 2em;
   page-break-inside: avoid;
   /*page-break-after: always;*/
   text-align: center;
@@ -295,7 +280,10 @@ nav li a::after {
   word-spacing: 1px;
   font-weight: 600;
   line-height: 1.6;
+  box-shadow: rgb(0, 0, 0) 0px 5px 0px 0px;
 }
+
+.article-title + h2 { page-break-before: always; page-break: before;}
 
 .article-title strong { font-weight: normal;}
 
@@ -332,6 +320,12 @@ nav li a::after {
   word-spacing: 0.2pt;
 }
 
+img {
+-webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.05); 
+box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.05);
+padding: 5px;
+display: block;
+}
 
 .image-width-100 {
     width: 99%;
@@ -646,7 +640,7 @@ h5 {
 }
 hr {
     border: 0;
-    height: 1px;
+    height: 0px;
     background: #D0D0D0;
     margin: 2em 0;
     /*background-image: linear-gradient(to right, #ccc, #333, #ccc);*/
@@ -720,7 +714,7 @@ figure img {
 
 figure figcaption {
   font-family: "Mulish", helvetica neue, arial, sans-serif;
-  margin-top: 0;
+  margin-top: 7px;
   font-style: normal;
   color: black;
   text-indent: 0;
@@ -814,7 +808,6 @@ ol li {
     margin: 1em 0;
     padding-left: 1.9em;
 }
-
 ol li {
     list-style: none;
     counter-increment: foo;
@@ -822,7 +815,6 @@ ol li {
     margin: 0;
     padding: 0;
 }
-
 ol li::before {
     content: counter(foo) ".";
     display: table-cell;
