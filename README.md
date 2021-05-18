@@ -30,9 +30,7 @@ Generation Research - DM @gen_r_ email simon@genr.eu for access
 
 https://www.zotero.org/groups/1838445/generation_r/collections/DND4FSHT
 
-FYI
-
-Zotero citations can be fully imported into Fidus from the Zotero desktop client if the default export setting is set to BibLatex.
+FYI - Zotero citations can be fully imported into Fidus from the Zotero desktop client if the default export setting is set to BibLatex.
 
 ## The technology and development project by OSL
 
