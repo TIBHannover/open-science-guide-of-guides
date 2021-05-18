@@ -1,12 +1,12 @@
 @charset "UTF-8";
 -@font-face {
     font-family: "mulish", helvetica neue, arial, sans-serif;
-    src: url(/css/media/media/Mulish-VariableFont_wght.ttf);
+    src: url(/css/media/Mulish-VariableFont_wght.ttf);
 }
 -@font-face {
     font-family: "mulish", helvetica neue, arial, sans-serif;
     font-style: italic;
-    src: url(/css/media/media/Mulish-Italic-VariableFont_wght.ttf);
+    src: url(/css/media/Mulish-Italic-VariableFont_wght.ttf);
 }
 -@font-face {
     font-family:"Comfortaa", sans-serif;
