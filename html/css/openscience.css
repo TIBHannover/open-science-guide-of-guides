@@ -589,6 +589,7 @@ h1 {
   hyphens: none;
   letter-spacing: 0pt;
   word-spacing: 1px;
+  border: 5px #000 solid;
 }
 
 h1 strong { font-weight: normal;}
