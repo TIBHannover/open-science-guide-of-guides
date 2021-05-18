@@ -31,17 +31,8 @@
   @bottom-center { content: normal; }
 	@bottom-right { content: normal; }
 	@top-left { content: normal; }
-  @top-right { content: normal;}
-  @top-center {
-    content: env(doc-title);
-    font-family:"Comfortaa", sans-serif;
-    font-weight: 700;
-    font-size: 40pt;
-    color: blue;
-    line-height: 1.6;
-    text-align: center;
-    margin-top: -240mm;
-  }
+  @top-right { content: normal; }
+  @top-center { content: normal; }
 }
 
 @page :left {
