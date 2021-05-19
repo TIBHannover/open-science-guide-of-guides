@@ -7,8 +7,8 @@
       HsH. BIM-224, Open Knowledge, summer term 2021, Blümel
     </dc:creator>
     <dc:language>de-DE</dc:language>
-    <meta property="dcterms:modified">2021-05-18T18:13:32Z</meta>
-    <dc:date>2021-05-18</dc:date>
+    <meta property="dcterms:modified">2021-05-19T07:17:31Z</meta>
+    <dc:date>2021-05-19</dc:date>
     <dc:rights>© 2021 the authors. Creative Commons: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) https://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
     <dc:publisher>Open Science Lab and GenR</dc:publisher>
     <dc:subject>open-science; guide; knowledge-justice; data-science; citizen-science; open-access-publishing</dc:subject>
@@ -24,7 +24,7 @@
     <item id="nav" href="document-nav.xhtml" properties="nav" media-type="application/xhtml+xml" />
     <item id="copyright" href="copyright.xhtml" media-type="application/xhtml+xml" />
     <item id="cover-image" properties="cover-image" href="966bbd57-648f-47b5-a285-4ea0fc29260a.png" media-type="image/png" />
-    <item id="img1" href="images/086e7cc2-fafd-4cc2-8c8f-018ac3a9884d.png" media-type="image/png" />
+    <item id="img1" href="images/f0cce63a-bf54-49fe-bc74-0291d6668193.png" media-type="image/png" />
     <item id="img2" href="images/dcc1d35b-4186-4b50-a5a6-cf54422a8064.jpeg" media-type="image/jpeg" />
     <item id="img3" href="images/e590694e-3a8f-4a2f-801f-704d7d8edbc0.png" media-type="image/png" />
     <item id="img4" href="images/23f9ee73-dda2-4a56-8083-4a618f9983b9.png" media-type="image/png" />
