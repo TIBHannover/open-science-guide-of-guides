@@ -35,10 +35,10 @@
       <navPoint id="tH7912011-2">
         <navLabel><text>Equity vs. Equality: What’s the Difference?</text></navLabel>
         <content src="document-2.xhtml#H7912011" />
-        <navPoint id="tH8244312-2">
-          <navLabel><text>Knowledge Justice: Disrupting Library and Information Studies through Critical Race Theory</text></navLabel>
-          <content src="document-2.xhtml#H8244312" />
-        </navPoint>
+      </navPoint>
+      <navPoint id="tH8244312-2">
+        <navLabel><text>Knowledge Justice: Disrupting Library and Information Studies through Critical Race Theory</text></navLabel>
+        <content src="document-2.xhtml#H8244312" />
       </navPoint>
       <navPoint id="tH4374482-2">
         <navLabel><text>Labour of Love: An Open Access Manifesto for Freedom, Integrity, and Creativity in the Humanities and Interpretive Social Sciences</text></navLabel>
