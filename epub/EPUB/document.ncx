@@ -32,17 +32,17 @@
     <navPoint id="t_2_0-2">
       <navLabel><text>Open Science and Knowledge Justice</text></navLabel>
       <content src="document-2.xhtml#_2_0" />
-      <navPoint id="tH870315-2">
-        <navLabel><text>Knowledge Justice: An Opportunity for Counter-expertise in Security vs. Science Debates</text></navLabel>
-        <content src="document-2.xhtml#H870315" />
+      <navPoint id="tH7912011-2">
+        <navLabel><text>Equity vs. Equality: What’s the Difference?</text></navLabel>
+        <content src="document-2.xhtml#H7912011" />
         <navPoint id="tH8244312-2">
           <navLabel><text>Knowledge Justice: Disrupting Library and Information Studies through Critical Race Theory</text></navLabel>
           <content src="document-2.xhtml#H8244312" />
         </navPoint>
-        <navPoint id="tH480694-2">
-          <navLabel><text>Open Science and Knowledge Justice: How It Started – How It’s Going?</text></navLabel>
-          <content src="document-2.xhtml#H480694" />
-        </navPoint>
+      </navPoint>
+      <navPoint id="tH4374482-2">
+        <navLabel><text>Labour of Love: An Open Access Manifesto for Freedom, Integrity, and Creativity in the Humanities and Interpretive Social Sciences</text></navLabel>
+        <content src="document-2.xhtml#H4374482" />
         <navPoint id="tH4807510-2">
           <navLabel><text>Open Science Promotes Diverse, Just, and Sustainable Research and Educational Outcomes</text></navLabel>
           <content src="document-2.xhtml#H4807510" />
