@@ -10,11 +10,11 @@
 
     <!-- 2.01 NCX: playOrder is optional -->
     <navPoint id="t0">
-      <navLabel><text>Cover</text></navLabel>
+      <navLabel><text>Vorderseite</text></navLabel>
       <content src="cover.xhtml#cover" />
     </navPoint>
     <navPoint id="t1">
-      <navLabel><text>Title page</text></navLabel>
+      <navLabel><text>Titelseite</text></navLabel>
       <content src="titlepage.xhtml#title" />
     </navPoint>
     <navPoint id="t_1_0-1">
@@ -40,13 +40,13 @@
         <navLabel><text>Knowledge Justice: Disrupting Library and Information Studies through Critical Race Theory</text></navLabel>
         <content src="document-2.xhtml#H8244312" />
       </navPoint>
-      <navPoint id="tH4374482-2">
-        <navLabel><text>Labour of Love: An Open Access Manifesto for Freedom, Integrity, and Creativity in the Humanities and Interpretive Social Sciences</text></navLabel>
-        <content src="document-2.xhtml#H4374482" />
-        <navPoint id="tH4807510-2">
-          <navLabel><text>Open Science Promotes Diverse, Just, and Sustainable Research and Educational Outcomes</text></navLabel>
-          <content src="document-2.xhtml#H4807510" />
-        </navPoint>
+      <navPoint id="tH6993921-2">
+        <navLabel><text>GENDER in OPEN SCIENCE &amp; OPEN INNOVATION</text></navLabel>
+        <content src="document-2.xhtml#H6993921" />
+      </navPoint>
+      <navPoint id="tH2478521-2">
+        <navLabel><text>Practical Guide to Improving Gender Equality in Research Organisations</text></navLabel>
+        <content src="document-2.xhtml#H2478521" />
       </navPoint>
     </navPoint>
     <navPoint id="t_3_0-3">
