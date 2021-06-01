@@ -68,4 +68,4 @@ Cover Maria Sael CC BY-SA 4.0.
 
 ## Partners
 
-HsH, GenR
+[Hochschule Hannover](https://www.hs-hannover.de/), [GenR](https://genr.eu/wp/) - Open Science blog
