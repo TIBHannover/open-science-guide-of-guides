@@ -7,7 +7,7 @@
       HsH. BIM-224, Open Knowledge, summer term 2021, Blümel
     </dc:creator>
     <dc:language>de-DE</dc:language>
-    <meta property="dcterms:modified">2021-06-01T10:34:20Z</meta>
+    <meta property="dcterms:modified">2021-06-01T16:19:18Z</meta>
     <dc:date>2021-06-01</dc:date>
     <dc:rights>© 2021 the authors. Creative Commons: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) https://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
     <dc:publisher>Open Science Lab and GenR</dc:publisher>
@@ -38,9 +38,8 @@
     <item id="img12" href="images/45bdf5de-7e5b-448d-820a-d3b3288a4dbe.png" media-type="image/png" />
     <item id="img13" href="images/10e3bc75-5c14-48e3-a161-d685105f455b.png" media-type="image/png" />
     <item id="img14" href="images/3cbbd8ed-7495-46a8-8cb5-114cf95cfb83.png" media-type="image/png" />
-    <item id="img15" href="images/dba5d5eb-235c-4694-a2d4-c26b6e16182b.png" media-type="image/png" />
-    <item id="img16" href="images/bfcdb806-4a62-40b9-92f8-a4b78de8ea77.png" media-type="image/png" />
-    <item id="img17" href="images/fb9872a4-8371-4bfe-a930-f1d621c5649e.png" media-type="image/png" />
+    <item id="img15" href="images/bfcdb806-4a62-40b9-92f8-a4b78de8ea77.png" media-type="image/png" />
+    <item id="img16" href="images/fb9872a4-8371-4bfe-a930-f1d621c5649e.png" media-type="image/png" />
     <item id="font0" href="css/media/Mulish-VariableFont_wght.ttf" media-type="font/sfnt" />
     <item id="font1" href="css/media/Comfortaa-VariableFont_wght.ttf" media-type="font/sfnt" />
     <item id="font2" href="css/media/Mulish-Italic-VariableFont_wght.ttf" media-type="font/sfnt" />
