@@ -7,7 +7,7 @@
 </figure>
 </p>
 
-## A Book: Made at the Open Science Lab using Fidus Writer and ADA publishing pipepline
+## A Book: Made at the Open Science Lab as part of [TIB Book Sprints R&D](https://www.tib.eu/de/forschung-entwicklung/wissens-und-technologietransfer/dienstleistungs-und-beratungsangebote-der-tib/book-sprints)
 
 **Tags / topics:** open science, introduction, motivation, guides
 
