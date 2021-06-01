@@ -1,6 +1,8 @@
 # The Open Science Guide of Guides
 
-A Book: Made at the Open Science Lab using Fidus Writer and ADA publishing piepline
+A Book: Made at the Open Science Lab using Fidus Writer and ADA publishing pipepline
+
+**Tags / topics:** open science, introduction, motivation, guides
 
 Open Science has become an indispensable part of modern science. There are several definitions of "openness" in relation to different aspects of science - the Open Definition sets out principles as follows “Open means anyone can freely access, use, modify, and share for any purpose (subject, at most, to requirements that preserve provenance and openness).” Practical guides for the implementation of those principles in different areas such as research data or publishing are of great importance because they can be used right away. 
 
