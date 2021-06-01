@@ -65,3 +65,7 @@ Fonts used [Mulish](https://fonts.google.com/specimen/Mulish) and [Comfortaa](ht
 Book style '[open science](https://github.com/TIBHannover/open-science-guide-of-guides/blob/main/html/css/openscience.css)' (CC BY-SA 4.0) - thanks to [Interpunct Studios](https://interpunct.dev/) - _fullstack graphic design_.
 
 Cover (CC BY-SA 4.0) 
+
+## Partners
+
+HsH, GenR
