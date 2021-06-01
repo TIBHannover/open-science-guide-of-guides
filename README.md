@@ -1,6 +1,6 @@
-# An Open Science Guides Collection
+# The Open Science Guide of Guides
 
-A Book: The Open Science Guide of Guides - Made at the Open Science Lab using Fidus Writer
+A Book: Made at the Open Science Lab using Fidus Writer and ADA publishing piepline
 
 DOI: https://doi.org/10.5281/zenodo.4740163 (reserved not live 18 May 2021)
 
