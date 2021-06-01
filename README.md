@@ -53,4 +53,8 @@ FYI - Zotero citations can be fully imported into Fidus from the Zotero desktop 
 
 © 2021 the authors. https://github.com/TIBHannover/Open-Science-Guides-Collection Creative Commons: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) https://creativecommons.org/licenses/by-sa/4.0/ unless otherwise stated.
 
+Fonts used Mulish and Comfortaa from Google Fonts as SIL open licence.
 
+Book style 'open science' (CC BY-SA 4.0) - thanks to Devpunct Studios - Full stack graphic design.
+
+Cover  (CC BY-SA 4.0) 
