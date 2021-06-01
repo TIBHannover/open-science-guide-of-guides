@@ -3,7 +3,7 @@
 <p align="left">
 <figure>
   <img src="https://raw.githubusercontent.com/TIBHannover/open-science-guide-of-guides/main/html/images/cover.png" alt="Cover: The Open Science Guide of Guides" width="350">
-  <figcaption>Image - Cover by Maria Sael CC BY 4.0</figcaption>
+  <figcaption>Image - Cover by Maria Sael <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></figcaption>
 </figure>
 </p>
 
@@ -64,7 +64,7 @@ Fonts used [Mulish](https://fonts.google.com/specimen/Mulish) and [Comfortaa](ht
 
 Book style '[open science](https://github.com/TIBHannover/open-science-guide-of-guides/blob/main/html/css/openscience.css)' (CC BY-SA 4.0) - thanks to [Interpunct Studios](https://interpunct.dev/) - _fullstack graphic design_.
 
-Cover (CC BY-SA 4.0) 
+Cover Maria Sael CC BY-SA 4.0.
 
 ## Partners
 
