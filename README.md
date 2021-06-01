@@ -2,9 +2,13 @@
 
 A Book: Made at the Open Science Lab using Fidus Writer and ADA publishing piepline
 
-DOI: https://doi.org/10.5281/zenodo.4740163 (reserved not live 18 May 2021)
+Open Science has become an indispensable part of modern science. There are several definitions of "openness" in relation to different aspects of science - the Open Definition sets out principles as follows “Open means anyone can freely access, use, modify, and share for any purpose (subject, at most, to requirements that preserve provenance and openness).” Practical guides for the implementation of those principles in different areas such as research data or publishing are of great importance because they can be used right away. 
 
-Written on [write.handbuch.io](https://write.handbuch.io/) | source on [GitHub](https://github.com/TIBHannover/open-science-guide-of-guides) - Multiformat outputted to GitHub Pages - [CSS Typesetting](https://vivliostyle.vercel.app/#src=https://tibhannover.github.io/open-science-guide-of-guides/html/index.html&bookMode=true) | [PDF](https://tibhannover.github.io/open-science-guide-of-guides/pdf/book.pdf) | [EPUB](https://tibhannover.github.io/open-science-guide-of-guides/book.epub) | Webbook TBC | PoD TBC
+In this compendium, we compile important guides with their specific features and fields of application. The book was written as part of a student seminar at the Hanover University of Applied Sciences and Arts.
+
+DOI: https://doi.org/10.5281/zenodo.4740163 
+
+Written on [write.handbuch.io](https://write.handbuch.io/) | source on [GitHub](https://github.com/TIBHannover/open-science-guide-of-guides) - Multiformat outputted to GitHub Pages - [CSS Typesetting](https://vivliostyle.vercel.app/#src=https://tibhannover.github.io/open-science-guide-of-guides/html/index.html&bookMode=true) | [PDF](https://tibhannover.github.io/open-science-guide-of-guides/pdf/book.pdf) | [EPUB](https://tibhannover.github.io/open-science-guide-of-guides/book.epub)
 
 See [Contributors list](CONTRIBUTE.MD) HsH. BIM-224, Open Knowledge, summer term 2021, Blümel. </br></br>
 
@@ -36,16 +40,12 @@ FYI - Zotero citations can be fully imported into Fidus from the Zotero desktop 
 
 ## The technology and development project by OSL
 
- - ADA Publishing tech OSL - Rapid publishing pipeline https://github.com/TIBHannover/Rapid-Collaborative-Health-Publishing
+ - ADA Publishing tech OSL - Rapid publishing pipeline https://github.com/NFDI4Culture/ADA-semantic-publishing
  - Fidus Writer - Semantic Academic Editor https://fiduswriter.org/
  - Vivliostyle - CSS Typesetting https://vivliostyle.org/
  - GitHub - Versioning System and collaborative infrastructure https://github.com/about
  - GitHub Pages - Webpage rendering and hosting https://pages.github.com/
  - Zenodo - universal repository and DOI minter (gratis) https://zenodo.org/communities/genr
-
-## Design resources
-
-Fonts - https://www.typewolf.com/free-fonts
 
 ## License and copyright
 
