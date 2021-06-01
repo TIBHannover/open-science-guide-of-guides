@@ -3,7 +3,7 @@
 <p align="left">
 <figure>
   <img src="https://raw.githubusercontent.com/TIBHannover/open-science-guide-of-guides/main/html/images/cover.png" alt="Cover: The Open Science Guide of Guides" width="350">
-  <figcaption>Image - Cover by CC BY 4.0</figcaption>
+  <figcaption>Image - Cover by Maria Sael CC BY 4.0</figcaption>
 </figure>
 </p>
 
