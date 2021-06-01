@@ -1,6 +1,13 @@
 # The Open Science Guide of Guides
 
-A Book: Made at the Open Science Lab using Fidus Writer and ADA publishing pipepline
+<p align="left">
+<figure>
+  <img src="https://raw.githubusercontent.com/TIBHannover/open-science-guide-of-guides/main/html/images/cover.png" alt="Cover: The Open Science Guide of Guides" width="350">
+  <figcaption>Image - Cover by CC BY 4.0</figcaption>
+</figure>
+</p>
+
+## A Book: Made at the Open Science Lab using Fidus Writer and ADA publishing pipepline
 
 **Tags / topics:** open science, introduction, motivation, guides
 
