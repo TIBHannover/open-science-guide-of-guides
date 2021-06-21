@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ncx xmlns:ncx="http://www.daisy.org/z3986/2005/ncx/" xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="de">
+<ncx xmlns:ncx="http://www.daisy.org/z3986/2005/ncx/" xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
   <head>
-    <meta name="dtb:fidus" content="65" />
+    <meta name="dtb:fidus" content="5" />
   </head>
   <docTitle>
-    <text>The Open Science Guide of Guides</text>
+    <text>The Open Science Training Handbook</text>
   </docTitle>
   <navMap>
 
@@ -18,99 +18,383 @@
       <content src="titlepage.xhtml#title" />
     </navPoint>
     <navPoint id="t_1_0-1">
-      <navLabel><text>About the Book</text></navLabel>
+      <navLabel><text>5. Open Access to Published Research Results</text></navLabel>
       <content src="document-1.xhtml#_1_0" />
-      <navPoint id="tH8810070-1">
-        <navLabel><text>Imprint</text></navLabel>
-        <content src="document-1.xhtml#H8810070" />
+      <navPoint id="tH3753285-1">
+        <navLabel><text>What is it?</text></navLabel>
+        <content src="document-1.xhtml#H3753285" />
       </navPoint>
-      <navPoint id="tH592737-1">
-        <navLabel><text>Foreword</text></navLabel>
-        <content src="document-1.xhtml#H592737" />
+      <navPoint id="trationale-1">
+        <navLabel><text>Rationale</text></navLabel>
+        <content src="document-1.xhtml#rationale" />
+      </navPoint>
+      <navPoint id="tlearning-objectives-1">
+        <navLabel><text>Learning objectives</text></navLabel>
+        <content src="document-1.xhtml#learning-objectives" />
+      </navPoint>
+      <navPoint id="tkey-components-1">
+        <navLabel><text>Key components</text></navLabel>
+        <content src="document-1.xhtml#key-components" />
+        <navPoint id="tknowledge-1">
+          <navLabel><text>Knowledge</text></navLabel>
+          <content src="document-1.xhtml#knowledge" />
+          <navPoint id="tH1034391-1">
+            <navLabel><text>Repositories and self-archiving</text></navLabel>
+            <content src="document-1.xhtml#H1034391" />
+          </navPoint>
+          <navPoint id="tH3426161-1">
+            <navLabel><text>Open Access publishing</text></navLabel>
+            <content src="document-1.xhtml#H3426161" />
+          </navPoint>
+        </navPoint>
+      </navPoint>
+      <navPoint id="tskills-1">
+        <navLabel><text>Skills</text></navLabel>
+        <content src="document-1.xhtml#skills" />
+      </navPoint>
+      <navPoint id="tquestions-obstacles-and-common-misconceptions-1">
+        <navLabel><text>Questions, obstacles, and common misconceptions</text></navLabel>
+        <content src="document-1.xhtml#questions-obstacles-and-common-misconceptions" />
+      </navPoint>
+      <navPoint id="tlearning-outcomes-1">
+        <navLabel><text>Learning outcomes</text></navLabel>
+        <content src="document-1.xhtml#learning-outcomes" />
+      </navPoint>
+      <navPoint id="tfurther-reading-1">
+        <navLabel><text>Further reading</text></navLabel>
+        <content src="document-1.xhtml#further-reading" />
       </navPoint>
     </navPoint>
     <navPoint id="t_2_0-2">
-      <navLabel><text>Open Science and Knowledge Justice</text></navLabel>
+      <navLabel><text>4. Reproducible Research and Data Analysis</text></navLabel>
       <content src="document-2.xhtml#_2_0" />
-      <navPoint id="tH7912011-2">
-        <navLabel><text>Equity vs. Equality: What's the Difference?</text></navLabel>
-        <content src="document-2.xhtml#H7912011" />
+      <navPoint id="tH6230651-2">
+        <navLabel><text>What is it?</text></navLabel>
+        <content src="document-2.xhtml#H6230651" />
       </navPoint>
-      <navPoint id="tH8244312-2">
-        <navLabel><text>Knowledge Justice: Disrupting Library and Information Studies through Critical Race Theory</text></navLabel>
-        <content src="document-2.xhtml#H8244312" />
+      <navPoint id="trationale-2">
+        <navLabel><text>Rationale</text></navLabel>
+        <content src="document-2.xhtml#rationale" />
       </navPoint>
-      <navPoint id="tH6993921-2">
-        <navLabel><text>Gender in OPEN SCIENCE &amp; OPEN INNOVATION</text></navLabel>
-        <content src="document-2.xhtml#H6993921" />
+      <navPoint id="tlearning-objectives-2">
+        <navLabel><text>Learning objectives</text></navLabel>
+        <content src="document-2.xhtml#learning-objectives" />
       </navPoint>
-      <navPoint id="tH2478521-2">
-        <navLabel><text>Practical Guide to Improving Gender Equality in Research Organizations</text></navLabel>
-        <content src="document-2.xhtml#H2478521" />
+      <navPoint id="tknowledge-2">
+        <navLabel><text>Knowledge</text></navLabel>
+        <content src="document-2.xhtml#knowledge" />
+      </navPoint>
+      <navPoint id="tskills-2">
+        <navLabel><text>Skills</text></navLabel>
+        <content src="document-2.xhtml#skills" />
+        <navPoint id="t1-plan-for-reproducibility-before-you-start-2">
+          <navLabel><text>1. Plan for reproducibility before you start</text></navLabel>
+          <content src="document-2.xhtml#1-plan-for-reproducibility-before-you-start" />
+          <navPoint id="tcreate-a-study-plan-or-protocol-2">
+            <navLabel><text>Create a study plan or protocol.</text></navLabel>
+            <content src="document-2.xhtml#create-a-study-plan-or-protocol" />
+          </navPoint>
+          <navPoint id="tchoose-reproducible-tools-and-materials-2">
+            <navLabel><text>Choose reproducible tools and materials</text></navLabel>
+            <content src="document-2.xhtml#choose-reproducible-tools-and-materials" />
+          </navPoint>
+          <navPoint id="tset-up-a-reproducible-project-2">
+            <navLabel><text>Set-up a reproducible project</text></navLabel>
+            <content src="document-2.xhtml#set-up-a-reproducible-project" />
+          </navPoint>
+        </navPoint>
+        <navPoint id="t2-keep-track-of-things-2">
+          <navLabel><text>2. Keep track of things</text></navLabel>
+          <content src="document-2.xhtml#2-keep-track-of-things" />
+          <navPoint id="tregistration-2">
+            <navLabel><text>Registration</text></navLabel>
+            <content src="document-2.xhtml#registration" />
+          </navPoint>
+          <navPoint id="tversion-control-2">
+            <navLabel><text>Version control</text></navLabel>
+            <content src="document-2.xhtml#version-control" />
+          </navPoint>
+          <navPoint id="tdocumentation-2">
+            <navLabel><text>Documentation</text></navLabel>
+            <content src="document-2.xhtml#documentation" />
+          </navPoint>
+          <navPoint id="tliterate-programming-2">
+            <navLabel><text>Literate programming</text></navLabel>
+            <content src="document-2.xhtml#literate-programming" />
+          </navPoint>
+        </navPoint>
+        <navPoint id="t3-share-and-license-your-research-2">
+          <navLabel><text>3. Share and license your research</text></navLabel>
+          <content src="document-2.xhtml#3-share-and-license-your-research" />
+          <navPoint id="tdata-2">
+            <navLabel><text>Data</text></navLabel>
+            <content src="document-2.xhtml#data" />
+          </navPoint>
+          <navPoint id="tmaterials-2">
+            <navLabel><text>Materials</text></navLabel>
+            <content src="document-2.xhtml#materials" />
+          </navPoint>
+          <navPoint id="tsoftware-notebooks-and-containers-2">
+            <navLabel><text>Software, notebooks, and containers</text></navLabel>
+            <content src="document-2.xhtml#software-notebooks-and-containers" />
+          </navPoint>
+        </navPoint>
+        <navPoint id="t4-report-your-research-transparently-2">
+          <navLabel><text>4. Report your research transparently</text></navLabel>
+          <content src="document-2.xhtml#4-report-your-research-transparently" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="tquestions-obstacles-and-common-misconceptions-2">
+        <navLabel><text>Questions, obstacles, and common misconceptions</text></navLabel>
+        <content src="document-2.xhtml#questions-obstacles-and-common-misconceptions" />
+      </navPoint>
+      <navPoint id="tlearning-outcomes-2">
+        <navLabel><text>Learning outcomes</text></navLabel>
+        <content src="document-2.xhtml#learning-outcomes" />
+      </navPoint>
+      <navPoint id="tfurther-reading-2">
+        <navLabel><text>Further reading</text></navLabel>
+        <content src="document-2.xhtml#further-reading" />
       </navPoint>
     </navPoint>
     <navPoint id="t_3_0-3">
-      <navLabel><text>Open Science and Open Access Publishing</text></navLabel>
+      <navLabel><text>3. Open Research Software and Open Source</text></navLabel>
       <content src="document-3.xhtml#_3_0" />
-      <navPoint id="tH7151279-3">
-        <navLabel><text>Open Access Publishing</text></navLabel>
-        <content src="document-3.xhtml#H7151279" />
+      <navPoint id="tH7338861-3">
+        <navLabel><text>What is it?</text></navLabel>
+        <content src="document-3.xhtml#H7338861" />
       </navPoint>
-      <navPoint id="tH9740541-3">
-        <navLabel><text>Von Open Access zu Open Science: Zum Wandel digitaler Kulturen der wissenschaftlichen Kommunikation</text></navLabel>
-        <content src="document-3.xhtml#H9740541" />
+      <navPoint id="trationale-3">
+        <navLabel><text>Rationale</text></navLabel>
+        <content src="document-3.xhtml#rationale" />
       </navPoint>
-      <navPoint id="tH1144211-3">
-        <navLabel><text>Understanding Open Access. When, why, &amp; how to make your work openly accessible</text></navLabel>
-        <content src="document-3.xhtml#H1144211" />
-      </navPoint>
-      <navPoint id="tH4741497-3">
-        <navLabel><text>Open Access publizieren – Fragen &amp; Antworten</text></navLabel>
-        <content src="document-3.xhtml#H4741497" />
-      </navPoint>
-      <navPoint id="tH6691479-3">
-        <navLabel><text>Open-Access-Publikationsworkflow für akademische Bücher</text></navLabel>
-        <content src="document-3.xhtml#H6691479" />
+      <navPoint id="tlearning-objectives-3">
+        <navLabel><text>Learning objectives</text></navLabel>
+        <content src="document-3.xhtml#learning-objectives" />
+        <navPoint id="tkey-components-3">
+          <navLabel><text>Key components</text></navLabel>
+          <content src="document-3.xhtml#key-components" />
+        </navPoint>
+        <navPoint id="tknowledge-3">
+          <navLabel><text>Knowledge</text></navLabel>
+          <content src="document-3.xhtml#knowledge" />
+        </navPoint>
+        <navPoint id="topen-source-hardware-3">
+          <navLabel><text>Open Source Hardware</text></navLabel>
+          <content src="document-3.xhtml#open-source-hardware" />
+        </navPoint>
+        <navPoint id="tskills-3">
+          <navLabel><text>Skills</text></navLabel>
+          <content src="document-3.xhtml#skills" />
+        </navPoint>
+        <navPoint id="tquestions-obstacles-and-common-misconceptions-3">
+          <navLabel><text>Questions, obstacles, and common misconceptions</text></navLabel>
+          <content src="document-3.xhtml#questions-obstacles-and-common-misconceptions" />
+        </navPoint>
+        <navPoint id="tlearning-outcomes-3">
+          <navLabel><text>Learning outcomes</text></navLabel>
+          <content src="document-3.xhtml#learning-outcomes" />
+        </navPoint>
+        <navPoint id="tfurther-reading-3">
+          <navLabel><text>Further reading</text></navLabel>
+          <content src="document-3.xhtml#further-reading" />
+        </navPoint>
       </navPoint>
     </navPoint>
     <navPoint id="t_4_0-4">
-      <navLabel><text>Open Science and Data Science</text></navLabel>
+      <navLabel><text>2. Open Research Data and Materials</text></navLabel>
       <content src="document-4.xhtml#_4_0" />
-      <navPoint id="tH8743838-4">
-        <navLabel><text>Research Data Management Guide</text></navLabel>
-        <content src="document-4.xhtml#H8743838" />
-      </navPoint>
-      <navPoint id="tH5120034-4">
-        <navLabel><text>Perspectives on open science and scientific data sharing</text></navLabel>
-        <content src="document-4.xhtml#H5120034" />
-      </navPoint>
-      <navPoint id="tH2541051-4">
-        <navLabel><text>Support Your Data</text></navLabel>
-        <content src="document-4.xhtml#H2541051" />
-      </navPoint>
-      <navPoint id="tH2986141-4">
-        <navLabel><text>Recommendations for open data science</text></navLabel>
-        <content src="document-4.xhtml#H2986141" />
+      <navPoint id="tH4225958-4">
+        <navLabel><text>What is it?</text></navLabel>
+        <content src="document-4.xhtml#H4225958" />
+        <navPoint id="trationale-4">
+          <navLabel><text>Rationale</text></navLabel>
+          <content src="document-4.xhtml#rationale" />
+        </navPoint>
+        <navPoint id="tlearning-objectives-4">
+          <navLabel><text>Learning objectives</text></navLabel>
+          <content src="document-4.xhtml#learning-objectives" />
+        </navPoint>
+        <navPoint id="tkey-components-4">
+          <navLabel><text>Key components</text></navLabel>
+          <content src="document-4.xhtml#key-components" />
+          <navPoint id="tknowledge--skills-4">
+            <navLabel><text>Knowledge &amp; Skills</text></navLabel>
+            <content src="document-4.xhtml#knowledge--skills" />
+            <navPoint id="tfair-principles-4">
+              <navLabel><text>FAIR principles</text></navLabel>
+              <content src="document-4.xhtml#fair-principles" />
+              <navPoint id="tdata-publishing-4">
+                <navLabel><text>Data publishing</text></navLabel>
+                <content src="document-4.xhtml#data-publishing" />
+              </navPoint>
+              <navPoint id="tdata-citation-4">
+                <navLabel><text>Data citation</text></navLabel>
+                <content src="document-4.xhtml#data-citation" />
+              </navPoint>
+              <navPoint id="tdata-packaging-4">
+                <navLabel><text>Data packaging</text></navLabel>
+                <content src="document-4.xhtml#data-packaging" />
+              </navPoint>
+              <navPoint id="tsharing-sensitive-and-proprietary-data-4">
+                <navLabel><text>Sharing sensitive and proprietary data</text></navLabel>
+                <content src="document-4.xhtml#sharing-sensitive-and-proprietary-data" />
+                <navPoint id="tdata-brokers-4">
+                  <navLabel><text>Data brokers</text></navLabel>
+                  <content src="document-4.xhtml#data-brokers" />
+                </navPoint>
+              </navPoint>
+              <navPoint id="tanalysis-portals-4">
+                <navLabel><text>Analysis portals</text></navLabel>
+                <content src="document-4.xhtml#analysis-portals" />
+              </navPoint>
+              <navPoint id="tde-identified-and-synthetic-data-4">
+                <navLabel><text>De-identified and synthetic data</text></navLabel>
+                <content src="document-4.xhtml#de-identified-and-synthetic-data" />
+                <navPoint id="tdatatags-4">
+                  <navLabel><text>DataTags</text></navLabel>
+                  <content src="document-4.xhtml#datatags" />
+                </navPoint>
+              </navPoint>
+              <navPoint id="topen-materials-4">
+                <navLabel><text>Open Materials</text></navLabel>
+                <content src="document-4.xhtml#open-materials" />
+                <navPoint id="treagents-4">
+                  <navLabel><text>Reagents</text></navLabel>
+                  <content src="document-4.xhtml#reagents" />
+                </navPoint>
+                <navPoint id="tprotocols-4">
+                  <navLabel><text>Protocols</text></navLabel>
+                  <content src="document-4.xhtml#protocols" />
+                </navPoint>
+                <navPoint id="tnotebooks-containers-software-and-hardware-4">
+                  <navLabel><text>Notebooks, containers, software, and hardware</text></navLabel>
+                  <content src="document-4.xhtml#notebooks-containers-software-and-hardware" />
+                </navPoint>
+              </navPoint>
+            </navPoint>
+          </navPoint>
+          <navPoint id="tquestions-obstacles-and-common-misconceptions-4">
+            <navLabel><text>Questions, obstacles, and common misconceptions</text></navLabel>
+            <content src="document-4.xhtml#questions-obstacles-and-common-misconceptions" />
+          </navPoint>
+          <navPoint id="tlearning-outcomes-4">
+            <navLabel><text>Learning outcomes</text></navLabel>
+            <content src="document-4.xhtml#learning-outcomes" />
+          </navPoint>
+          <navPoint id="tfurther-reading-4">
+            <navLabel><text>Further reading</text></navLabel>
+            <content src="document-4.xhtml#further-reading" />
+            <navPoint id="tinitiatives-and-projects-4">
+              <navLabel><text>Initiatives and projects</text></navLabel>
+              <content src="document-4.xhtml#initiatives-and-projects" />
+            </navPoint>
+          </navPoint>
+        </navPoint>
       </navPoint>
     </navPoint>
     <navPoint id="t_5_0-5">
-      <navLabel><text>Open Science and Citizen Science</text></navLabel>
+      <navLabel><text>1. Open Concepts and Principles</text></navLabel>
       <content src="document-5.xhtml#_5_0" />
-      <navPoint id="tH2662301-5">
-        <navLabel><text>Citizen science for all - A guide for citizen science practitioners</text></navLabel>
-        <content src="document-5.xhtml#H2662301" />
+      <navPoint id="twhat-is-it-5">
+        <navLabel><text>What is it?</text></navLabel>
+        <content src="document-5.xhtml#what-is-it" />
       </navPoint>
-      <navPoint id="tH1285339-5">
-        <navLabel><text>Choosing and Using Citizen Science - A guide to when and how to use citizen science to monitor biodiversity and the environment</text></navLabel>
-        <content src="document-5.xhtml#H1285339" />
+      <navPoint id="trationale-5">
+        <navLabel><text>Rationale</text></navLabel>
+        <content src="document-5.xhtml#rationale" />
       </navPoint>
-      <navPoint id="tH3514415-5">
-        <navLabel><text>Guide to Citizen Science - developing, implementing and evaluating citizen science to study biodiversity and the environment in the UK</text></navLabel>
-        <content src="document-5.xhtml#H3514415" />
+      <navPoint id="tlearning-objectives-5">
+        <navLabel><text>Learning objectives</text></navLabel>
+        <content src="document-5.xhtml#learning-objectives" />
       </navPoint>
-      <navPoint id="tH2333653-5">
-        <navLabel><text>9 things to make citizen science data FAIR. A research librarian’s guide.</text></navLabel>
-        <content src="document-5.xhtml#H2333653" />
+      <navPoint id="tkey-components-5">
+        <navLabel><text>Key components</text></navLabel>
+        <content src="document-5.xhtml#key-components" />
+      </navPoint>
+      <navPoint id="tknowledge--skills-5">
+        <navLabel><text>Knowledge &amp; Skills</text></navLabel>
+        <content src="document-5.xhtml#knowledge--skills" />
+      </navPoint>
+      <navPoint id="tquestions-obstacles-and-common-misconceptions-5">
+        <navLabel><text>Questions, obstacles, and common misconceptions</text></navLabel>
+        <content src="document-5.xhtml#questions-obstacles-and-common-misconceptions" />
+      </navPoint>
+      <navPoint id="tlearning-outcomes-5">
+        <navLabel><text>Learning outcomes</text></navLabel>
+        <content src="document-5.xhtml#learning-outcomes" />
+      </navPoint>
+      <navPoint id="tfurther-reading-5">
+        <navLabel><text>Further reading</text></navLabel>
+        <content src="document-5.xhtml#further-reading" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="t_6_0-6">
+      <navLabel><text>Introduction</text></navLabel>
+      <content src="document-6.xhtml#_6_0" />
+      <navPoint id="tH6454337-6">
+        <navLabel><text>Purpose of the book</text></navLabel>
+        <content src="document-6.xhtml#H6454337" />
+        <navPoint id="twho-is-this-book-for-6">
+          <navLabel><text>Who is this book for?</text></navLabel>
+          <content src="document-6.xhtml#who-is-this-book-for" />
+        </navPoint>
+        <navPoint id="twhat-is-open-science-6">
+          <navLabel><text>What is Open Science?</text></navLabel>
+          <content src="document-6.xhtml#what-is-open-science" />
+        </navPoint>
+        <navPoint id="thow-to-use-the-book-6">
+          <navLabel><text>How to use the book</text></navLabel>
+          <content src="document-6.xhtml#how-to-use-the-book" />
+        </navPoint>
+        <navPoint id="topen-license-and-credits-6">
+          <navLabel><text>Open License and Credits</text></navLabel>
+          <content src="document-6.xhtml#open-license-and-credits" />
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="t_7_0-7">
+      <navLabel><text>Open Science Basics</text></navLabel>
+      <content src="document-7.xhtml#_7_0" />
+      <navPoint id="tchapters-7">
+        <navLabel><text>Chapters</text></navLabel>
+        <content src="document-7.xhtml#chapters" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="t_8_0-8">
+      <navLabel><text>Readme</text></navLabel>
+      <content src="document-8.xhtml#_8_0" />
+      <navPoint id="tH9514896-8">
+        <navLabel><text>The Open Science Training Handbook</text></navLabel>
+        <content src="document-8.xhtml#H9514896" />
+      </navPoint>
+      <navPoint id="tH3046972-8">
+        <navLabel><text>Help us making the handbook better</text></navLabel>
+        <content src="document-8.xhtml#H3046972" />
+      </navPoint>
+      <navPoint id="tH8885178-8">
+        <navLabel><text>Let's run an Open Science training together</text></navLabel>
+        <content src="document-8.xhtml#H8885178" />
+      </navPoint>
+      <navPoint id="tH4508197-8">
+        <navLabel><text>How to refer to the handbook</text></navLabel>
+        <content src="document-8.xhtml#H4508197" />
+        <navPoint id="tthe-authors-and-the-book-sprint-facilitators-8">
+          <navLabel><text>The Authors and the Book Sprint facilitators</text></navLabel>
+          <content src="document-8.xhtml#the-authors-and-the-book-sprint-facilitators" />
+        </navPoint>
+        <navPoint id="tthank-you-to-8">
+          <navLabel><text>Thank you to</text></navLabel>
+          <content src="document-8.xhtml#thank-you-to" />
+        </navPoint>
+        <navPoint id="tcopyright-statement-8">
+          <navLabel><text>Copyright statement</text></navLabel>
+          <content src="document-8.xhtml#copyright-statement" />
+        </navPoint>
+        <navPoint id="tfunding-8">
+          <navLabel><text>Funding</text></navLabel>
+          <content src="document-8.xhtml#funding" />
+        </navPoint>
       </navPoint>
     </navPoint>
     <navPoint id="t2">
