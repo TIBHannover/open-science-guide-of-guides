@@ -2,11 +2,6 @@
 
 \usepackage{hyperref}
 \usepackage{caption}
-                
-\usepackage[backend=biber,hyperref=false,citestyle=authoryear,bibstyle=authoryear]{biblatex}
-                
-\bibliography{bibliography}
-            
 \usepackage{graphicx}
                 
 \usepackage{calc}
@@ -25,182 +20,327 @@
             
 \begin{document}
 
-\title{Open Science and Knowledge Justice}
+\title{4. Reproducible Research and Data Analysis}
 
 \maketitle
 
-
-\textbf{Contributors}: Kaan Ilgaz, Ümit Günes, My Linh Nguyen Thi, Lorenzo Vassao
-
-
-\textbf{Tags / topics:} Knowledge Justice; equality; equity; justice  
-
-
-\subsection{Equity vs. Equality: What's the Difference?}\label{H7912011}
-
-
-
-\begin{center}
 \begin{figure}
-\scaledgraphics{f0cce63a-bf54-49fe-bc74-0291d6668193.png}{0.75}
-\caption*{Image: Source- "Addressing Imbalance," by Tony Ruth for the \href{https://designintech.report/2019/03/11/%F0%9F%93%B1design-in-tech-report-2019-section-6-addressing-imbalance/}{2019 Design in Tech Report}.                                                                                            }\label{F24704971}
+\scaledgraphics{f5dde413-4c45-488f-8bc2-c2a57a02a812.png}{1}
+\label{F94030121}
 \end{figure}
 
 
-\end{center}
-
-
-\textbf{Guide name: }\href{https://onlinepublichealth.gwu.edu/resources/equity-vs-equality/}{Equity vs. Equality: What's the Difference? }\autocite{mphgw_the_george_washington_university_equity_2020} 
-
-
-\textbf{Target group:} public health masters students, health community, policy and system designers.
-
-
-\textbf{Type:} Guide for Masters course.
-
-
-\textbf{Summary:} The guide is an introduction to the difference between equality and equity. Firstly it explains the difference in terms of how society hands out resources and opportunities using the USA 1960 example \emph{\href{https://en.wikipedia.org/wiki/The_Giving_Tree}{The Giving Tree}} is an American children's picture book written and illustrated by Shel Silverstein. The core idea being that society is not a natural system and has inbuilt rewards that prioritize social groups.
-
-\begin{quote}
+\section{What is it?}\label{H6230651}
 
 
 
-\emph{Equity is a solution for addressing imbalanced social systems. Justice can take equity one step further by fixing the systems in a way that leads to long-term, sustainable, equitable access for generations to come.}
+Reproducibility means that research data and code are made available so that others are able to reach the same results as are claimed in scientific outputs. Closely related is the concept of replicability, the act of repeating a scientific methodology to reach similar conclusions. These concepts are core elements of empirical research.
 
 
-\end{quote}
+Improving reproducibility leads to increased rigour and quality of scientific outputs, and thus to greater trust in science. There has been a growing need and willingness to expose research workflows from initiation of a project and data collection right through to the interpretation and reporting of results. These developments have come with their own sets of challenges, including designing integrated research workflows that can be adopted by collaborators while maintaining high standards of integrity.
 
 
-The guide then shows example recommendations from leading health institutions and how thes define the topic: for example here with The World Health Organization (WHO) and how \href{https://www.who.int/healthsystems/topics/equity/en/}{equity is defined}; US Centers for Disease Control and Prevention (CDC) refers to \href{https://www.cdc.gov/minorityhealth/strategies2016/index.html}{health equity}; and here as the \href{http://viablefuturescenter.org/racemattersinstitute/}{Race Matters Institute} desribes.
+The concept of reproducibility is directly applied to the scientific method, the cornerstone of Science, and particularly to the following five steps:
+
+\begin{enumerate}
+\item Formulating a hypothesis
 
 
-The guide then shows examples of how equality and equity differ in policy, for example: 
-
-\begin{quote}
+\item Designing the study
 
 
-
-Equality - A city cuts the budget for 25 community centers by reducing the operational hours for all centers by the same amount at the same times. 
-
-Equity - The city determines which times and how many hours communities actually need to use their community centers and reduces hours for centers that aren't used as frequently.
+\item Running the study and collecting the data
 
 
-\end{quote}
+\item Analyzing the data
 
 
-Short case studies of programs are described and given a list of additional resources.
+\item Reporting the study
 
 
-\subsection{Knowledge Justice: Disrupting Library and Information Studies through Critical Race Theory}\label{H8244312}
+\end{enumerate}
 
+Each of these steps should be clearly reported by providing clear and open documentation, and thus making the study transparent and reproducible.
 
-
-\begin{center}
 \begin{figure}
-\scaledgraphics{dcc1d35b-4186-4b50-a5a6-cf54422a8064.jpeg}{0.75}
-\caption*{Image: Cover 'Knowledge Justice: Disrupting Library and Information Studies through Critical Race Theory'.}\label{F29320001}
+\scaledgraphics{cd488cd3-09d0-48ea-a508-f6e5c12cf790.png}{1}
+\label{F5873201}
 \end{figure}
 
 
-\end{center}
-
-
-\textbf{Guide name: }\emph{\href{https://direct.mit.edu/books/edited-volume/5114/Knowledge-JusticeDisrupting-Library-and}{Knowledge Justice: Disrupting Library and Information Studies through Critical Race Theory}}\emph{ }\autocite{leung_knowledge_2021} 
-
-
-\textbf{Target group:} The target audience of this book are people who want to research basic information and the possibilities of Open Science. Furthermore, Open Science should be accessible to everyone and everyone should have equal rights.
-
-
-\textbf{Type:} Recommendations for Practice, LIS study.
-
-
-\textbf{Summary:} In Knowledge Justice, scholars from various ethnic backgrounds draw on critical race theory to challenge the fundamental principles, values ​​and assumptions of library and information science in the United States. This is intended to lead the profession to understand how "white" supremacy affects practices, services, curricula, spaces, and policies.
-
-
-The authors describe that a misconception of the neutrality and objectivity of library and information science comes from the influence of the different ethnicities of scholars. Through in-depth analyzes of library and archival collections, scholarly communication, power hierarchies, epistemic domination, children's libraries, teaching and learning, digital humanities, and the education system, Knowledge Justice calls for the abolition of so-called "white supremacy" in order to create racial justice for every group of people.
-
-
-\subsection{GENDER in OPEN SCIENCE \& OPEN INNOVATION}\label{H6993921}
+\section{Rationale}\label{rationale}
 
 
 
-\begin{center}
+Overarching factors can further contribute to the causes of non-reproducibility, but can also drive the implementation of specific measures to address these causes. The culture and environment in which research takes place is an important ‘top-down’ overarching factor. From a ‘bottom-up’ perspective, continuing education and training for researchers can raise awareness and disseminate good practice.
+
+
+While understanding the full range of factors that contribute to reproducibility is important, it can also be hard to break down these factors into steps that can immediately be adopted into an existing research program and immediately improve its reproducibility. One of the first steps to take is to assess the current state of affairs, and to track improvement as steps are taken to increase reproducibility even more. Some of the common issues with research reproducibility are shown in the figure below.
+
 \begin{figure}
-\scaledgraphics{59987ee5-bc7e-4c52-98de-ba70e420a252.jpg}{0.5}
-\caption*{Image: Cover 'Report on Strategic Advice for Enhancing the Gender Dimension of Open Science and Innovation Policy'.}\label{F24284111}
+\scaledgraphics{651cc2af-b56a-42e6-b9e2-b072205db6ce.png}{1}
+\label{F27553871}
 \end{figure}
 
 
-\end{center}
+Source: Symposium report, October 2015. Reproducibility and reliability of biomedical research: improving research practice \href{https://acmedsci.ac.uk/viewFile/56314e40aac61.pdf}{PDF}.
 
 
-\textbf{Guide name: }\href{https://genderaction.eu/wp-content/uploads/2018/07/GENDERACTION_PolicyBrief5_Gender-OSOI.pdf}{GENDER in OPEN SCIENCE \& OPEN INNOVATION} \autocite{gender_action_gender_2018} and \emph{\href{https://genderaction.eu/wp-content/uploads/2019/04/GENDERACTION_Report-5.1_D11_OSOI.pdf}{Report on Strategic Advice for Enhancing the Gender Dimension of Open Science and Innovation Policy}}\emph{ }\autocite{institute_of_sociology_report_2019}
+\href{https://doi.org/10/gc5sjs}{Goodman, Fanelli, \& Ioannidis (2016)} note that in epidemiology, computational biology, economics, and clinical trials, reproducibility is often defined as:
 
 
-\textbf{Target group: }researchers, research institutions, policy makers. 
+\emph{"the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original investigator. That is, a second researcher might use the same raw data to build the same analysis files and implement the same statistical analysis in an attempt to yield the same results."}
 
 
-\textbf{Type:} Briefing Paper, In depth report.
+This is distinct from replicability: \emph{"which refers to the ability of a researcher to duplicate the results of a prior study if the same procedures are followed but new data are collected."} A simpler way of thinking about this might be that reproducibility is methods-oriented, whereas replicability is results-oriented.
 
 
-\textbf{Summary:} The briefing paper and the longer report are part of an ongoing EU Horizon research project in the European Research Area (ERA) on gender equality in research and specifically Open Science. The research project is called Gender Action. see: \href{http://genderaction.eu/}{http://genderaction.eu/}.
+Reproducibility can be assessed at several different levels: at the level of an individual project (e.g., a paper, an experiment, a method or a dataset), an individual researcher, a lab or research group, an institution, or even a research field. Slightly different kinds of criteria and points of assessment might apply to these different levels. For example, an institution upholds reproducibility practices if it institutes policies that reward researchers who conduct reproducible research. On the other hand, a research field might be considered to have a higher level of reproducibility if it develops community-maintained resources that promote and enable reproducible research practices, such as data repositories, or common data-sharing standards.
 
-
-As of 2018 the research group found no mention of gender equality in EU Open Science policy.
-
-\begin{quote}
-
-
-
-“Existing policy documents and studies on OS\&OI, including those by the EC, reveals zero attention to gender equality” GENDERACTION OS\&OI Report
-
-
-\end{quote}
-
-
-The briefing paper goes on to make five recommendations aimed at the European Commission and EU Council.
-
-
-The follow up report Report on 'Strategic Advice for Enhancing the Gender Dimension of Open Science and Innovation Policy' 'is a fifty page indepth study and set of recommendations for Open Science and Open Innovation.
-
-
-\subsection{Practical Guide to Improving Gender Equality in Research Organizations}\label{H2478521}
-
-
-
-\begin{center}
 \begin{figure}
-\scaledgraphics{2d74c16d-6a0e-48c6-a149-1074544f4a51.jpg}{0.75}
-\caption*{Image: Cover 'Practical Guide to Improving Gender Equality in Research Organizations'.}\label{F3238931}
+\scaledgraphics{9209bd39-910a-46c7-a66a-21a7bbfcd5f7.png}{1}
+\label{F32455591}
 \end{figure}
 
 
-\end{center}
-
-
-\textbf{Guide name: }\emph{\href{https://www.fosteropenscience.eu/content/practical-guide-improving-gender-equality-research-organisations}{Practical Guide to Improving Gender Equality in Research Organizations}}\emph{ }\autocite{science_europe_practical_nodate} 
-
-
-\textbf{Target group:} Introductory: no previous knowledge is required.
-
-
-\textbf{Type:} report and guide.
-
-
-\textbf{Summary:} The guide is written to inform research managers how to manage 'gender and diversity' questions in peer review, management, and grant awards.
-
-
-The guide outlines issues, gives examples, and provides information on further literature or resources.
-
-\begin{quote}
+\section{Learning objectives}\label{learning-objectives}
 
 
 
-This practical guide authored by Science Europe covers the topics "How to Avoid Unconscious Bias in Peer Review Processes", "How to Monitor Gender Equality" and "How to improve Grant Management Practices" in order to approach gender equality in research organizations as these play a fundamental role addressing gender inequality within their own systems but also in wider society.
+There are three major objectives that need to be addressed here:
+
+\begin{enumerate}
+\item Understand the important impact of creating reproducible research.
 
 
-\end{quote}
+\item Understand the overall setup of reproducible research (including workflow design, data management and dynamic reporting).
 
 
-\printbibliography[title={Bibliography}]
+\item Be aware of the individual steps in the reproducibility process, as well as the corresponding resources that can be employed.
+
+
+\end{enumerate}
+\begin{figure}
+\scaledgraphics{27d237d8-8f65-4eb1-9c68-f087921c61b9.png}{1}
+\label{F15419331}
+\end{figure}
+
+
+\section{Knowledge}\label{knowledge}
+
+
+
+The following is an indicative list of take-away points on reproducibility:
+
+\begin{itemize}
+\item What is the ‘reproducibility crisis’, and meta-analyses of reproducibility.
+
+
+\item Principles of reproducibility, and integrity and ethics in research.
+
+
+\item What are the computing options and environments that allow collaborative and reproducible set up.
+
+
+\item Factors that affect reproducibility of research.
+
+
+\item Data analysis documentation and open research workflows.
+
+
+\item Reproducible analysis environments (virtualization).
+
+
+\item Addressing the "Researcher Degrees of Freedom" (\href{https://doi.org/10/gc5sjn}{Wicherts et al., 2016}).
+
+
+\end{itemize}
+\begin{figure}
+\scaledgraphics{965a9b22-10b4-4501-a490-83443a94eafb.png}{1}
+\label{F64172361}
+\end{figure}
+
+
+\section{Skills}\label{skills}
+
+
+
+There are several practical tips for reproducibility that one should have in mind when setting out the particular skills necessary to ensure this. Best practices in reproducibility borrow from Open Science practices more generally but their integration offers benefits to the individual researcher themselves, whether they choose to share their research or not. The reason that integrating reproducibility best practices benefits the individual researcher is that they improve the planning, organization, and documentation of research. Below we outline one example of implementing reproducibility into a research workflow with references to these practices in the handbook.
+
+\begin{figure}
+\scaledgraphics{2f511b07-692b-4316-98d9-4918bfd7c688.png}{1}
+\label{F30251071}
+\end{figure}
+
+
+\subsection{\textbf{1. Plan for reproducibility before you start}}\label{1-plan-for-reproducibility-before-you-start}
+
+
+
+\subsubsection{Create a study plan or protocol.}\label{create-a-study-plan-or-protocol}
+
+
+
+Begin documentation at study inception by writing a study plan or protocol that includes your proposed study design and methods. Use a reporting guideline from the \href{http://www.equator-network.org/}{Equator Network} if applicable. Track changes to your study plan or protocol using version control (reference to Version Control). Calculate the power or sample size needed and report this calculation in your protocol as underpowered studies are prone to irreproducibility.
+
+
+\subsubsection{Choose reproducible tools and materials}\label{choose-reproducible-tools-and-materials}
+
+
+
+Select antibodies that work using an antibody search engine like \href{https://www.citeab.com/}{CiteAb}. Avoid irreproducibility through misidentified cell lines by choosing ones that are authenticated by the \href{http://iclac.org/}{International Cell Line Authentication Committee}. Whenever possible, choose software and hardware tools where you retain ownership of your research and can migrate your research out of the platform for reuse (see Open Research Software and Open Source).
+
+
+\subsubsection{Set-up a reproducible project}\label{set-up-a-reproducible-project}
+
+
+
+Centralize and organize your project management using an online platform, a central repository, or folder for all research files. You could use GitHub as a place to store project files together or manage everything using a electronic lab notebook such as \href{https://benchling.com/}{Benchling}, \href{https://www.labguru.com/}{Labguru},or \href{https://scinote.net/}{SciNote}. Within your centralized project, follow best practices by separating your data from your code into different folders. Make your raw data read-only and keep separate from processed data (reference to Data Management).
+
+
+When saving and backing up your research files, choose formats and informative file names that allow for reuse. File names should be both machine and human readable (reference to Data Management). In your analysis and software code, use relative paths. Avoid proprietary file formats and use open file formats (see 6 Open Licensing and File Formats).
+
+\begin{figure}
+\scaledgraphics{04fbcc59-de6d-400c-ae98-250e796e3621.png}{1}
+\label{F27277281}
+\end{figure}
+
+
+\subsection{\textbf{2. Keep track of things}}\label{2-keep-track-of-things}
+
+
+
+\subsubsection{Registration}\label{registration}
+
+
+
+Preregister important study design and analysis information to increase transparency and counter publication bias of negative results. Free tools to help you make your first registration include \href{https://aspredicted.org/}{AsPredicted}, \href{https://osf.io/}{Open Science Framework}, and \href{https://cos.io/rr/}{Registered Reports}. Clinical trials should use \href{https://clinicaltrials.gov/}{Clinicaltrials.gov}.
+
+
+\subsubsection{Version control}\label{version-control}
+
+
+
+Track changes to your files, especially your analysis code, using version control (see Open Research Software and Open Source).
+
+
+\subsubsection{Documentation}\label{documentation}
+
+
+
+Document everything done by hand in a README file. Create a data dictionary (also known as a codebook) to describe important information about your data. For an easy introduction, use: \href{http://kbroman.org/dataorg/pages/dictionary.html}{Karl Broman’s Data Organization module} and refer to Data Management.
+
+
+\subsubsection{Literate programming}\label{literate-programming}
+
+
+
+Consider using \href{http://jupyter.org/}{Jupyter Notebooks}, \href{https://yihui.name/knitr/}{KnitR}, \href{https://support.rstudio.com/hc/en-us/articles/200552056-Using-Sweave-and-knitr}{Sweave}, or other approaches to literate programming to integrate your code with your narrative and documentation.
+
+\begin{figure}
+\scaledgraphics{bc14044b-eec3-4ed3-b0e7-e2156edefa58.png}{1}
+\label{F41172011}
+\end{figure}
+
+
+\subsection{\textbf{3. Share and license your research}}\label{3-share-and-license-your-research}
+
+
+
+\subsubsection{Data}\label{data}
+
+
+
+Avoid supplementary files, decide on an acceptable permissive license, and share your data using a repository. Follow best practices as outlined in the Open Research Data and Materials chapter.
+
+
+\subsubsection{Materials}\label{materials}
+
+
+
+Share your materials so they can be reused. Deposit reagents with repositories like \href{https://www.addgene.org/}{Addgene}, \href{https://bdsc.indiana.edu/}{The Bloomington Drosophila Stock Center}, and \href{https://www.atcc.org/}{ATCC} to make them easily accessible to other researchers. For more information, see the Open Materials subsection of \href{https://github.com/Open-Science-Training-Handbook/Open-Science-Training-Handbook_EN/blob/master/02OpenScienceBasics/02OpenResearchDataAndMaterials.md}{Open Research Data and Materials}.
+
+
+\subsubsection{Software, notebooks, and containers}\label{software-notebooks-and-containers}
+
+
+
+License your code to inform about how it may be (re)used. Share notebooks with services such as \href{http://mybinder.org/}{mybinder} that allow for public viewing and execution of the entire notebook on shared resources. Share containers or notebooks with services such as \href{https://arxiv.org/abs/1710.03675}{Rocker} or \href{https://codeocean.com/}{Code Ocean}. Follow best practices outlined in Open Research Software and Open Source.
+
+\begin{figure}
+\scaledgraphics{9dfcfdf3-33f1-475f-81b9-0b157046b269.png}{1}
+\label{F98076721}
+\end{figure}
+
+
+\subsection{\textbf{4. Report your research transparently}}\label{4-report-your-research-transparently}
+
+
+
+Report and publish your methods and interventions explicitly and transparently and fully to allow for replication. Guidelines from the \href{http://www.equator-network.org/}{Equator Network}, tools like \href{https://www.protocols.io/}{Protocols.io}, or processes like \href{https://cos.io/rr/}{Registered Reports} can help you report reproducibly. Remember to post your results to your public registration platform (such as \href{https://www.socialscienceregistry.org/}{ClinicalTrials.gov} or the \href{https://www.socialscienceregistry.org/}{SocialScienceRegistry}) within a year of finishing your study no matter the nature or direction of your results.
+
+\begin{figure}
+\scaledgraphics{2b202773-ec41-4cde-8558-44800112ec6d.png}{1}
+\label{F37038591}
+\end{figure}
+
+
+\section{Questions, obstacles, and common misconceptions}\label{questions-obstacles-and-common-misconceptions}
+
+
+
+Q: "Everything is in the paper; anyone can reproduce this from there!"
+
+
+A: This is one of the most common misconceptions. Even having an extremely detailed description of the methods and workflows employed to reach the final result will not be sufficient in most cases to reproduce it. This can be due to several aspects, including different computational environments, differences in the software versions, implicit biases that were not clearly stated, etc.
+
+
+Q: "I don’t have the time to learn and establish a reproducible workflow."
+
+
+A: In addition to a significant number of freely available online services that can be combined and facilitate the setting up of an entire workflow, spending the time and effort to put this together will increase both the scientific validity of the final results as well as minimize the time of re-running or extending it in further studies.
+
+
+Q: "Terminologies describing reproducibility are challenging."
+
+
+A: See Barba (2018) for a discussion on terminology describing reproducibility and replicability.
+
+\begin{figure}
+\scaledgraphics{78242a58-956c-4a6f-8d50-a93e47eb21b4.png}{1}
+\label{F67366301}
+\end{figure}
+
+
+\section{Learning outcomes}\label{learning-outcomes}
+
+
+\begin{enumerate}
+\item Understand the necessity of reproducible research and its reasoning.
+
+
+\item Be able to establish a reproducible workflow within the context of an example task.
+
+
+\item Know tools that can support reproducible research.
+
+
+\end{enumerate}
+\begin{figure}
+\scaledgraphics{28184297-5028-4ac9-bc5f-7a459edf50cf.png}{1}
+\label{F56536271}
+\end{figure}
+
+
+\section{Further reading}\label{further-reading}
+
+
+\begin{itemize}
+\item Button et al. (2013). Power failure: why small sample size undermines the reliability of neuroscience. \href{https://doi.org/10.1038/nrn3475}{doi.org/10.1038/nrn3475}
+
+
+\item Karl Broman (n.y.). Data Organization. Choose good names for things. \href{http://kbroman.org/dataorg/pages/names.html}{kbroman.org}
+
+
+\end{itemize}
 \end{document}
