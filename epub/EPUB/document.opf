@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="fidus" xml:lang="de-DE" prefix="cc: http://creativecommons.org/ns#">
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="fidus" xml:lang="en-US" prefix="cc: http://creativecommons.org/ns#">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <dc:identifier id="fidus">65</dc:identifier>
-    <dc:title>The Open Science Guide of Guides</dc:title>
+    <dc:identifier id="fidus">5</dc:identifier>
+    <dc:title>The Open Science Training Handbook</dc:title>
     <dc:creator>
-      HsH. BIM-224, Open Knowledge, summer term 2021, Blümel
+      Sonja Bezjak
     </dc:creator>
-    <dc:language>de-DE</dc:language>
-    <meta property="dcterms:modified">2021-06-08T13:09:04Z</meta>
-    <dc:date>2021-06-08</dc:date>
-    <dc:rights>© 2021 the authors. Creative Commons: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) https://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
-    <dc:publisher>Open Science Lab and GenR</dc:publisher>
-    <dc:subject>open-science; guide; knowledge-justice; data-science; citizen-science; open-access-publishing</dc:subject>
+    <dc:language>en-US</dc:language>
+    <meta property="dcterms:modified">2021-06-01T16:07:01Z</meta>
+    <dc:date>2021-06-01</dc:date>
+    <dc:rights>Creative Commons Public Domain Dedication (CC0 1.0 Universal)</dc:rights>
+    <dc:publisher>TIB</dc:publisher>
+    <dc:subject>open science</dc:subject>
+    <dc:subject>FOSTER</dc:subject>
+    <dc:subject>data</dc:subject>
+    <dc:subject>software</dc:subject>
+    <dc:subject>research</dc:subject>
   </metadata>
   <manifest>
     <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml" />
@@ -21,30 +25,57 @@
     <item id="t3" href="document-3.xhtml" media-type="application/xhtml+xml" />
     <item id="t4" href="document-4.xhtml" media-type="application/xhtml+xml" />
     <item id="t5" href="document-5.xhtml" media-type="application/xhtml+xml" />
+    <item id="t6" href="document-6.xhtml" media-type="application/xhtml+xml" />
+    <item id="t7" href="document-7.xhtml" media-type="application/xhtml+xml" />
+    <item id="t8" href="document-8.xhtml" media-type="application/xhtml+xml" />
     <item id="nav" href="document-nav.xhtml" properties="nav" media-type="application/xhtml+xml" />
     <item id="copyright" href="copyright.xhtml" media-type="application/xhtml+xml" />
-    <item id="cover-image" properties="cover-image" href="966bbd57-648f-47b5-a285-4ea0fc29260a.png" media-type="image/png" />
-    <item id="img1" href="images/f0cce63a-bf54-49fe-bc74-0291d6668193.png" media-type="image/png" />
-    <item id="img2" href="images/6c88b9fb-7fcf-404d-91f7-0c77bf491100.jpg" media-type="image/jpeg" />
-    <item id="img3" href="images/59987ee5-bc7e-4c52-98de-ba70e420a252.jpg" media-type="image/jpeg" />
-    <item id="img4" href="images/2d74c16d-6a0e-48c6-a149-1074544f4a51.jpg" media-type="image/jpeg" />
-    <item id="img5" href="images/dec17709-06cd-4c04-b217-1e1f0b7a42cc.png" media-type="image/png" />
-    <item id="img6" href="images/499c4719-8346-4a67-8a5b-fcacfb0ecde0.png" media-type="image/png" />
-    <item id="img7" href="images/37cc2dfd-e350-4e29-acc3-9c7f815eb133.png" media-type="image/png" />
-    <item id="img8" href="images/f61a96b6-6ada-4caf-b8f3-1ef6ac943b93.png" media-type="image/png" />
-    <item id="img9" href="images/39363ae5-01d9-4e5a-a46f-bf20971df65a.jpg" media-type="image/jpeg" />
-    <item id="img10" href="images/df7485d4-de59-45dd-8c8e-cb37f506071b.jpg" media-type="image/jpeg" />
-    <item id="img11" href="images/6ab89e0c-e542-4afd-b586-eabe59773bc0.jpg" media-type="image/jpeg" />
-    <item id="img12" href="images/eeffdb51-34fe-4313-b707-0a72f29f281e.png" media-type="image/png" />
-    <item id="img13" href="images/10e3bc75-5c14-48e3-a161-d685105f455b.png" media-type="image/png" />
-    <item id="img14" href="images/3cbbd8ed-7495-46a8-8cb5-114cf95cfb83.png" media-type="image/png" />
-    <item id="img15" href="images/54bfa915-f472-40f7-a9ad-d24bec56b993.jpg" media-type="image/jpeg" />
-    <item id="img16" href="images/aa1cfce9-288f-44cf-862a-cc87521df8d2.jpg" media-type="image/jpeg" />
-    <item id="font0" href="css/media/Mulish-VariableFont_wght.ttf" media-type="font/sfnt" />
-    <item id="font1" href="css/media/Comfortaa-VariableFont_wght.ttf" media-type="font/sfnt" />
-    <item id="font2" href="css/media/Mulish-Italic-VariableFont_wght.ttf" media-type="font/sfnt" />
+    <item id="cover-image" properties="cover-image" href="fca486b2-1c02-4abb-90a5-8cf6871aa766.png" media-type="image/png" />
+    <item id="img1" href="images/cddc59fa-ec9b-4b21-bf7b-54c7b29924a1.png" media-type="image/png" />
+    <item id="img2" href="images/9209bd39-910a-46c7-a66a-21a7bbfcd5f7.png" media-type="image/png" />
+    <item id="img3" href="images/27d237d8-8f65-4eb1-9c68-f087921c61b9.png" media-type="image/png" />
+    <item id="img4" href="images/0552dd1a-2714-4599-8afd-df4cad5565c1.png" media-type="image/png" />
+    <item id="img5" href="images/965a9b22-10b4-4501-a490-83443a94eafb.png" media-type="image/png" />
+    <item id="img6" href="images/2b202773-ec41-4cde-8558-44800112ec6d.png" media-type="image/png" />
+    <item id="img7" href="images/78242a58-956c-4a6f-8d50-a93e47eb21b4.png" media-type="image/png" />
+    <item id="img8" href="images/28184297-5028-4ac9-bc5f-7a459edf50cf.png" media-type="image/png" />
+    <item id="img9" href="images/f5dde413-4c45-488f-8bc2-c2a57a02a812.png" media-type="image/png" />
+    <item id="img10" href="images/cd488cd3-09d0-48ea-a508-f6e5c12cf790.png" media-type="image/png" />
+    <item id="img11" href="images/651cc2af-b56a-42e6-b9e2-b072205db6ce.png" media-type="image/png" />
+    <item id="img12" href="images/2f511b07-692b-4316-98d9-4918bfd7c688.png" media-type="image/png" />
+    <item id="img13" href="images/04fbcc59-de6d-400c-ae98-250e796e3621.png" media-type="image/png" />
+    <item id="img14" href="images/bc14044b-eec3-4ed3-b0e7-e2156edefa58.png" media-type="image/png" />
+    <item id="img15" href="images/9dfcfdf3-33f1-475f-81b9-0b157046b269.png" media-type="image/png" />
+    <item id="img16" href="images/7ed44872-310b-4a80-bd1a-0dcd10436d5f.png" media-type="image/png" />
+    <item id="img17" href="images/9ab281cb-d441-4a36-9e69-88917d934921.png" media-type="image/png" />
+    <item id="img18" href="images/b8bf1e7f-714b-4f3e-bde8-3fab49ffc6c6.png" media-type="image/png" />
+    <item id="img19" href="images/d4b3f9d8-436f-4d74-be10-f968d456433a.png" media-type="image/png" />
+    <item id="img20" href="images/4f4bbd4c-c03a-4308-bb10-30aea0e9b079.png" media-type="image/png" />
+    <item id="img21" href="images/aae2bfa0-3eee-47db-87e2-366fa48e93cb.png" media-type="image/png" />
+    <item id="img22" href="images/774bc0a7-bf1a-40db-be3f-3fcfc057c3a6.png" media-type="image/png" />
+    <item id="img23" href="images/d7fb9fbc-5882-4ea3-8f19-feabbe374223.png" media-type="image/png" />
+    <item id="img24" href="images/13ef0ff8-44c6-48dc-b70d-d470dac3a90b.png" media-type="image/png" />
+    <item id="img25" href="images/93f2263c-08cc-4ca7-b34b-b629ca50400c.png" media-type="image/png" />
+    <item id="img26" href="images/a646aeba-4f42-4f79-8e43-aa33c7f3c9bf.png" media-type="image/png" />
+    <item id="img27" href="images/633eb0bd-b4b7-4e0f-b4b8-c6e57113aeb1.png" media-type="image/png" />
+    <item id="img28" href="images/10b2f781-2abf-4be1-bbb2-8d7171c1ad64.png" media-type="image/png" />
+    <item id="img29" href="images/abc115ff-ca30-47ae-93b3-21481e792c0d.png" media-type="image/png" />
+    <item id="img30" href="images/442f81f3-0d09-49d5-81de-1b66108a995a.png" media-type="image/png" />
+    <item id="img31" href="images/5aa02f48-8009-410e-aca0-4519e92bab40.png" media-type="image/png" />
+    <item id="img32" href="images/0ca2415e-d4af-4b8f-8b9b-cfad05b2abd5.png" media-type="image/png" />
+    <item id="img33" href="images/033a4310-b8af-4b0c-8027-a8f72cb1a9c3.png" media-type="image/png" />
+    <item id="img34" href="images/7f8a81e8-98a1-4af0-8b77-ff24454ca171.png" media-type="image/png" />
+    <item id="img35" href="images/83db2204-7fbd-4954-bbf7-95dbd6ff4efa.png" media-type="image/png" />
+    <item id="img36" href="images/1d13409d-cd97-40cd-ad54-a335b152b9af.png" media-type="image/png" />
+    <item id="font0" href="css/media/NoticiaText-Bold_2.woff" media-type="font/woff" />
+    <item id="font1" href="css/media/NoticiaText-Italic.woff" media-type="font/woff" />
+    <item id="font2" href="css/media/NoticiaText-BoldItalic.woff" media-type="font/woff" />
+    <item id="font3" href="css/media/NoticiaText-Regular.woff" media-type="font/woff" />
+    <item id="font4" href="css/media/SourceSansPro-Bold.woff" media-type="font/woff" />
+    <item id="font5" href="css/media/Cover.jpg" media-type="font/sfnt" />
+    <item id="font6" href="css/media/LOGO_Akademie-oegw_Januar_2017.jpg" media-type="font/sfnt" />
     <item id="css0" href="css/document.css" media-type="text/css" />
-    <item id="css1" href="css/openscience.css" media-type="text/css" />
+    <item id="css1" href="css/elephant.css" media-type="text/css" />
 
     <!-- ncx included for 2.0 reading system compatibility: -->
     <item id="ncx" href="document.ncx" media-type="application/x-dtbncx+xml" />
@@ -57,6 +88,9 @@
     <itemref idref="t3" linear="yes" />
     <itemref idref="t4" linear="yes" />
     <itemref idref="t5" linear="yes" />
+    <itemref idref="t6" linear="yes" />
+    <itemref idref="t7" linear="yes" />
+    <itemref idref="t8" linear="yes" />
     <itemref idref="copyright" linear="yes" />
     <itemref idref="nav" linear="no" />
   </spine>
