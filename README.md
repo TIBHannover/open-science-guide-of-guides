@@ -17,7 +17,7 @@ In this compendium, we compile important guides with their specific features and
 
 DOI: https://doi.org/10.5281/zenodo.4740163 
 
-Written on [write.handbuch.io](https://write.handbuch.io/) | source on [GitHub](https://github.com/TIBHannover/open-science-guide-of-guides) - Multiformat outputted to GitHub Pages - [CSS Typesetting](https://vivliostyle.vercel.app/#src=https://tibhannover.github.io/open-science-guide-of-guides/html/index.html&bookMode=true) | [PDF](https://tibhannover.github.io/open-science-guide-of-guides/pdf/book.pdf) | [EPUB](https://tibhannover.github.io/open-science-guide-of-guides/book.epub)
+Written on [write.handbuch.io](https://write.handbuch.io/) | source on [GitHub](https://github.com/TIBHannover/open-science-guide-of-guides) - Multiformat outputted to GitHub Pages - [CSS Typesetting](https://vivliostyle.vercel.app/#src=https://tibhannover.github.io/open-science-guide-of-guides/html/index.html&bookMode=true) | [PDF](https://tibhannover.github.io/open-science-guide-of-guides/pdf/book.pdf) | [EPUB](https://tibhannover.github.io/open-science-guide-of-guides/book.epub) - using the single source publishing [ADA Pipeline](https://github.com/TIBHannover/ADA).
 
 See [Contributors list](CONTRIBUTE.MD) HsH. BIM-224, Open Knowledge, summer term 2021, Blümel. </br></br>
 
